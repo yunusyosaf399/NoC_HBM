@@ -1,0 +1,13 @@
+sv xil_defaultlib --include "/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/include" --include "../../../../hbm_module_1.gen/sim_1/bd/xlnoc/ipshared/a0b0/hdl/bfm" --include "../../../../hbm_module_1.gen/sim_1/bd/xlnoc/ipshared/3fba/hdl/bfm" \
+"../../../bd/xlnoc/ip/xlnoc_nps4_0_0/hdl/ip_top/xlnoc_nps4_0_0_nps4.sv" \
+"../../../bd/xlnoc/ip/xlnoc_nps4_0_0/hdl/ip_top/xlnoc_nps4_0_0.sv" \
+"../../../bd/xlnoc/ip/xlnoc_nps6_0_0/hdl/ip_top/xlnoc_nps6_0_0_nps6.sv" \
+"../../../bd/xlnoc/ip/xlnoc_nps6_0_0/hdl/ip_top/xlnoc_nps6_0_0.sv" \
+
+verilog xil_defaultlib --include "/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/include" --include "../../../../hbm_module_1.gen/sim_1/bd/xlnoc/ipshared/a0b0/hdl/bfm" --include "../../../../hbm_module_1.gen/sim_1/bd/xlnoc/ipshared/3fba/hdl/bfm" \
+"../../../bd/xlnoc/sim/xlnoc.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

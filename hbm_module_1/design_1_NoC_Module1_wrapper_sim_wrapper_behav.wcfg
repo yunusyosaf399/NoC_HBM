@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="design_1_wrapper_sim_wrapper_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_HBM_CHNL_sv_3946874195 " />
+            <top_module name="axi_vip_pkg" />
+            <top_module name="design_1_wrapper_sim_wrapper" />
+            <top_module name="glbl" />
+            <top_module name="std" />
+            <top_module name="xil_common_vip_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="83.870002 us"></ZoomEndTime>
+      <Cursor1Time time="83.870001 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="66" />
+   <wvobject type="logic" fp_name="/design_1_wrapper_sim_wrapper/clk_100MHz">
+      <obj_property name="ElementShortName">clk_100MHz</obj_property>
+      <obj_property name="ObjectShortName">clk_100MHz</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_sim_wrapper/diff_clock_rtl_0_clk_n">
+      <obj_property name="ElementShortName">diff_clock_rtl_0_clk_n</obj_property>
+      <obj_property name="ObjectShortName">diff_clock_rtl_0_clk_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_sim_wrapper/diff_clock_rtl_0_clk_p">
+      <obj_property name="ElementShortName">diff_clock_rtl_0_clk_p</obj_property>
+      <obj_property name="ObjectShortName">diff_clock_rtl_0_clk_p</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_sim_wrapper/reset_rtl_0">
+      <obj_property name="ElementShortName">reset_rtl_0</obj_property>
+      <obj_property name="ObjectShortName">reset_rtl_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_sim_wrapper/clk_100mhz_net">
+      <obj_property name="ElementShortName">clk_100mhz_net</obj_property>
+      <obj_property name="ObjectShortName">clk_100mhz_net</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_sim_wrapper/diff_clock_rtl_0_clk_n_net">
+      <obj_property name="ElementShortName">diff_clock_rtl_0_clk_n_net</obj_property>
+      <obj_property name="ObjectShortName">diff_clock_rtl_0_clk_n_net</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_sim_wrapper/diff_clock_rtl_0_clk_p_net">
+      <obj_property name="ElementShortName">diff_clock_rtl_0_clk_p_net</obj_property>
+      <obj_property name="ObjectShortName">diff_clock_rtl_0_clk_p_net</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/nps4_0_mnpp_south0_credit_rdy_net">
+      <obj_property name="ElementShortName">nps4_0_mnpp_south0_credit_rdy_net[0:0]</obj_property>
+      <obj_property name="ObjectShortName">nps4_0_mnpp_south0_credit_rdy_net[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/nps4_0_mnpp_south0_credit_return_net">
+      <obj_property name="ElementShortName">nps4_0_mnpp_south0_credit_return_net[7:0]</obj_property>
+      <obj_property name="ObjectShortName">nps4_0_mnpp_south0_credit_return_net[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/nps4_0_mnpp_south0_flit_net">
+      <obj_property name="ElementShortName">nps4_0_mnpp_south0_flit_net[181:0]</obj_property>
+      <obj_property name="ObjectShortName">nps4_0_mnpp_south0_flit_net[181:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/nps4_0_mnpp_south0_pdest_id_net">
+      <obj_property name="ElementShortName">nps4_0_mnpp_south0_pdest_id_net[1:0]</obj_property>
+      <obj_property name="ObjectShortName">nps4_0_mnpp_south0_pdest_id_net[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/nps4_0_mnpp_south0_valid_net">
+      <obj_property name="ElementShortName">nps4_0_mnpp_south0_valid_net[7:0]</obj_property>
+      <obj_property name="ObjectShortName">nps4_0_mnpp_south0_valid_net[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/nps4_0_snpp_south0_credit_rdy_net">
+      <obj_property name="ElementShortName">nps4_0_snpp_south0_credit_rdy_net[0:0]</obj_property>
+      <obj_property name="ObjectShortName">nps4_0_snpp_south0_credit_rdy_net[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/nps4_0_snpp_south0_credit_return_net">
+      <obj_property name="ElementShortName">nps4_0_snpp_south0_credit_return_net[7:0]</obj_property>
+      <obj_property name="ObjectShortName">nps4_0_snpp_south0_credit_return_net[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/nps4_0_snpp_south0_flit_net">
+      <obj_property name="ElementShortName">nps4_0_snpp_south0_flit_net[181:0]</obj_property>
+      <obj_property name="ObjectShortName">nps4_0_snpp_south0_flit_net[181:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/nps4_0_snpp_south0_pdest_id_net">
+      <obj_property name="ElementShortName">nps4_0_snpp_south0_pdest_id_net[1:0]</obj_property>
+      <obj_property name="ObjectShortName">nps4_0_snpp_south0_pdest_id_net[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/nps4_0_snpp_south0_valid_net">
+      <obj_property name="ElementShortName">nps4_0_snpp_south0_valid_net[7:0]</obj_property>
+      <obj_property name="ObjectShortName">nps4_0_snpp_south0_valid_net[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/nps6_0_mnpp_north0_credit_rdy_net">
+      <obj_property name="ElementShortName">nps6_0_mnpp_north0_credit_rdy_net[0:0]</obj_property>
+      <obj_property name="ObjectShortName">nps6_0_mnpp_north0_credit_rdy_net[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/nps6_0_mnpp_north0_credit_return_net">
+      <obj_property name="ElementShortName">nps6_0_mnpp_north0_credit_return_net[7:0]</obj_property>
+      <obj_property name="ObjectShortName">nps6_0_mnpp_north0_credit_return_net[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/nps6_0_mnpp_north0_flit_net">
+      <obj_property name="ElementShortName">nps6_0_mnpp_north0_flit_net[181:0]</obj_property>
+      <obj_property name="ObjectShortName">nps6_0_mnpp_north0_flit_net[181:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/nps6_0_mnpp_north0_valid_net">
+      <obj_property name="ElementShortName">nps6_0_mnpp_north0_valid_net[7:0]</obj_property>
+      <obj_property name="ObjectShortName">nps6_0_mnpp_north0_valid_net[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/nps6_0_snpp_north0_credit_rdy_net">
+      <obj_property name="ElementShortName">nps6_0_snpp_north0_credit_rdy_net[0:0]</obj_property>
+      <obj_property name="ObjectShortName">nps6_0_snpp_north0_credit_rdy_net[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/nps6_0_snpp_north0_credit_return_net">
+      <obj_property name="ElementShortName">nps6_0_snpp_north0_credit_return_net[7:0]</obj_property>
+      <obj_property name="ObjectShortName">nps6_0_snpp_north0_credit_return_net[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/nps6_0_snpp_north0_flit_net">
+      <obj_property name="ElementShortName">nps6_0_snpp_north0_flit_net[181:0]</obj_property>
+      <obj_property name="ObjectShortName">nps6_0_snpp_north0_flit_net[181:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/nps6_0_snpp_north0_valid_net">
+      <obj_property name="ElementShortName">nps6_0_snpp_north0_valid_net[7:0]</obj_property>
+      <obj_property name="ObjectShortName">nps6_0_snpp_north0_valid_net[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_sim_wrapper/reset_rtl_0_net">
+      <obj_property name="ElementShortName">reset_rtl_0_net</obj_property>
+      <obj_property name="ObjectShortName">reset_rtl_0_net</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_awaddr">
+      <obj_property name="ElementShortName">HBM00_AXI_awaddr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_awaddr[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_awlen">
+      <obj_property name="ElementShortName">HBM00_AXI_awlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_awlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_awsize">
+      <obj_property name="ElementShortName">HBM00_AXI_awsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_awsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_awburst">
+      <obj_property name="ElementShortName">HBM00_AXI_awburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_awburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_awlock">
+      <obj_property name="ElementShortName">HBM00_AXI_awlock[0:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_awlock[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_awcache">
+      <obj_property name="ElementShortName">HBM00_AXI_awcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_awcache[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_awprot">
+      <obj_property name="ElementShortName">HBM00_AXI_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_awvalid">
+      <obj_property name="ElementShortName">HBM00_AXI_awvalid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_awvalid[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_awready">
+      <obj_property name="ElementShortName">HBM00_AXI_awready[0:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_awready[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_wdata">
+      <obj_property name="ElementShortName">HBM00_AXI_wdata[255:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_wdata[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_wstrb">
+      <obj_property name="ElementShortName">HBM00_AXI_wstrb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_wstrb[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_wlast">
+      <obj_property name="ElementShortName">HBM00_AXI_wlast[0:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_wlast[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_wvalid">
+      <obj_property name="ElementShortName">HBM00_AXI_wvalid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_wvalid[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_wready">
+      <obj_property name="ElementShortName">HBM00_AXI_wready[0:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_wready[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_bresp">
+      <obj_property name="ElementShortName">HBM00_AXI_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_bvalid">
+      <obj_property name="ElementShortName">HBM00_AXI_bvalid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_bvalid[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_bready">
+      <obj_property name="ElementShortName">HBM00_AXI_bready[0:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_bready[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_araddr">
+      <obj_property name="ElementShortName">HBM00_AXI_araddr[63:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_araddr[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_arlen">
+      <obj_property name="ElementShortName">HBM00_AXI_arlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_arlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_arsize">
+      <obj_property name="ElementShortName">HBM00_AXI_arsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_arsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_arburst">
+      <obj_property name="ElementShortName">HBM00_AXI_arburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_arburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_arlock">
+      <obj_property name="ElementShortName">HBM00_AXI_arlock[0:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_arlock[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_arcache">
+      <obj_property name="ElementShortName">HBM00_AXI_arcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_arcache[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_arprot">
+      <obj_property name="ElementShortName">HBM00_AXI_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_arvalid">
+      <obj_property name="ElementShortName">HBM00_AXI_arvalid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_arvalid[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_arready">
+      <obj_property name="ElementShortName">HBM00_AXI_arready[0:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_arready[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_rdata">
+      <obj_property name="ElementShortName">HBM00_AXI_rdata[255:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_rdata[255:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_rresp">
+      <obj_property name="ElementShortName">HBM00_AXI_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_rlast">
+      <obj_property name="ElementShortName">HBM00_AXI_rlast[0:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_rlast[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_rvalid">
+      <obj_property name="ElementShortName">HBM00_AXI_rvalid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_rvalid[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_rready">
+      <obj_property name="ElementShortName">HBM00_AXI_rready[0:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_rready[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/aclk0">
+      <obj_property name="ElementShortName">aclk0</obj_property>
+      <obj_property name="ObjectShortName">aclk0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_arid">
+      <obj_property name="ElementShortName">HBM00_AXI_arid[6:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_arid[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_aruser">
+      <obj_property name="ElementShortName">HBM00_AXI_aruser[10:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_aruser[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_awid">
+      <obj_property name="ElementShortName">HBM00_AXI_awid[6:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_awid[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_awuser">
+      <obj_property name="ElementShortName">HBM00_AXI_awuser[10:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_awuser[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_bid">
+      <obj_property name="ElementShortName">HBM00_AXI_bid[6:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_bid[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_buser">
+      <obj_property name="ElementShortName">HBM00_AXI_buser[15:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_buser[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI_rid">
+      <obj_property name="ElementShortName">HBM00_AXI_rid[6:0]</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI_rid[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="protoinst" fp_name="/design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/HBM00_AXI">
+      <obj_property name="ElementShortName">HBM00_AXI</obj_property>
+      <obj_property name="ObjectShortName">HBM00_AXI</obj_property>
+   </wvobject>
+</wave_config>

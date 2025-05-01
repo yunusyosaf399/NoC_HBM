@@ -1,0 +1,182 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L xilinx_vip -L xpm -L noc_nps4_v1_0_0 -L noc_nps6_v1_0_0 -L noc_nmu_sim_v1_0_0 -L noc_hbm_nmu_sim_v1_0_0 -L xlconstant_v1_1_9 -L noc_hbm_v1_0_1 -L clk_gen_sim_v1_0_4 -L axi_infrastructure_v1_1_0 -L axi_register_slice_v2_1_33 -L axis_dbg_stub_v1_0_1 -L axis_dbg_sync_v1_0_1 -L axis_vio_v1_0_12 -L axi_vip_v1_1_19 -L axis_infrastructure_v1_1_1 -L axi4stream_vip_v1_1_19 -L perf_axi_tg_v1_0_15 -L lib_pkg_v1_0_4 -L axi_apb_bridge_v3_0_20 -L sim_trig_v1_0_13 -L axi_pmon_v1_0_2 -L lib_cdc_v1_0_3 -L proc_sys_reset_v5_0_16 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip --snapshot design_1_wrapper_sim_wrapper_behav xil_defaultlib.design_1_wrapper_sim_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-9543] actual bit length 3 differs from formal bit length 12 for port 'NMU_RD_USR_DST' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/sim/bd_8be5.v:234]
+WARNING: [VRFC 10-9543] actual bit length 3 differs from formal bit length 12 for port 'NMU_WR_USR_DST' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/sim/bd_8be5.v:236]
+WARNING: [VRFC 10-9543] actual bit length 12 differs from formal bit length 3 for port 'NMU_WR_USR_DST' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_0/hdl/bfm/bd_8be5_HBM00_AXI_nmu_0.sv:426]
+WARNING: [VRFC 10-9543] actual bit length 12 differs from formal bit length 3 for port 'NMU_RD_USR_DST' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_0/hdl/bfm/bd_8be5_HBM00_AXI_nmu_0.sv:427]
+WARNING: [VRFC 10-9543] actual bit length 96 differs from formal bit length 48 for port 'IF_NOC_AXI_TOP_ARADDR' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_0/hdl/bfm/bd_8be5_HBM00_AXI_nmu_0_top.sv:558]
+WARNING: [VRFC 10-9543] actual bit length 8 differs from formal bit length 2 for port 'IF_NOC_AXI_TOP_ARADDR_PAR' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_0/hdl/bfm/bd_8be5_HBM00_AXI_nmu_0_top.sv:559]
+WARNING: [VRFC 10-9543] actual bit length 8 differs from formal bit length 2 for port 'IF_NOC_AXI_TOP_AWADDR_PAR' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_0/hdl/bfm/bd_8be5_HBM00_AXI_nmu_0_top.sv:560]
+WARNING: [VRFC 10-9543] actual bit length 96 differs from formal bit length 48 for port 'IF_NOC_AXI_TOP_AWADDR' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_0/hdl/bfm/bd_8be5_HBM00_AXI_nmu_0_top.sv:570]
+WARNING: [VRFC 10-9543] actual bit length 3 differs from formal bit length 12 for port 'nmu_wr_usr_dst' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/01b2/hdl/noc_hbm_nmu_sim_v1_0_vl_rfs.sv:3146]
+WARNING: [VRFC 10-9543] actual bit length 3 differs from formal bit length 12 for port 'nmu_rd_usr_dst' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/01b2/hdl/noc_hbm_nmu_sim_v1_0_vl_rfs.sv:3147]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 3 for port 'HBMMC_SPARE_MC_GL' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2453]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 287 for port 'IF_MC2PHY_BLI_DIRECT_0_NOC2PHY' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2487]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 4 for port 'IF_MC2PHY_BLI_DIRECT_0_SPARE_CTRL' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2488]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 4 for port 'IF_MC2PHY_BLI_DIRECT_1_SPARE_CTRL' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2489]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 4 for port 'IF_NOC2PHY_BLI_DIRECT_0_SPARE_CTRL' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2490]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 4 for port 'IF_NOC2PHY_BLI_DIRECT_1_SPARE_CTRL' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2491]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 287 for port 'IF_MC2PHY_BLI_DIRECT_1_NOC2PHY' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2494]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 287 for port 'IF_NOC2PHY_BLI_DIRECT_0_NOC2PHY' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2497]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 287 for port 'IF_NOC2PHY_BLI_DIRECT_1_NOC2PHY' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2500]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 182 for port 'IF_NOC2PHY_NPP_DIRECT_0_NOC_FLIT' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2502]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 8 for port 'IF_NOC2PHY_NPP_DIRECT_0_NOC_VALID' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2504]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 182 for port 'IF_NOC2PHY_NPP_DIRECT_1_NOC_FLIT' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2507]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 8 for port 'IF_NOC2PHY_NPP_DIRECT_1_NOC_VALID' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2509]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 182 for port 'IF_NOC2PHY_NPP_DIRECT_2_NOC_FLIT' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2512]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 8 for port 'IF_NOC2PHY_NPP_DIRECT_2_NOC_VALID' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2514]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 182 for port 'IF_NOC2PHY_NPP_DIRECT_3_NOC_FLIT' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2517]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 8 for port 'IF_NOC2PHY_NPP_DIRECT_3_NOC_VALID' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2519]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 8 for port 'IF_PHY2NOC_NPP_DIRECT_0_NOC_CREDIT_RETURN' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2521]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 8 for port 'IF_PHY2NOC_NPP_DIRECT_1_NOC_CREDIT_RETURN' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2523]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 8 for port 'IF_PHY2NOC_NPP_DIRECT_2_NOC_CREDIT_RETURN' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2525]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 8 for port 'IF_PHY2NOC_NPP_DIRECT_3_NOC_CREDIT_RETURN' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2527]
+WARNING: [VRFC 10-9543] actual bit length 154 differs from formal bit length 150 for port 'IF_MC2PHY_BLI_DIRECT_0_PHY2NOC' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/Unisims/HBM_CHNL.sv:1329]
+WARNING: [VRFC 10-9543] actual bit length 154 differs from formal bit length 150 for port 'IF_MC2PHY_BLI_DIRECT_1_PHY2NOC' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/Unisims/HBM_CHNL.sv:1332]
+WARNING: [VRFC 10-9543] actual bit length 154 differs from formal bit length 150 for port 'IF_NOC2PHY_BLI_DIRECT_0_PHY2NOC' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/Unisims/HBM_CHNL.sv:1335]
+WARNING: [VRFC 10-9543] actual bit length 154 differs from formal bit length 150 for port 'IF_NOC2PHY_BLI_DIRECT_1_PHY2NOC' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/Unisims/HBM_CHNL.sv:1338]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 4 for port 'PHY_CHNL_CORE_PHY2IOB_RDQS_OFFSET_TRNG_EN' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/Unisims/HBM_CHNL.sv:1423]
+WARNING: [VRFC 10-9543] actual bit length 150 differs from formal bit length 154 for port 'IF_MC2PHY_BLI_DIRECT_0_PHY2NOC' [/proj/xbuilds/SWIP/2024.2_1107_2045/installs/lin64/Vivado/2024.2/data/verilog/src/unisims/HBM_PHY_CHNL.v:1851]
+WARNING: [VRFC 10-9543] actual bit length 150 differs from formal bit length 154 for port 'IF_MC2PHY_BLI_DIRECT_1_PHY2NOC' [/proj/xbuilds/SWIP/2024.2_1107_2045/installs/lin64/Vivado/2024.2/data/verilog/src/unisims/HBM_PHY_CHNL.v:1855]
+WARNING: [VRFC 10-9543] actual bit length 150 differs from formal bit length 154 for port 'IF_NOC2PHY_BLI_DIRECT_0_PHY2NOC' [/proj/xbuilds/SWIP/2024.2_1107_2045/installs/lin64/Vivado/2024.2/data/verilog/src/unisims/HBM_PHY_CHNL.v:1859]
+WARNING: [VRFC 10-9543] actual bit length 150 differs from formal bit length 154 for port 'IF_NOC2PHY_BLI_DIRECT_1_PHY2NOC' [/proj/xbuilds/SWIP/2024.2_1107_2045/installs/lin64/Vivado/2024.2/data/verilog/src/unisims/HBM_PHY_CHNL.v:1863]
+WARNING: [VRFC 10-9543] actual bit length 182 differs from formal bit length 364 for port 'wrdata' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbmmc_na_bfm.sv:509]
+WARNING: [VRFC 10-9543] actual bit length 182 differs from formal bit length 364 for port 'rddata' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbmmc_na_bfm.sv:541]
+WARNING: [VRFC 10-9543] actual bit length 32 differs from formal bit length 1 for port 'if_lbus_cmd_pc_cid' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbmmc_na_bfm.sv:1419]
+WARNING: [VRFC 10-9543] actual bit length 27 differs from formal bit length 28 for port 'pend_fifo_clrd_addr' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_txnq_bfm.sv:1182]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 4 for port 'HBM_IO_CHNL_CORE_PHY2RDQS_OFFSET_TRNG_EN' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/Unisims/HBM_CHNL.sv:2163]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 5 for port 'PHY_MS_CORE_DLL_TEST_IN_MISC' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2998]
+WARNING: [VRFC 10-9543] actual bit length 4 differs from formal bit length 8 for port 'CH1_PHY2IOB_TX_DATA_C' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:3052]
+WARNING: [VRFC 10-9543] actual bit length 4 differs from formal bit length 8 for port 'CH2_PHY2IOB_TX_DATA_C' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:3054]
+WARNING: [VRFC 10-9543] actual bit length 4 differs from formal bit length 8 for port 'CH3_PHY2IOB_TX_DATA_C' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:3056]
+WARNING: [VRFC 10-9543] actual bit length 4 differs from formal bit length 8 for port 'CH4_PHY2IOB_TX_DATA_C' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:3058]
+WARNING: [VRFC 10-9543] actual bit length 4 differs from formal bit length 8 for port 'CH5_PHY2IOB_TX_DATA_C' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:3060]
+WARNING: [VRFC 10-9543] actual bit length 4 differs from formal bit length 8 for port 'CH6_PHY2IOB_TX_DATA_C' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:3062]
+WARNING: [VRFC 10-9543] actual bit length 4 differs from formal bit length 8 for port 'CH7_PHY2IOB_TX_DATA_C' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:3064]
+WARNING: [VRFC 10-9543] actual bit length 24 differs from formal bit length 32 for port 'PHY_MS_CORE_DEBUG_OUT' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:3081]
+WARNING: [VRFC 10-9543] actual bit length 8 differs from formal bit length 7 for port 'HBM_IO_MS_CORE_PHY2MS_SPARE' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:3260]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 4 for port 'HBM_IO_MS_CORE_DIG_IN_0' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:3270]
+WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 4 for port 'HBM_IO_MS_CORE_DIG_IN_1' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:3271]
+WARNING: [VRFC 10-5021] port 'mb_reset' is not connected on this instance [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/sim/design_1.v:214]
+WARNING: [VRFC 10-5021] port 'IF_BLI_PHY_DIR_IN_BLI_CLK' is not connected on this instance [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_0/hdl/bfm/bd_8be5_HBM00_AXI_nmu_0_top.sv:335]
+WARNING: [VRFC 10-5021] port 'hbm_ref_clk_p_0' is not connected on this instance [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0.sv:133]
+WARNING: [VRFC 10-5021] port 'WRCK' is not connected on this instance [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:1841]
+WARNING: [VRFC 10-5021] port 'CH0_HBMMC_NOC_CREDIT_RETURN_EN_MC_NOCOUT' is not connected on this instance [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2110]
+WARNING: [VRFC 10-5021] port 'REQ_IN0_NOC_CREDIT_RDY' is not connected on this instance [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/xlnoc/sim/xlnoc.v:81]
+WARNING: [VRFC 10-5021] port 'OUT0_NOC_CREDIT_RETURN' is not connected on this instance [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/xlnoc/sim/xlnoc.v:100]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package ieee.std_logic_arith
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package noc_hbm_nmu_sim_v1_0_0.$unit_noc_hbm_nmu_sim_v1_0_vl_rf...
+WARNING: [XSIM 43-3373] "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/01b2/hdl/noc_hbm_nmu_sim_v1_0_vl_rfs.sv" Line 1391. System function $sscanf is used as system task. This system function should have a LHS e.g. x=$sscanf().
+WARNING: [XSIM 43-3373] "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/01b2/hdl/noc_hbm_nmu_sim_v1_0_vl_rfs.sv" Line 1394. System function $sscanf is used as system task. This system function should have a LHS e.g. x=$sscanf().
+WARNING: [XSIM 43-3373] "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/01b2/hdl/noc_hbm_nmu_sim_v1_0_vl_rfs.sv" Line 1407. System function $sscanf is used as system task. This system function should have a LHS e.g. x=$sscanf().
+Compiling package noc_hbm_nmu_sim_v1_0_0.noc_hbm_nmu_sim_v1_0_0_axi_data_...
+Compiling package xil_defaultlib.$unit_hbm_responder_sv_360702304
+Compiling package noc_hbm_v1_0_1.hbmmc_pkg
+Compiling package noc_hbm_v1_0_1.$unit_HBM_CHNL_sv_3946874195
+Compiling package perf_axi_tg_v1_0_15.axi_data_integrity_checker_pkg
+Compiling package xilinx_vip.xil_common_vip_pkg
+Compiling package xilinx_vip.axi_vip_pkg
+Compiling package std.std
+Compiling package perf_axi_tg_v1_0_15.addr_cls_pkg
+Compiling package noc_nps4_v1_0_0.$unit_noc_nps4_v1_0_vl_rfs_sv
+Compiling package noc_nps6_v1_0_0.$unit_noc_nps6_v1_0_vl_rfs_sv
+Compiling module unisims_ver.NOC_NMU_HBM2E(REG_ADR_MAP_CPM=14...
+Compiling module xil_defaultlib.bd_8be5_HBM00_AXI_nmu_0_top(REG_...
+Compiling module xil_defaultlib.bd_8be5_HBM00_AXI_nmu_0
+Compiling module unisims_ver.HBM_PHY_CHNL(CFG_00=32'b01111000...
+WARNING: [VRFC 10-3705] select index 1 into 'wrdata' is out of bounds [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbmmc_na_bfm.sv:356]
+WARNING: [VRFC 10-3705] select index 1 into 'wrdata' is out of bounds [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbmmc_na_bfm.sv:357]
+WARNING: [VRFC 10-3705] select index 8 into 'TRAS' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:94]
+WARNING: [VRFC 10-3705] select index 8 into 'TRTP' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:95]
+WARNING: [VRFC 10-3705] select index 8 into 'TWTP' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:96]
+WARNING: [VRFC 10-3705] select index 8 into 'TRRD_L' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:97]
+WARNING: [VRFC 10-3705] select index 8 into 'TRRD_S' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:98]
+WARNING: [VRFC 10-3705] select index 8 into 'TRC' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:99]
+WARNING: [VRFC 10-3705] select index 8 into 'TRP' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:100]
+WARNING: [VRFC 10-3705] select index 8 into 'TRFC_SB' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:101]
+WARNING: [VRFC 10-3705] select index 2 into 'TFAWS_ACT' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:107]
+WARNING: [VRFC 10-3705] select index 2 into 'TFAWL_ACT' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:108]
+WARNING: [VRFC 10-3705] select index 8 into 'TRCD_WR' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:109]
+WARNING: [VRFC 10-3705] select index 2 into 'TRTW' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:110]
+WARNING: [VRFC 10-3705] select index 8 into 'TCCD_L' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:111]
+WARNING: [VRFC 10-3705] select index 8 into 'TCCD_S' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:112]
+WARNING: [VRFC 10-3705] select index 8 into 'TRCD_RD' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:113]
+WARNING: [VRFC 10-3705] select index 8 into 'TWTR_L' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:114]
+WARNING: [VRFC 10-3705] select index 8 into 'TWTR_S' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:115]
+WARNING: [VRFC 10-3705] select index 2 into 'TCCDR' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:116]
+Compiling module unisims_ver.HBM_MC(HBMMC_MAX_PG_IDLE=19'b011...
+Compiling module unisims_ver.HBM_IO_CHNL(SIM_MODEL_TYPE="BFM"...
+Compiling module noc_hbm_v1_0_1.HBM_CHNL(CFG_00=32'b011110000011...
+Compiling module unisims_ver.HBM_PHY_MS(CFG0=32'b101110001111...
+Compiling module unisims_ver.HBM_IO_MS(SIM_MODEL_TYPE="BFM")
+Compiling module unisims_ver.HPLL(CLKFBOUT_MULT=32,CLKIN_PERI...
+Compiling module xil_defaultlib.bd_8be5_MC_hbmc_0_top_unisim_sta...
+Compiling module xil_defaultlib.bd_8be5_MC_hbmc_0_top_wrapper
+Compiling module xil_defaultlib.bd_8be5_MC_hbmc_0
+Compiling module xlconstant_v1_1_9.xlconstant_v1_1_9_xlconstant(CON...
+Compiling module xil_defaultlib.bd_8be5_const_0_0
+Compiling module xil_defaultlib.bd_8be5
+Compiling module xil_defaultlib.design_1_axi_noc_0_0
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME5(CLKFBOUT_MULT=30,CLKIN1_P...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.design_1_clk_wiz_0_clocking_stru...
+Compiling module xil_defaultlib.design_1_clk_wiz_0_clk_wiz_top(C...
+Compiling module xil_defaultlib.design_1_clk_wiz_0
+Compiling module clk_gen_sim_v1_0_4.clk_gen_sim_v1_0_4(SYS_CLK0_FREQ...
+Compiling module xil_defaultlib.design_1_noc_clk_gen_0
+Compiling module sim_trig_v1_0_13.sim_trig_synchronizer(SYNC_MTBF=...
+Compiling module xil_defaultlib.design_1_noc_sim_trig_0_traffic_...
+Compiling module xil_defaultlib.design_1_noc_sim_trig_0_top(c_su...
+Compiling module xil_defaultlib.design_1_noc_sim_trig_0
+Compiling module xilinx_vip.axi_vip_axi4pc(WADDR_WIDTH=64,RA...
+Compiling module xilinx_vip.cb
+Compiling module xilinx_vip.axi_vip_if(C_AXI_ADDR_WIDTH=64,C...
+Compiling module axi_vip_v1_1_19.axi_vip_v1_1_19_top(C_AXI_INTERF...
+Compiling module xil_defaultlib.design_1_noc_tg_0_vip
+Compiling module xil_defaultlib.design_1_noc_tg_0_top_axi_mst(C_...
+Compiling module xil_defaultlib.design_1_noc_tg_0_top(C_AXI_CLK_...
+Compiling module xil_defaultlib.design_1_noc_tg_0
+Compiling module xil_defaultlib.design_1_noc_tg_pmon_0
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture fdre_v of entity unisim.FDRE [\FDRE(init='1')\]
+Compiling architecture fdr_v of entity unisim.FDR [fdr_default]
+Compiling architecture implementation of entity lib_cdc_v1_0_3.cdc_sync [\cdc_sync(c_vector_width=2,c_mtb...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="1111111111111111")...]
+Compiling architecture srl16_v of entity unisim.SRL16 [\SRL16(init="1111111111111111")(...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_16.lpf [\lpf(c_ext_rst_width=4,c_aux_rst...]
+Compiling architecture imp of entity proc_sys_reset_v5_0_16.upcnt_n [\upcnt_n(c_size=6)\]
+Compiling architecture imp of entity proc_sys_reset_v5_0_16.sequence_psr [sequence_psr_default]
+Compiling architecture imp of entity proc_sys_reset_v5_0_16.proc_sys_reset [\proc_sys_reset(c_family="versal...]
+Compiling architecture design_1_rst_clk_wiz_100m_0_arch of entity xil_defaultlib.design_1_rst_clk_wiz_100M_0 [design_1_rst_clk_wiz_100m_0_defa...]
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling module unisims_ver.NOC_NPS4(REG_DST_ID_P0=12'b01000...
+Compiling module xil_defaultlib.xlnoc_nps4_0_0_nps4(REG_DST_ID_P...
+Compiling module xil_defaultlib.xlnoc_nps4_0_0
+Compiling module unisims_ver.NOC_NPS6(REG_P12_P5_1_VCA_TOKEN=...
+Compiling module xil_defaultlib.xlnoc_nps6_0_0_nps6(REG_P12_P5_1...
+Compiling module xil_defaultlib.xlnoc_nps6_0_0
+Compiling module xil_defaultlib.xlnoc
+Compiling module xil_defaultlib.design_1_wrapper_sim_wrapper
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot design_1_wrapper_sim_wrapper_behav

@@ -1,0 +1,400 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x65034961F60EF46B",
+      "design_src": "IPI",
+      "device": "xcvh1582-vsva3697-2MP-e-S",
+      "gen_directory": "../../../../hbm_module_1.gen/sim_1/bd/xlnoc",
+      "name": "xlnoc",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "None",
+      "tool_version": "2024.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "nps4_0": "",
+      "nps6_0": ""
+    },
+    "interface_ports": {
+      "nps4_0_SNPP_SOUTH0": {
+        "mode": "Slave",
+        "vlnv_bus_definition": "xilinx.com:interface:npp_hbm:1.0",
+        "vlnv": "xilinx.com:interface:npp_hbm_rtl:1.0",
+        "parameters": {
+          "R_LATENCY": {
+            "value": "300",
+            "value_src": "default"
+          },
+          "R_MAX_BURST_LENGTH": {
+            "value": "256",
+            "value_src": "default"
+          },
+          "R_RATE_LIMITER": {
+            "value": "10",
+            "value_src": "default"
+          },
+          "R_TRAFFIC_CLASS": {
+            "value": "BEST_EFFORT",
+            "value_src": "default"
+          },
+          "WRITE_BUFFER_SIZE": {
+            "value": "80",
+            "value_src": "default"
+          },
+          "W_MAX_BURST_LENGTH": {
+            "value": "256",
+            "value_src": "default"
+          },
+          "W_RATE_LIMITER": {
+            "value": "10",
+            "value_src": "default"
+          },
+          "W_TRAFFIC_CLASS": {
+            "value": "BEST_EFFORT",
+            "value_src": "default"
+          }
+        },
+        "port_maps": {
+          "VALID": {
+            "physical_name": "nps4_0_SNPP_SOUTH0_valid",
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "FLIT": {
+            "physical_name": "nps4_0_SNPP_SOUTH0_flit",
+            "direction": "I",
+            "left": "181",
+            "right": "0"
+          },
+          "CREDIT_RETURN": {
+            "physical_name": "nps4_0_SNPP_SOUTH0_credit_return",
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "CREDIT_RDY": {
+            "physical_name": "nps4_0_SNPP_SOUTH0_credit_rdy",
+            "direction": "I",
+            "left": "0",
+            "right": "0"
+          },
+          "PDEST_ID": {
+            "physical_name": "nps4_0_SNPP_SOUTH0_pdest_id",
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          }
+        }
+      },
+      "nps6_0_MNPP_NORTH0": {
+        "mode": "Master",
+        "vlnv_bus_definition": "xilinx.com:interface:npp:1.0",
+        "vlnv": "xilinx.com:interface:npp_rtl:1.0",
+        "parameters": {
+          "CAN_DEBUG": {
+            "value": "false",
+            "value_src": "default"
+          },
+          "NOC_ID": {
+            "value": "-1",
+            "value_src": "default"
+          },
+          "WRITE_BUFFER_SIZE": {
+            "value": "80",
+            "value_src": "default"
+          }
+        },
+        "memory_map_ref": "nps6_0_MNPP_NORTH0",
+        "port_maps": {
+          "VALID": {
+            "physical_name": "nps6_0_MNPP_NORTH0_valid",
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "FLIT": {
+            "physical_name": "nps6_0_MNPP_NORTH0_flit",
+            "direction": "O",
+            "left": "181",
+            "right": "0"
+          },
+          "CREDIT_RETURN": {
+            "physical_name": "nps6_0_MNPP_NORTH0_credit_return",
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "CREDIT_RDY": {
+            "physical_name": "nps6_0_MNPP_NORTH0_credit_rdy",
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          }
+        }
+      },
+      "nps6_0_SNPP_NORTH0": {
+        "mode": "Slave",
+        "vlnv_bus_definition": "xilinx.com:interface:npp:1.0",
+        "vlnv": "xilinx.com:interface:npp_rtl:1.0",
+        "parameters": {
+          "CAN_DEBUG": {
+            "value": "false",
+            "value_src": "default"
+          },
+          "R_LATENCY": {
+            "value": "300",
+            "value_src": "default"
+          },
+          "R_MAX_BURST_LENGTH": {
+            "value": "256",
+            "value_src": "default"
+          },
+          "R_RATE_LIMITER": {
+            "value": "10",
+            "value_src": "default"
+          },
+          "R_TRAFFIC_CLASS": {
+            "value": "BEST_EFFORT",
+            "value_src": "default"
+          },
+          "WRITE_BUFFER_SIZE": {
+            "value": "80",
+            "value_src": "default"
+          },
+          "W_MAX_BURST_LENGTH": {
+            "value": "256",
+            "value_src": "default"
+          },
+          "W_RATE_LIMITER": {
+            "value": "10",
+            "value_src": "default"
+          },
+          "W_TRAFFIC_CLASS": {
+            "value": "BEST_EFFORT",
+            "value_src": "default"
+          }
+        },
+        "address_space_ref": "nps6_0_SNPP_NORTH0",
+        "base_address": {
+          "minimum": "0x00000000",
+          "maximum": "0xFFFFFFFF",
+          "width": "32"
+        },
+        "port_maps": {
+          "VALID": {
+            "physical_name": "nps6_0_SNPP_NORTH0_valid",
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "FLIT": {
+            "physical_name": "nps6_0_SNPP_NORTH0_flit",
+            "direction": "I",
+            "left": "181",
+            "right": "0"
+          },
+          "CREDIT_RETURN": {
+            "physical_name": "nps6_0_SNPP_NORTH0_credit_return",
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "CREDIT_RDY": {
+            "physical_name": "nps6_0_SNPP_NORTH0_credit_rdy",
+            "direction": "I",
+            "left": "0",
+            "right": "0"
+          }
+        }
+      },
+      "nps4_0_MNPP_SOUTH0": {
+        "mode": "Master",
+        "vlnv_bus_definition": "xilinx.com:interface:npp_hbm:1.0",
+        "vlnv": "xilinx.com:interface:npp_hbm_rtl:1.0",
+        "parameters": {
+          "NOC_ID": {
+            "value": "-1",
+            "value_src": "default"
+          },
+          "WRITE_BUFFER_SIZE": {
+            "value": "80",
+            "value_src": "default"
+          }
+        },
+        "port_maps": {
+          "VALID": {
+            "physical_name": "nps4_0_MNPP_SOUTH0_valid",
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "FLIT": {
+            "physical_name": "nps4_0_MNPP_SOUTH0_flit",
+            "direction": "O",
+            "left": "181",
+            "right": "0"
+          },
+          "CREDIT_RETURN": {
+            "physical_name": "nps4_0_MNPP_SOUTH0_credit_return",
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "CREDIT_RDY": {
+            "physical_name": "nps4_0_MNPP_SOUTH0_credit_rdy",
+            "direction": "O",
+            "left": "0",
+            "right": "0"
+          },
+          "PDEST_ID": {
+            "physical_name": "nps4_0_MNPP_SOUTH0_pdest_id",
+            "direction": "O",
+            "left": "1",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "components": {
+      "nps4_0": {
+        "vlnv": "xilinx.com:ip:noc_nps4:1.0",
+        "ip_revision": "0",
+        "xci_name": "xlnoc_nps4_0_0",
+        "xci_path": "ip/xlnoc_nps4_0_0/xlnoc_nps4_0_0.xci",
+        "inst_hier_path": "nps4_0",
+        "parameters": {
+          "USER_MNPP_NORTH0_PORT_EN": {
+            "value": "FALSE"
+          },
+          "USER_MNPP_NORTH1_PORT_EN": {
+            "value": "FALSE"
+          },
+          "USER_MNPP_NORTH2_PORT_EN": {
+            "value": "FALSE"
+          },
+          "USER_MNPP_SOUTH1_PORT_EN": {
+            "value": "FALSE"
+          },
+          "USER_MNPP_SOUTH2_PORT_EN": {
+            "value": "FALSE"
+          },
+          "USER_MNPP_SOUTH3_PORT_EN": {
+            "value": "FALSE"
+          },
+          "USER_SNPP_NORTH0_PORT_EN": {
+            "value": "FALSE"
+          },
+          "USER_SNPP_NORTH1_PORT_EN": {
+            "value": "FALSE"
+          },
+          "USER_SNPP_NORTH2_PORT_EN": {
+            "value": "FALSE"
+          },
+          "USER_SNPP_SOUTH1_PORT_EN": {
+            "value": "FALSE"
+          },
+          "USER_SNPP_SOUTH2_PORT_EN": {
+            "value": "FALSE"
+          },
+          "USER_SNPP_SOUTH3_PORT_EN": {
+            "value": "FALSE"
+          }
+        }
+      },
+      "nps6_0": {
+        "vlnv": "xilinx.com:ip:noc_nps6:1.0",
+        "ip_revision": "0",
+        "xci_name": "xlnoc_nps6_0_0",
+        "xci_path": "ip/xlnoc_nps6_0_0/xlnoc_nps6_0_0.xci",
+        "inst_hier_path": "nps6_0",
+        "parameters": {
+          "USER_MNPP_EAST_PORT_EN": {
+            "value": "FALSE"
+          },
+          "USER_MNPP_NORTH1_PORT_EN": {
+            "value": "FALSE"
+          },
+          "USER_MNPP_SOUTH0_PORT_EN": {
+            "value": "FALSE"
+          },
+          "USER_MNPP_WEST_PORT_EN": {
+            "value": "FALSE"
+          },
+          "USER_SNPP_EAST_PORT_EN": {
+            "value": "FALSE"
+          },
+          "USER_SNPP_NORTH1_PORT_EN": {
+            "value": "FALSE"
+          },
+          "USER_SNPP_SOUTH0_PORT_EN": {
+            "value": "FALSE"
+          },
+          "USER_SNPP_WEST_PORT_EN": {
+            "value": "FALSE"
+          }
+        }
+      }
+    },
+    "interface_nets": {
+      "nps4_0_MNPP_NORTH3": {
+        "interface_ports": [
+          "nps4_0/MNPP_NORTH3",
+          "nps6_0/SNPP_SOUTH1"
+        ]
+      },
+      "nps4_0_MNPP_SOUTH1": {
+        "interface_ports": [
+          "nps4_0_MNPP_SOUTH0",
+          "nps4_0/MNPP_SOUTH0"
+        ]
+      },
+      "nps4_0_SNPP_SOUTH0_1": {
+        "interface_ports": [
+          "nps4_0_SNPP_SOUTH0",
+          "nps4_0/SNPP_SOUTH0"
+        ]
+      },
+      "nps6_0_MNPP_NORTH1": {
+        "interface_ports": [
+          "nps6_0_MNPP_NORTH0",
+          "nps6_0/MNPP_NORTH0"
+        ]
+      },
+      "nps6_0_MNPP_SOUTH1": {
+        "interface_ports": [
+          "nps6_0/MNPP_SOUTH1",
+          "nps4_0/SNPP_NORTH3"
+        ]
+      },
+      "nps6_0_SNPP_NORTH0_1": {
+        "interface_ports": [
+          "nps6_0_SNPP_NORTH0",
+          "nps6_0/SNPP_NORTH0"
+        ]
+      }
+    },
+    "addressing": {
+      "/": {
+        "address_spaces": {
+          "nps6_0_SNPP_NORTH0": {
+            "range": "4G",
+            "width": "32"
+          }
+        },
+        "memory_maps": {
+          "nps6_0_MNPP_NORTH0": {
+            "address_blocks": {
+              "Reg": {
+                "base_address": "0",
+                "range": "64K",
+                "width": "16",
+                "usage": "register"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

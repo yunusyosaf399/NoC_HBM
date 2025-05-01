@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<POWERDATA data="NOC Compiler" dataVersion="2019.1.0">
+<NOC_ROUTES>
+<CLK clk_freq ="1000" used_clk_buffers ="10" total_clk_buffers ="98" dfx_usage ="FLAT"></CLK>
+<PATH type ="Read" name ="HBMMC/Stack_0/MC_1/PC_0/HBM00_AXI_nmu" master_name="axi_noc_0/inst/HBM00_AXI_nmu" master_type="HBM_NMU" slave_name="axi_noc_0/inst/MC_hbmc/inst/hbm_st0/I_hbm_chnl0" slave_type="HBMMC" bandwidth ="12800" read_transaction_size="128">
+<CHANNEL source_port="HBM_MC_X0Y0/pc0_port0_out" sink_port="NOC_NPS4_X0Y0/portSideB0_in" length="1.5"></CHANNEL>
+<CHANNEL source_port="NOC_NPS4_X0Y0/portSideA3_out" sink_port="NOC_NPS6_X0Y3/port5_in" length="1.5"></CHANNEL>
+<CHANNEL source_port="NOC_NPS6_X0Y3/port1_out" sink_port="NOC_NMU_HBM2E_X6Y0/resp_in" length="1.5"></CHANNEL>
+</PATH>
+<PATH type ="Write" name ="HBMMC/Stack_0/MC_1/PC_0/HBM00_AXI_nmu" master_name="axi_noc_0/inst/HBM00_AXI_nmu" master_type="HBM_NMU" slave_name="axi_noc_0/inst/MC_hbmc/inst/hbm_st0/I_hbm_chnl0" slave_type="HBMMC" bandwidth ="14400" write_transaction_size="128">
+<CHANNEL source_port="NOC_NMU_HBM2E_X6Y0/req_out" sink_port="NOC_NPS6_X0Y3/port1_in" length="1.5"></CHANNEL>
+<CHANNEL source_port="NOC_NPS6_X0Y3/port5_out" sink_port="NOC_NPS4_X0Y0/portSideA3_in" length="1.5"></CHANNEL>
+<CHANNEL source_port="NOC_NPS4_X0Y0/portSideB0_out" sink_port="HBM_MC_X0Y0/pc0_port0_in" length="1.5"></CHANNEL>
+</PATH>
+</NOC_ROUTES>
+<BLOCKTYPE name="HMC">
+</BLOCKTYPE>
+<BLOCKTYPE name="HBM2E">
+<MC0 name="axi_noc_0/inst/MC_hbmc/inst/hbm_st0/I_hbm_chnl0" dataRate="3200">
+<PC0 readRate_PC0="0.500" writeRate_PC0="0.500" phy_active_PC0="ENABLED" pagehit_PC0="0.900"></PC0>
+<PC1 readRate_PC1="0.000" writeRate_PC1="0.000" phy_active_PC1="ENABLED" pagehit_PC1="0.000"></PC1>
+</MC0>
+</BLOCKTYPE>
+</POWERDATA>

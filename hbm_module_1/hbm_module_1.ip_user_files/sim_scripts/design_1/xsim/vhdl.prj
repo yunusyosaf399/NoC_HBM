@@ -1,0 +1,6 @@
+vhdl xil_defaultlib  \
+"../../../bd/design_1/ip/design_1_noc_sim_trig_0/ip_0/sim/axi_apb_bridge_0.vhd" \
+"../../../bd/design_1/ip/design_1_rst_clk_wiz_100M_0/sim/design_1_rst_clk_wiz_100M_0.vhd" \
+
+# Do not sort compile order
+nosort

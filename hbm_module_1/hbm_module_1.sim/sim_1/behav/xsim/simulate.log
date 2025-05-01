@@ -1,0 +1,92 @@
+Time resolution is 1 ps
+Updating  bd_8be5_HBM00_AXI_nmu_0 and nocattrs.dat
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.axi_vip_0.inst
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 0 ns : SRC ID = 0 :: Waiting for axi tg reset to be asserted ...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 0 ns : SRC ID = 0 ::  axi tg reset is asserted ...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 0 ns : SRC ID = 0 :: Waiting for axi tg reset to be released ...
+INFO: 18 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.axi_vip_0.inst.IF.WREADY_eight_cycle_chk : XILINX_WREADY_MAX_RESET: WREADY must go low after 8 cycles following the first clock edge that ARESETn goes low--UG1037 Xilinx IP generally deasserts all VALID and READY outputs within eight cycles of reset. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 18 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.axi_vip_0.inst.IF.AWREADY_eight_cycle_chk : XILINX_AWREADY_MAX_RESET: AWREADY must go low after 8 cycles following the first clock edge that ARESETn goes low--UG1037 Xilinx IP generally deasserts all VALID and READY outputs within eight cycles of reset. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 18 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.axi_vip_0.inst.IF.ARREADY_eight_cycle_chk : XILINX_ARREADY_MAX_RESET: ARREADY must go low after 8 cycles following the first clock edge that ARESETn goes low--UG1037 Xilinx IP generally deasserts all VALID and READY outputs within eight cycles of reset. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+HBMMC_MC_BFM: MODULAR_NOC = 0  
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 22 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b11111111
+Warning: 
+Time: 21501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 22 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b11111111
+Warning: 
+Time: 21501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 23 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b11111111
+Warning: 
+Time: 22501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 23 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b11111111
+Warning: 
+Time: 22501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 24 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b11111111
+Warning: 
+Time: 23501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 24 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b11111111
+Warning: 
+Time: 23501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 25 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b01110111
+Warning: 
+Time: 24501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 25 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b01110111
+Warning: 
+Time: 24501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 26 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b01110111
+Warning: 
+Time: 25501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 26 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b01110111
+Warning: 
+Time: 25501 ps  Iteration: 0
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 2498 ns : SRC ID = 0 ::  axi tg reset is released ...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 2498 ns : SRC ID = 0 :: Waiting for axi_tg_start to be asserted ...
+INFO: 2500 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.axi_vip_0.inst.IF.AWREADY_one_cycle_chk : XILINX_AWREADY_RESET: AWREADY must be low for the first clock edge that ARESETn goes high--PG101 XILINX_AWREADY_RESET. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 2500 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.axi_vip_0.inst.IF.WREADY_one_cycle_chk : XILINX_WREADY_RESET: WREADY must be low for the first clock edge that ARESETn goes high--PG101 XILINX_WREADY_RESET. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 2500 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.axi_vip_0.inst.IF.ARREADY_one_cycle_chk : XILINX_ARREADY_RESET: ARREADY must be low for the first clock edge that ARESETn goes high--PG101 XILINX_ARREADY_RESET. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 2500 ns : SRC ID = 0 :: Got axi_tg_start asserted ...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 2500 ns : SRC ID = 0 :: writes_followed_by_reads :::: Running Test .....
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.addr_delay_for_bw) 2508 ns : SRC_ID 0 ::: BANDWIDTH_SETTING :: WRITE :: REQUESTED_BANDWIDTH 12800.000000MBps, MAX_POSSIBLE_BANDWIDTH (by DataWidth= 12800.000000MBps, by AxSize= 12800.000000MBps), AXI_DATA_WIDTH 256bit, AXI_SIZE 'h5, AXI_LEN 'h7f, CLK_FREQ = 400.000000MHz, ADDR_DELAY 128cyc(rounded off), ADDR_DELAY (actual) = 128.000000cyc, FRACTIONAL_DELAY_MISSED = (-)0.000000cyc
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 2510 ns : SRC_ID = 0 ::: started sending transactions at time 2510 ns
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 18823 ns : SRC_ID = 0 ::: Write Request Sent = 50
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 21178 ns : SRC_ID = 0 ::: Write Response Received = 50
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 36488 ns : SRC_ID = 0 ::: Write Request Sent = 100
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 39163 ns : SRC_ID = 0 ::: Write Response Received = 100
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.addr_delay_for_bw) 39163 ns : SRC_ID 0 ::: BANDWIDTH_SETTING :: READ :: REQUESTED_BANDWIDTH 12800.000000MBps, MAX_POSSIBLE_BANDWIDTH (by DataWidth= 12800.000000MBps, by AxSize= 12800.000000MBps), AXI_DATA_WIDTH 256bit, AXI_SIZE 'h5, AXI_LEN 'h7f, CLK_FREQ = 400.000000MHz, ADDR_DELAY 128cyc(rounded off), ADDR_DELAY (actual) = 128.000000cyc, FRACTIONAL_DELAY_MISSED = (-)0.000000cyc
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 54848 ns : SRC_ID = 0 ::: Read Request Sent = 50
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 56368 ns : SRC_ID = 0 ::: Read Response Received = 50
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 71095 ns : SRC_ID = 0 ::: Read Request Sent = 100
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 73345 ns : SRC_ID = 0 ::: Read Response Received = 100
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 73360 ns : SRC ID = 0 ::: ALL AXI TRANSACTIONS ARE COMPLETED
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 73360 ns : SRC ID = 0 ::: completed transactions at time 73360 ns
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 73360 ns : SRC ID = 0 ::: Total time transactions were sent = 70850 ns
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 73360 ns : SRC ID = 0 ::: Waiting for Drain time (200cyc)...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 73860 ns : SRC ID = 0 ::: All transactions are assumed to be drained at sink.
+Executing Axi4 End Of Simulation checks
+=========================================================
+>>>>>> SRC ID 0 :: TEST REPORT >>>>>>
+=========================================================
+[INFO] SRC ID = 0 ::: TG_HIERARCHY          = design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst
+[INFO] SRC ID = 0 ::: AXI_PROTOCOL          = AXI4
+[INFO] SRC ID = 0 ::: AXI_CLK_PERIOD        = 2500ps, AXI_DATAWIDTH  = 256bit
+[INFO] SRC ID = 0 ::: TEST_NAME             = writes_followed_by_reads
+[INFO] SRC ID = 0 ::: TOTAL_WRITE_REQ_SENT  = 100, TOTAL_WRITE_RESP_RECEIVED  = 100
+[INFO] SRC ID = 0 ::: TOTAL_READ_REQ_SENT   = 100, TOTAL_READ_RESP_RECEIVED   = 100
+[INFO] SRC ID = 0 ::: DATA_INTEGRITY_CHECK  = DISABLED
+[INFO] SRC ID = 0 ::: TEST_STATUS           = TEST PASSED
+=========================================================
+
+=========================================================
+>>>>>> SRC_ID 0 :: AXI_PMON :: BW ANALYSIS >>>>>>
+=========================================================
+AXI Clock Period = 2500 ps
+Min Write Latency = 555 axi clock cycles
+Max Write Latency = 1085 axi clock cycles
+Avg Write Latency = 899 axi clock cycles
+Actual Achieved Write Bandwidth = 11175.989086 MBps
+***************************************************
+Min Read Latency = 168 axi clock cycles
+Max Read Latency = 996 axi clock cycles
+Avg Read Latency = 603 axi clock cycles
+Actual Achieved Read Bandwidth = 11984.492722 MBps
+$finish called at time : 73870001 ps : File "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_noc_sim_trig_0/hdl/rtl/traffic_shaping.sv" Line 219
+INFO: xsimkernel Simulation Memory Usage: 997248 KB (Peak: 997248 KB), Simulation CPU Usage: 142340 ms

@@ -1,0 +1,406 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x1D51EABC01B099C5",
+      "device": "xcvh1582-vsva3697-2MP-e-S",
+      "gen_directory": "../../../../hbm_module_1.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "axi_noc_0": "",
+      "noc_clk_gen": "",
+      "noc_tg": "",
+      "noc_sim_trig": "",
+      "noc_tg_pmon": "",
+      "clk_wiz": "",
+      "rst_clk_wiz_100M": ""
+    },
+    "interface_ports": {
+      "diff_clock_rtl_0": {
+        "mode": "Slave",
+        "vlnv_bus_definition": "xilinx.com:interface:diff_clock:1.0",
+        "vlnv": "xilinx.com:interface:diff_clock_rtl:1.0",
+        "parameters": {
+          "CAN_DEBUG": {
+            "value": "false",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000"
+          }
+        },
+        "port_maps": {
+          "CLK_N": {
+            "physical_name": "diff_clock_rtl_0_clk_n",
+            "direction": "I"
+          },
+          "CLK_P": {
+            "physical_name": "diff_clock_rtl_0_clk_p",
+            "direction": "I"
+          }
+        }
+      }
+    },
+    "ports": {
+      "clk_100MHz": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "design_1_clk_100MHz",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "reset_rtl_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      }
+    },
+    "components": {
+      "axi_noc_0": {
+        "vlnv": "xilinx.com:ip:axi_noc:1.1",
+        "ip_revision": "1",
+        "xci_name": "design_1_axi_noc_0_0",
+        "xci_path": "ip/design_1_axi_noc_0_0/design_1_axi_noc_0_0.xci",
+        "inst_hier_path": "axi_noc_0",
+        "parameters": {
+          "HBM_NUM_CHNL": {
+            "value": "1"
+          },
+          "HBM_REF_CLK_SELECTION": {
+            "value": "Internal"
+          },
+          "NUM_CLKS": {
+            "value": "1"
+          },
+          "NUM_HBM_BLI": {
+            "value": "1"
+          },
+          "NUM_MI": {
+            "value": "0"
+          },
+          "NUM_SI": {
+            "value": "0"
+          }
+        },
+        "interface_ports": {
+          "HBM00_AXI": {
+            "mode": "Slave",
+            "vlnv_bus_definition": "xilinx.com:interface:aximm:1.0",
+            "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
+            "parameters": {
+              "CATEGORY": {
+                "value": "pl_hbm"
+              },
+              "CONNECTIONS": {
+                "value": "HBM0_PORT0 {read_bw {12800} write_bw {12800} read_avg_burst {4} write_avg_burst {4}}"
+              }
+            },
+            "memory_map_ref": "HBM00_AXI"
+          }
+        },
+        "addressing": {
+          "memory_maps": {
+            "HBM00_AXI": {
+              "address_blocks": {
+                "HBM0_PC0": {
+                  "base_address": "0x4000000000",
+                  "range": "1G",
+                  "width": "39",
+                  "usage": "memory",
+                  "bank_blocks": {
+                    "HBM00_AXI;HBM0_PC0;xilinx.com:boundary:axi_slave:1.0;/;HBM00_AXI;NONE;NONE": {
+                      "base_address": "0x4000000000",
+                      "range": "1G",
+                      "width": "30",
+                      "usage": "memory"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "noc_clk_gen": {
+        "vlnv": "xilinx.com:ip:clk_gen_sim:1.0",
+        "ip_revision": "4",
+        "xci_name": "design_1_noc_clk_gen_0",
+        "xci_path": "ip/design_1_noc_clk_gen_0/design_1_noc_clk_gen_0.xci",
+        "inst_hier_path": "noc_clk_gen",
+        "parameters": {
+          "USER_AXI_CLK_0_FREQ": {
+            "value": "400.000"
+          },
+          "USER_NUM_OF_SYS_CLK": {
+            "value": "1"
+          },
+          "USER_SYS_CLK0_FREQ": {
+            "value": "100.000"
+          }
+        }
+      },
+      "noc_tg": {
+        "vlnv": "xilinx.com:ip:perf_axi_tg:1.0",
+        "ip_revision": "15",
+        "xci_name": "design_1_noc_tg_0",
+        "xci_path": "ip/design_1_noc_tg_0/design_1_noc_tg_0.xci",
+        "inst_hier_path": "noc_tg",
+        "parameters": {
+          "DG_SCR_SEV": {
+            "value": "false"
+          },
+          "IS_CONN_SLAVE_AXI_NOC": {
+            "value": "true"
+          },
+          "USER_C_AXI_CLK_PERIOD": {
+            "value": "2500"
+          },
+          "USER_C_AXI_READ_BANDWIDTH": {
+            "value": "12800"
+          },
+          "USER_C_AXI_READ_BASEADDR": {
+            "value": "0x0000004000000000"
+          },
+          "USER_C_AXI_READ_HIGHADDR": {
+            "value": "0x000000403FFFFFFF"
+          },
+          "USER_C_AXI_READ_LEN": {
+            "value": "127"
+          },
+          "USER_C_AXI_READ_SIZE": {
+            "value": "32"
+          },
+          "USER_C_AXI_SLAVE_DATA_WIDTH": {
+            "value": "128"
+          },
+          "USER_C_AXI_TEST_SELECT": {
+            "value": "writes_followed_by_reads"
+          },
+          "USER_C_AXI_WDATA_WIDTH": {
+            "value": "256"
+          },
+          "USER_C_AXI_WID_WIDTH": {
+            "value": "7"
+          },
+          "USER_C_AXI_WRITE_BANDWIDTH": {
+            "value": "12800"
+          },
+          "USER_C_AXI_WRITE_BASEADDR": {
+            "value": "0x0000004000000000"
+          },
+          "USER_C_AXI_WRITE_BASEADDR_SLV": {
+            "value": "0x0000004000000000"
+          },
+          "USER_C_AXI_WRITE_HIGHADDR": {
+            "value": "0x000000403FFFFFFF"
+          },
+          "USER_C_AXI_WRITE_HIGHADDR_SLV": {
+            "value": "0x000000403FFFFFFF"
+          },
+          "USER_C_AXI_WRITE_LEN": {
+            "value": "127"
+          },
+          "USER_C_AXI_WRITE_SIZE": {
+            "value": "32"
+          },
+          "USER_NO_OF_SLAVE_CONNECTED": {
+            "value": "1"
+          }
+        },
+        "interface_ports": {
+          "M_AXI": {
+            "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
+            "mode": "Master",
+            "address_space_ref": "Data",
+            "base_address": {
+              "minimum": "0x00000000",
+              "maximum": "0xFFFFFFFFFFFFFFFF",
+              "width": "64"
+            }
+          }
+        },
+        "addressing": {
+          "address_spaces": {
+            "Data": {
+              "range": "16E",
+              "width": "64"
+            }
+          }
+        }
+      },
+      "noc_sim_trig": {
+        "vlnv": "xilinx.com:ip:sim_trig:1.0",
+        "ip_revision": "13",
+        "xci_name": "design_1_noc_sim_trig_0",
+        "xci_path": "ip/design_1_noc_sim_trig_0/design_1_noc_sim_trig_0.xci",
+        "inst_hier_path": "noc_sim_trig"
+      },
+      "noc_tg_pmon": {
+        "vlnv": "xilinx.com:ip:axi_pmon:1.0",
+        "ip_revision": "2",
+        "xci_name": "design_1_noc_tg_pmon_0",
+        "xci_path": "ip/design_1_noc_tg_pmon_0/design_1_noc_tg_pmon_0.xci",
+        "inst_hier_path": "noc_tg_pmon",
+        "parameters": {
+          "USER_PARAM_AXI_TG_ID": {
+            "value": "0"
+          }
+        }
+      },
+      "clk_wiz": {
+        "vlnv": "xilinx.com:ip:clk_wizard:1.0",
+        "ip_revision": "15",
+        "xci_name": "design_1_clk_wiz_0",
+        "xci_path": "ip/design_1_clk_wiz_0/design_1_clk_wiz_0.xci",
+        "inst_hier_path": "clk_wiz",
+        "parameters": {
+          "CLKOUT_REQUESTED_OUT_FREQUENCY": {
+            "value": "100.0"
+          },
+          "USE_LOCKED": {
+            "value": "true"
+          },
+          "USE_RESET": {
+            "value": "true"
+          }
+        }
+      },
+      "rst_clk_wiz_100M": {
+        "vlnv": "xilinx.com:ip:proc_sys_reset:5.0",
+        "ip_revision": "16",
+        "xci_name": "design_1_rst_clk_wiz_100M_0",
+        "xci_path": "ip/design_1_rst_clk_wiz_100M_0/design_1_rst_clk_wiz_100M_0.xci",
+        "inst_hier_path": "rst_clk_wiz_100M"
+      }
+    },
+    "interface_nets": {
+      "diff_clock_rtl_0_1": {
+        "interface_ports": [
+          "diff_clock_rtl_0",
+          "noc_clk_gen/SYS_CLK0_IN"
+        ]
+      },
+      "noc_tg_M_AXI": {
+        "interface_ports": [
+          "noc_tg/M_AXI",
+          "axi_noc_0/HBM00_AXI",
+          "noc_tg_pmon/S_AXI"
+        ]
+      }
+    },
+    "nets": {
+      "clk_100MHz_1": {
+        "ports": [
+          "clk_100MHz",
+          "clk_wiz/clk_in1"
+        ]
+      },
+      "clk_wiz_clk_out1": {
+        "ports": [
+          "clk_wiz/clk_out1",
+          "noc_clk_gen/axi_clk_in_0",
+          "rst_clk_wiz_100M/slowest_sync_clk"
+        ]
+      },
+      "clk_wiz_locked": {
+        "ports": [
+          "clk_wiz/locked",
+          "rst_clk_wiz_100M/dcm_locked"
+        ]
+      },
+      "noc_clk_gen_axi_clk_0": {
+        "ports": [
+          "noc_clk_gen/axi_clk_0",
+          "noc_sim_trig/pclk",
+          "noc_tg/clk",
+          "axi_noc_0/aclk0",
+          "noc_tg_pmon/axi_aclk"
+        ]
+      },
+      "noc_clk_gen_axi_rst_0_n": {
+        "ports": [
+          "noc_clk_gen/axi_rst_0_n",
+          "noc_sim_trig/rst_n",
+          "noc_tg/tg_rst_n",
+          "noc_tg_pmon/axi_arst_n",
+          "rst_clk_wiz_100M/ext_reset_in"
+        ]
+      },
+      "noc_sim_trig_ph_trig_out": {
+        "ports": [
+          "noc_sim_trig/ph_trig_out",
+          "noc_tg/trigger_in"
+        ]
+      },
+      "noc_sim_trig_trig_00": {
+        "ports": [
+          "noc_sim_trig/trig_00",
+          "noc_tg/axi_tg_start"
+        ]
+      },
+      "noc_tg_axi_tg_done": {
+        "ports": [
+          "noc_tg/axi_tg_done",
+          "noc_sim_trig/all_done_00"
+        ]
+      },
+      "reset_rtl_0_1": {
+        "ports": [
+          "reset_rtl_0",
+          "clk_wiz/reset"
+        ]
+      },
+      "rst_clk_wiz_100M_peripheral_aresetn": {
+        "ports": [
+          "rst_clk_wiz_100M/peripheral_aresetn",
+          "noc_clk_gen/axi_rst_in_0_n"
+        ]
+      }
+    },
+    "addressing": {
+      "/noc_tg": {
+        "address_spaces": {
+          "Data": {
+            "segments": {
+              "SEG_axi_noc_0_HBM0_PC0": {
+                "address_block": "/axi_noc_0/HBM00_AXI/HBM0_PC0",
+                "offset": "0x0000004000000000",
+                "range": "1G"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
