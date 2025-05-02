@@ -995,3 +995,6 @@ design_2_axis_ila_0_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_mo
 [Thu May  1 15:13:18 2025] Launched synth_1...
 Run output will be captured here: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.runs/synth_1/runme.log
 launch_runs: Time (s): cpu = 00:00:57 ; elapsed = 00:00:52 . Memory (MB): peak = 11803.012 ; gain = 518.430 ; free physical = 187 ; free virtual = 8222
+INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_2_noc_tg_1_0: value of Parity is FALSE
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May  1 18:43:48 2025...
