@@ -3,8 +3,8 @@
 # SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Wed Apr 30 21:49:01 2025
-# Process ID         : 315677
+# Start of session at: Fri May  2 21:30:50 2025
+# Process ID         : 4964
 # Current directory  : /home/younas/Documents/Vivado
 # Command line       : vivado
 # Log file           : /home/younas/Documents/Vivado/vivado.log
@@ -19,7 +19,7 @@
 # Host memory        : 16358 MB
 # Swap memory        : 2147 MB
 # Total Virtual      : 18506 MB
-# Available Virtual  : 13893 MB
+# Available Virtual  : 16089 MB
 #-----------------------------------------------------------
 start_gui
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
@@ -29,47 +29,196 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
-WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-create_project hbm_module_2 /home/younas/Documents/Vivado/hbm_module_2 -part xcvh1582-vsva3697-2MP-e-S
+open_project /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.xpr
+INFO: [Project 1-313] Project file moved from '/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface' since last save.
+Scanning sources...
+Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2024.2/data/ip'.
-create_bd_design "design_2"
-Wrote  : </home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.srcs/sources_1/bd/design_2/design_2.bd> 
+WARNING: [IP_Flow 19-3664] IP 'design_1_axi_noc_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_axi_noc_0_0/design_1_axi_noc_0_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_axi_noc_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_axi_noc_0_0/design_1_axi_noc_0_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_axi_noc_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_axi_noc_0_0/design_1_axi_noc_0_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_axi_noc_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_axi_noc_0_0/design_1_axi_noc_0_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_axi_noc_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_axi_noc_0_0/design_1_axi_noc_0_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_0/design_1_noc_tg_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_0/design_1_noc_tg_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_0/design_1_noc_tg_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_0/design_1_noc_tg_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_0/design_1_noc_tg_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_sim_trig_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_sim_trig_0/design_1_noc_sim_trig_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_sim_trig_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_sim_trig_0/design_1_noc_sim_trig_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_sim_trig_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_sim_trig_0/design_1_noc_sim_trig_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_sim_trig_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_sim_trig_0/design_1_noc_sim_trig_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_sim_trig_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_sim_trig_0/design_1_noc_sim_trig_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_0/design_1_noc_tg_pmon_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_0/design_1_noc_tg_pmon_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_0/design_1_noc_tg_pmon_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_0/design_1_noc_tg_pmon_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_0/design_1_noc_tg_pmon_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_1_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/design_1_noc_tg_1_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_1_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/design_1_noc_tg_1_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_1_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/design_1_noc_tg_1_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_1_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/design_1_noc_tg_1_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_1_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/design_1_noc_tg_1_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_1_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_1_0/design_1_noc_tg_pmon_1_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_1_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_1_0/design_1_noc_tg_pmon_1_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_1_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_1_0/design_1_noc_tg_pmon_1_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_1_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_1_0/design_1_noc_tg_pmon_1_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_1_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_1_0/design_1_noc_tg_pmon_1_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_2_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_2_0/design_1_noc_tg_2_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_2_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_2_0/design_1_noc_tg_2_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_2_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_2_0/design_1_noc_tg_2_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_2_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_2_0/design_1_noc_tg_2_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_2_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_2_0/design_1_noc_tg_2_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_2_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_2_0/design_1_noc_tg_pmon_2_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_2_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_2_0/design_1_noc_tg_pmon_2_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_2_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_2_0/design_1_noc_tg_pmon_2_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_2_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_2_0/design_1_noc_tg_pmon_2_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_2_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_2_0/design_1_noc_tg_pmon_2_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_3_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_3_0/design_1_noc_tg_3_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_3_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_3_0/design_1_noc_tg_3_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_3_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_3_0/design_1_noc_tg_3_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_3_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_3_0/design_1_noc_tg_3_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_3_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_3_0/design_1_noc_tg_3_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_3_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_3_0/design_1_noc_tg_pmon_3_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_3_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_3_0/design_1_noc_tg_pmon_3_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_3_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_3_0/design_1_noc_tg_pmon_3_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_3_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_3_0/design_1_noc_tg_pmon_3_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_3_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_3_0/design_1_noc_tg_pmon_3_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_proc_sys_reset_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_proc_sys_reset_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_proc_sys_reset_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_proc_sys_reset_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_proc_sys_reset_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_clk_wizard_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_clk_wizard_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_clk_wizard_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_clk_wizard_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_clk_wizard_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_axis_ila_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_axis_ila_0_0/design_1_axis_ila_0_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_axis_ila_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_axis_ila_0_0/design_1_axis_ila_0_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_axis_ila_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_axis_ila_0_0/design_1_axis_ila_0_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_axis_ila_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_axis_ila_0_0/design_1_axis_ila_0_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'design_1_axis_ila_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_axis_ila_0_0/design_1_axis_ila_0_0_sim_netlist.vhdl'. Please regenerate to continue.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 8461.875 ; gain = 763.582 ; free physical = 7300 ; free virtual = 14149
 update_compile_order -fileset sources_1
-startgroup
-create_bd_cell -type ip -vlnv xilinx.com:ip:axis_noc:1.0 axis_noc_0
-endgroup
-undo
-INFO: [Common 17-17] undo 'endgroup'
-INFO: [Common 17-17] undo 'create_bd_cell -type ip -vlnv xilinx.com:ip:axis_noc:1.0 axis_noc_0'
-INFO: [Common 17-17] undo 'startgroup'
+reset_run synth_1
+reset_run design_1_clk_wizard_0_0_synth_1
+reset_run design_1_noc_tg_3_0_synth_1
+reset_run design_1_noc_tg_0_synth_1
+reset_run design_1_noc_tg_pmon_0_synth_1
+reset_run design_1_noc_tg_2_0_synth_1
+reset_run design_1_noc_tg_pmon_3_0_synth_1
+reset_run design_1_axis_ila_0_0_synth_1
+reset_run design_1_proc_sys_reset_0_0_synth_1
+reset_run design_1_noc_tg_pmon_1_0_synth_1
+reset_run design_1_noc_tg_1_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Attempt to kill process failed
+
+reset_run design_1_axi_noc_0_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Attempt to kill process failed
+
+reset_run design_1_noc_sim_trig_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Attempt to kill process failed
+
+reset_run design_1_noc_tg_pmon_2_0_synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Attempt to kill process failed
+
+launch_runs synth_1 -jobs 1
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_noc_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axis_ila_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_clk_wizard_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_noc_sim_trig_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_noc_tg_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_noc_tg_1_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_noc_tg_2_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_noc_tg_3_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_noc_tg_pmon_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_noc_tg_pmon_1_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_noc_tg_pmon_2_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_noc_tg_pmon_3_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_proc_sys_reset_0_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_noc_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_noc_tg_pmon_2_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axis_ila_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_clk_wizard_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_proc_sys_reset_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_noc_sim_trig_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_noc_tg_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_noc_tg_1_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_noc_tg_2_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_noc_tg_3_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_noc_tg_pmon_3_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_noc_tg_pmon_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_noc_tg_pmon_1_0
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Fri May  2 21:32:32 2025] Launched design_1_noc_tg_1_0_synth_1, design_1_axi_noc_0_0_synth_1, design_1_noc_sim_trig_0_synth_1, design_1_noc_tg_pmon_2_0_synth_1, design_1_clk_wizard_0_0_synth_1, design_1_noc_tg_3_0_synth_1, design_1_noc_tg_0_synth_1, design_1_noc_tg_pmon_0_synth_1, design_1_noc_tg_2_0_synth_1, design_1_noc_tg_pmon_3_0_synth_1, design_1_axis_ila_0_0_synth_1, design_1_proc_sys_reset_0_0_synth_1, design_1_noc_tg_pmon_1_0_synth_1...
+Run output will be captured here:
+design_1_noc_tg_1_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_1_0_synth_1/runme.log
+design_1_axi_noc_0_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_axi_noc_0_0_synth_1/runme.log
+design_1_noc_sim_trig_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_noc_sim_trig_0_synth_1/runme.log
+design_1_noc_tg_pmon_2_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_pmon_2_0_synth_1/runme.log
+design_1_clk_wizard_0_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_clk_wizard_0_0_synth_1/runme.log
+design_1_noc_tg_3_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_3_0_synth_1/runme.log
+design_1_noc_tg_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_0_synth_1/runme.log
+design_1_noc_tg_pmon_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_pmon_0_synth_1/runme.log
+design_1_noc_tg_2_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_2_0_synth_1/runme.log
+design_1_noc_tg_pmon_3_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_pmon_3_0_synth_1/runme.log
+design_1_axis_ila_0_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_axis_ila_0_0_synth_1/runme.log
+design_1_proc_sys_reset_0_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_proc_sys_reset_0_0_synth_1/runme.log
+design_1_noc_tg_pmon_1_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_pmon_1_0_synth_1/runme.log
+[Fri May  2 21:32:33 2025] Launched synth_1...
+Run output will be captured here: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/synth_1/runme.log
+0
+close_project
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+create_project hbm_module_2_synth_impl /home/younas/Documents/Vivado/hbm_module_2_synth_impl -part xcvh1582-vsva3697-2MP-e-S
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2024.2/data/ip'.
+create_bd_design "design_1"
+Wrote  : </home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.srcs/sources_1/bd/design_1/design_1.bd> 
+update_compile_order -fileset sources_1
 startgroup
 create_bd_cell -type ip -vlnv xilinx.com:ip:axi_noc:1.1 axi_noc_0
 INFO: [Device 21-403] Loading part xcvh1582-vsva3697-2MP-e-S
-create_bd_cell: Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 9703.379 ; gain = 1725.117 ; free physical = 4235 ; free virtual = 10586
+create_bd_cell: Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 10219.930 ; gain = 1418.809 ; free physical = 9529 ; free virtual = 12163
 endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_pmon:1.0 axi_pmon_0
+endgroup
+undo
+INFO: [Common 17-17] undo 'endgroup'
+INFO: [Common 17-17] undo 'create_bd_cell -type ip -vlnv xilinx.com:ip:axi_pmon:1.0 axi_pmon_0'
+INFO: [Common 17-17] undo 'startgroup'
 apply_bd_automation -rule xilinx.com:bd_rule:axi_noc -config { hbm_density {2} hbm_internal_clk {0} hbm_nmu {4} mc_type {HBM} noc_clk {New/Reuse Simulation Clock And Reset Generator} num_axi_bram {None} num_axi_tg {None} num_aximm_ext {None} num_mc_ddr {None} num_mc_lpddr {None} pl2noc_apm {1} pl2noc_cips {0}}  [get_bd_cells axi_noc_0]
-apply_bd_automation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 9719.555 ; gain = 0.000 ; free physical = 4191 ; free virtual = 10578
-regenerate_bd_layout
+apply_bd_automation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 10269.953 ; gain = 0.000 ; free physical = 9442 ; free virtual = 12154
 regenerate_bd_layout
 startgroup
 set_property CONFIG.HBM_REF_CLK_SELECTION {Internal} [get_bd_cells axi_noc_0]
@@ -79,571 +228,77 @@ set_property -dict [list CONFIG.CONNECTIONS {HBM0_PORT2 {read_bw {12800} write_b
 set_property -dict [list CONFIG.CONNECTIONS {HBM0_PORT3 {read_bw {12800} write_bw {12800} read_avg_burst {4} write_avg_burst {4}}}] [get_bd_intf_pins /axi_noc_0/HBM03_AXI]
 delete_bd_objs [get_bd_intf_nets noc_clk_gen_SYS_CLK0]
 endgroup
+set_property CONFIG.USER_NUM_OF_SYS_CLK {0} [get_bd_cells noc_clk_gen]
 regenerate_bd_layout
-INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_2_noc_tg_0: value of Parity is FALSE
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_sim_wr_followed_by_rd_0.csv' provided. It will be converted relative to IP Instance files '../../../../hbm_module_2/tg_sim_wr_followed_by_rd_0.csv'
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_sim_wr_followed_by_rd_0.csv' provided. It will be converted relative to IP Instance files '../../../../hbm_module_2/tg_sim_wr_followed_by_rd_0.csv'
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_synth_wr_followed_by_rd_0.csv' provided. It will be converted relative to IP Instance files '../../../../hbm_module_2/tg_synth_wr_followed_by_rd_0.csv'
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_sim_wr_followed_by_rd_0.csv' provided. It will be converted relative to IP Instance files '../../../../hbm_module_2/tg_sim_wr_followed_by_rd_0.csv'
+INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_1_noc_tg_0: value of Parity is FALSE
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_synth_wr_followed_by_rd_0.csv' provided. It will be converted relative to IP Instance files '../../../../tg_synth_wr_followed_by_rd_0.csv'
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_sim_wr_followed_by_rd_0.csv' provided. It will be converted relative to IP Instance files '../../../../tg_sim_wr_followed_by_rd_0.csv'
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_sim_wr_followed_by_rd_0.csv' provided. It will be converted relative to IP Instance files '../../../../tg_sim_wr_followed_by_rd_0.csv'
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_synth_wr_followed_by_rd_0.csv' provided. It will be converted relative to IP Instance files '../../../../tg_synth_wr_followed_by_rd_0.csv'
 startgroup
 set_property -dict [list \
   CONFIG.USER_C_AXI_TEST_SELECT {user_defined_pattern} \
   CONFIG.USER_C_AXI_WID_WIDTH {16} \
   CONFIG.USER_EN_VIO_STATUS_MONITOR {FALSE} \
-  CONFIG.USER_SYNTH_DEFINED_PATTERN_CSV {/home/younas/Documents/Vivado/hbm_module_2/tg_synth_wr_followed_by_rd_0.csv} \
-  CONFIG.USER_USR_DEFINED_PATTERN_CSV {/home/younas/Documents/Vivado/hbm_module_2/tg_sim_wr_followed_by_rd_0.csv} \
+  CONFIG.USER_SYNTH_DEFINED_PATTERN_CSV {/home/younas/Documents/Vivado/tg_synth_wr_followed_by_rd_0.csv} \
+  CONFIG.USER_USR_DEFINED_PATTERN_CSV {/home/younas/Documents/Vivado/tg_sim_wr_followed_by_rd_0.csv} \
 ] [get_bd_cells noc_tg]
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_synth_wr_followed_by_rd_0.csv' provided. It will be converted relative to IP Instance files '../../../../../../tg_synth_wr_followed_by_rd_0.csv'
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_sim_wr_followed_by_rd_0.csv' provided. It will be converted relative to IP Instance files '../../../../../../tg_sim_wr_followed_by_rd_0.csv'
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_sim_wr_followed_by_rd_0.csv' provided. It will be converted relative to IP Instance files '../../../../../../tg_sim_wr_followed_by_rd_0.csv'
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_synth_wr_followed_by_rd_0.csv' provided. It will be converted relative to IP Instance files '../../../../../../tg_synth_wr_followed_by_rd_0.csv'
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_synth_wr_followed_by_rd_0.csv' provided. It will be converted relative to IP Instance files '../../../../../../../tg_synth_wr_followed_by_rd_0.csv'
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_sim_wr_followed_by_rd_0.csv' provided. It will be converted relative to IP Instance files '../../../../../../../tg_sim_wr_followed_by_rd_0.csv'
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_sim_wr_followed_by_rd_0.csv' provided. It will be converted relative to IP Instance files '../../../../../../../tg_sim_wr_followed_by_rd_0.csv'
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_synth_wr_followed_by_rd_0.csv' provided. It will be converted relative to IP Instance files '../../../../../../../tg_synth_wr_followed_by_rd_0.csv'
 endgroup
-INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_2_noc_tg_1_0: value of Parity is FALSE
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_synth_wr_followed_by_rd_1.csv' provided. It will be converted relative to IP Instance files '../../../../hbm_module_2/tg_synth_wr_followed_by_rd_1.csv'
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_sim_wr_followed_by_rd_1.csv' provided. It will be converted relative to IP Instance files '../../../../hbm_module_2/tg_sim_wr_followed_by_rd_1.csv'
+INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_1_noc_tg_1_0: value of Parity is FALSE
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_synth_wr_followed_by_rd_1.csv' provided. It will be converted relative to IP Instance files '../../../../tg_synth_wr_followed_by_rd_1.csv'
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_sim_wr_followed_by_rd_1.csv' provided. It will be converted relative to IP Instance files '../../../../tg_sim_wr_followed_by_rd_1.csv'
 startgroup
 set_property -dict [list \
   CONFIG.USER_C_AXI_TEST_SELECT {user_defined_pattern} \
   CONFIG.USER_C_AXI_WID_WIDTH {16} \
   CONFIG.USER_EN_VIO_STATUS_MONITOR {FALSE} \
-  CONFIG.USER_SYNTH_DEFINED_PATTERN_CSV {/home/younas/Documents/Vivado/hbm_module_2/tg_synth_wr_followed_by_rd_1.csv} \
-  CONFIG.USER_USR_DEFINED_PATTERN_CSV {/home/younas/Documents/Vivado/hbm_module_2/tg_sim_wr_followed_by_rd_1.csv} \
+  CONFIG.USER_SYNTH_DEFINED_PATTERN_CSV {/home/younas/Documents/Vivado/tg_synth_wr_followed_by_rd_1.csv} \
+  CONFIG.USER_USR_DEFINED_PATTERN_CSV {/home/younas/Documents/Vivado/tg_sim_wr_followed_by_rd_1.csv} \
 ] [get_bd_cells noc_tg_1]
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_synth_wr_followed_by_rd_1.csv' provided. It will be converted relative to IP Instance files '../../../../../../tg_synth_wr_followed_by_rd_1.csv'
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_sim_wr_followed_by_rd_1.csv' provided. It will be converted relative to IP Instance files '../../../../../../tg_sim_wr_followed_by_rd_1.csv'
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_sim_wr_followed_by_rd_1.csv' provided. It will be converted relative to IP Instance files '../../../../../../tg_sim_wr_followed_by_rd_1.csv'
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_synth_wr_followed_by_rd_1.csv' provided. It will be converted relative to IP Instance files '../../../../../../tg_synth_wr_followed_by_rd_1.csv'
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_synth_wr_followed_by_rd_1.csv' provided. It will be converted relative to IP Instance files '../../../../../../../tg_synth_wr_followed_by_rd_1.csv'
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_sim_wr_followed_by_rd_1.csv' provided. It will be converted relative to IP Instance files '../../../../../../../tg_sim_wr_followed_by_rd_1.csv'
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_sim_wr_followed_by_rd_1.csv' provided. It will be converted relative to IP Instance files '../../../../../../../tg_sim_wr_followed_by_rd_1.csv'
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_synth_wr_followed_by_rd_1.csv' provided. It will be converted relative to IP Instance files '../../../../../../../tg_synth_wr_followed_by_rd_1.csv'
 endgroup
-INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_2_noc_tg_2_0: value of Parity is FALSE
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_synth_wr_followed_by_rd_2.csv' provided. It will be converted relative to IP Instance files '../../../../hbm_module_2/tg_synth_wr_followed_by_rd_2.csv'
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_synth_wr_followed_by_rd_2.csv' provided. It will be converted relative to IP Instance files '../../../../hbm_module_2/tg_synth_wr_followed_by_rd_2.csv'
+INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_1_noc_tg_2_0: value of Parity is FALSE
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_synth_wr_followed_by_rd_2.csv' provided. It will be converted relative to IP Instance files '../../../../tg_synth_wr_followed_by_rd_2.csv'
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_sim_wr_followed_by_rd_2.csv' provided. It will be converted relative to IP Instance files '../../../../tg_sim_wr_followed_by_rd_2.csv'
 startgroup
 set_property -dict [list \
   CONFIG.USER_C_AXI_TEST_SELECT {user_defined_pattern} \
   CONFIG.USER_C_AXI_WID_WIDTH {16} \
   CONFIG.USER_EN_VIO_STATUS_MONITOR {FALSE} \
-  CONFIG.USER_SYNTH_DEFINED_PATTERN_CSV {/home/younas/Documents/Vivado/hbm_module_2/tg_synth_wr_followed_by_rd_2.csv} \
-  CONFIG.USER_USR_DEFINED_PATTERN_CSV {/home/younas/Documents/Vivado/hbm_module_2/tg_synth_wr_followed_by_rd_2.csv} \
+  CONFIG.USER_SYNTH_DEFINED_PATTERN_CSV {/home/younas/Documents/Vivado/tg_synth_wr_followed_by_rd_2.csv} \
+  CONFIG.USER_USR_DEFINED_PATTERN_CSV {/home/younas/Documents/Vivado/tg_sim_wr_followed_by_rd_2.csv} \
 ] [get_bd_cells noc_tg_2]
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_synth_wr_followed_by_rd_2.csv' provided. It will be converted relative to IP Instance files '../../../../../../tg_synth_wr_followed_by_rd_2.csv'
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_synth_wr_followed_by_rd_2.csv' provided. It will be converted relative to IP Instance files '../../../../../../tg_synth_wr_followed_by_rd_2.csv'
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_synth_wr_followed_by_rd_2.csv' provided. It will be converted relative to IP Instance files '../../../../../../tg_synth_wr_followed_by_rd_2.csv'
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_synth_wr_followed_by_rd_2.csv' provided. It will be converted relative to IP Instance files '../../../../../../tg_synth_wr_followed_by_rd_2.csv'
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_synth_wr_followed_by_rd_2.csv' provided. It will be converted relative to IP Instance files '../../../../../../../tg_synth_wr_followed_by_rd_2.csv'
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_sim_wr_followed_by_rd_2.csv' provided. It will be converted relative to IP Instance files '../../../../../../../tg_sim_wr_followed_by_rd_2.csv'
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_sim_wr_followed_by_rd_2.csv' provided. It will be converted relative to IP Instance files '../../../../../../../tg_sim_wr_followed_by_rd_2.csv'
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_synth_wr_followed_by_rd_2.csv' provided. It will be converted relative to IP Instance files '../../../../../../../tg_synth_wr_followed_by_rd_2.csv'
 endgroup
-INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_2_noc_tg_3_0: value of Parity is FALSE
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_synth_wr_followed_by_rd_3.csv' provided. It will be converted relative to IP Instance files '../../../../hbm_module_2/tg_synth_wr_followed_by_rd_3.csv'
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_sim_wr_followed_by_rd_3.csv' provided. It will be converted relative to IP Instance files '../../../../hbm_module_2/tg_sim_wr_followed_by_rd_3.csv'
+INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_1_noc_tg_3_0: value of Parity is FALSE
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_synth_wr_followed_by_rd_3.csv' provided. It will be converted relative to IP Instance files '../../../../tg_synth_wr_followed_by_rd_3.csv'
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_sim_wr_followed_by_rd_3.csv' provided. It will be converted relative to IP Instance files '../../../../tg_sim_wr_followed_by_rd_3.csv'
 startgroup
 set_property -dict [list \
   CONFIG.USER_C_AXI_TEST_SELECT {user_defined_pattern} \
-  CONFIG.USER_SYNTH_DEFINED_PATTERN_CSV {/home/younas/Documents/Vivado/hbm_module_2/tg_synth_wr_followed_by_rd_3.csv} \
-  CONFIG.USER_USR_DEFINED_PATTERN_CSV {/home/younas/Documents/Vivado/hbm_module_2/tg_sim_wr_followed_by_rd_3.csv} \
+  CONFIG.USER_C_AXI_WID_WIDTH {16} \
+  CONFIG.USER_SYNTH_DEFINED_PATTERN_CSV {/home/younas/Documents/Vivado/tg_synth_wr_followed_by_rd_3.csv} \
+  CONFIG.USER_USR_DEFINED_PATTERN_CSV {/home/younas/Documents/Vivado/tg_sim_wr_followed_by_rd_3.csv} \
 ] [get_bd_cells noc_tg_3]
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_synth_wr_followed_by_rd_3.csv' provided. It will be converted relative to IP Instance files '../../../../../../tg_synth_wr_followed_by_rd_3.csv'
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_sim_wr_followed_by_rd_3.csv' provided. It will be converted relative to IP Instance files '../../../../../../tg_sim_wr_followed_by_rd_3.csv'
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_sim_wr_followed_by_rd_3.csv' provided. It will be converted relative to IP Instance files '../../../../../../tg_sim_wr_followed_by_rd_3.csv'
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_synth_wr_followed_by_rd_3.csv' provided. It will be converted relative to IP Instance files '../../../../../../tg_synth_wr_followed_by_rd_3.csv'
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_synth_wr_followed_by_rd_3.csv' provided. It will be converted relative to IP Instance files '../../../../../../../tg_synth_wr_followed_by_rd_3.csv'
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_sim_wr_followed_by_rd_3.csv' provided. It will be converted relative to IP Instance files '../../../../../../../tg_sim_wr_followed_by_rd_3.csv'
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_sim_wr_followed_by_rd_3.csv' provided. It will be converted relative to IP Instance files '../../../../../../../tg_sim_wr_followed_by_rd_3.csv'
+INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/tg_synth_wr_followed_by_rd_3.csv' provided. It will be converted relative to IP Instance files '../../../../../../../tg_synth_wr_followed_by_rd_3.csv'
 endgroup
-INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_2_noc_tg_2_0: value of Parity is FALSE
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_sim_wr_followed_by_rd_2.csv' provided. It will be converted relative to IP Instance files '../../../../hbm_module_2/tg_sim_wr_followed_by_rd_2.csv'
 startgroup
-set_property CONFIG.USER_USR_DEFINED_PATTERN_CSV {/home/younas/Documents/Vivado/hbm_module_2/tg_sim_wr_followed_by_rd_2.csv} [get_bd_cells noc_tg_2]
-INFO: [IP_Flow 19-3484] Absolute path of file '/home/younas/Documents/Vivado/hbm_module_2/tg_sim_wr_followed_by_rd_2.csv' provided. It will be converted relative to IP Instance files '../../../../../../tg_sim_wr_followed_by_rd_2.csv'
+create_bd_cell -type ip -vlnv xilinx.com:ip:versal_cips:3.4 versal_cips_0
+create_bd_cell: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 10379.785 ; gain = 63.812 ; free physical = 9027 ; free virtual = 12054
 endgroup
-INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_2_noc_tg_3_0: value of Parity is FALSE
-startgroup
-set_property CONFIG.USER_EN_VIO_STATUS_MONITOR {FALSE} [get_bd_cells noc_tg_3]
-endgroup
-INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_2_noc_tg_1_0: value of Parity is FALSE
-startgroup
-endgroup
-INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_2_noc_tg_3_0: value of Parity is FALSE
-startgroup
-set_property CONFIG.USER_C_AXI_WID_WIDTH {16} [get_bd_cells noc_tg_3]
-endgroup
-INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_2_noc_tg_2_0: value of Parity is FALSE
-startgroup
-endgroup
-INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_2_noc_tg_1_0: value of Parity is FALSE
-startgroup
-endgroup
-save_bd_design
-Wrote  : </home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.srcs/sources_1/bd/design_2/design_2.bd> 
-Wrote  : </home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.srcs/sources_1/bd/design_2/ui/bd_1fdbff51.ui> 
-close_project
-open_project /home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.xpr
-Scanning sources...
-Finished scanning sources
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2024.2/data/ip'.
-WARNING: [IP_Flow 19-3664] IP 'design_1_axi_noc_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_axi_noc_0_0/design_1_axi_noc_0_0.dcp'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_axi_noc_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_axi_noc_0_0/design_1_axi_noc_0_0_stub.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_axi_noc_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_axi_noc_0_0/design_1_axi_noc_0_0_stub.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_axi_noc_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_axi_noc_0_0/design_1_axi_noc_0_0_sim_netlist.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_axi_noc_0_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_axi_noc_0_0/design_1_axi_noc_0_0_sim_netlist.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_noc_tg_0/design_1_noc_tg_0.dcp'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_noc_tg_0/design_1_noc_tg_0_stub.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_noc_tg_0/design_1_noc_tg_0_stub.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_noc_tg_0/design_1_noc_tg_0_sim_netlist.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_noc_tg_0/design_1_noc_tg_0_sim_netlist.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_noc_sim_trig_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_noc_sim_trig_0/design_1_noc_sim_trig_0.dcp'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_noc_sim_trig_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_noc_sim_trig_0/design_1_noc_sim_trig_0_stub.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_noc_sim_trig_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_noc_sim_trig_0/design_1_noc_sim_trig_0_stub.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_noc_sim_trig_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_noc_sim_trig_0/design_1_noc_sim_trig_0_sim_netlist.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_noc_sim_trig_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_noc_sim_trig_0/design_1_noc_sim_trig_0_sim_netlist.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_0/design_1_noc_tg_pmon_0.dcp'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_0/design_1_noc_tg_pmon_0_stub.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_0/design_1_noc_tg_pmon_0_stub.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_0/design_1_noc_tg_pmon_0_sim_netlist.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_noc_tg_pmon_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_0/design_1_noc_tg_pmon_0_sim_netlist.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_clk_wiz_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0/design_1_clk_wiz_0.dcp'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_clk_wiz_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0/design_1_clk_wiz_0_stub.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_clk_wiz_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0/design_1_clk_wiz_0_stub.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_clk_wiz_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0/design_1_clk_wiz_0_sim_netlist.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_clk_wiz_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0/design_1_clk_wiz_0_sim_netlist.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_rst_clk_wiz_100M_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_100M_0/design_1_rst_clk_wiz_100M_0.dcp'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_rst_clk_wiz_100M_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_100M_0/design_1_rst_clk_wiz_100M_0_stub.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_rst_clk_wiz_100M_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_100M_0/design_1_rst_clk_wiz_100M_0_stub.vhdl'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_rst_clk_wiz_100M_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_100M_0/design_1_rst_clk_wiz_100M_0_sim_netlist.v'. Please regenerate to continue.
-WARNING: [IP_Flow 19-3664] IP 'design_1_rst_clk_wiz_100M_0' generated file not found '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ip/design_1_rst_clk_wiz_100M_0/design_1_rst_clk_wiz_100M_0_sim_netlist.vhdl'. Please regenerate to continue.
-INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
-update_compile_order -fileset sources_1
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-12493] Simulation top is 'design_1_wrapper_sim_wrapper'
-INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
-INFO: [Vivado 12-13303] Checking logical NoC and simulation wrapper generation status...
-INFO: [Vivado 12-13786] Logical switch network (xlnoc) and simulation wrapper (<top>_sim_wrapper.v/vhd) is up-to-date.
-INFO: [Vivado 12-5907] Exported '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.sim/sim_1/behav/xsim/bd_8be5_MC_hbmc_0_stack0.vh'
-INFO: [Vivado 12-5907] Exported '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.sim/sim_1/behav/xsim/bd_8be5_MC_hbmc_0_stack0.vh'
-INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.sim/sim_1/behav/xsim'
-INFO: [Vivado 12-13659] Precompiled IP simulation library mode is disabled. IP library sources will be compiled locally.
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2024.2/tps/boost_1_72_0'
-INFO: [SIM-utils-54] Inspecting design source files for 'design_1_wrapper_sim_wrapper' in fileset 'sim_1'...
-INFO: [SIM-utils-43] Exported '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.sim/sim_1/behav/xsim/design_1_noc_tg_0_synth_pattern.csv'
-INFO: [SIM-utils-43] Exported '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.sim/sim_1/behav/xsim/design_1_noc_tg_0.mem'
-INFO: [SIM-utils-43] Exported '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.sim/sim_1/behav/xsim/default_aximm_synth_tg.csv'
-INFO: [SIM-utils-43] Exported '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.sim/sim_1/behav/xsim/nocattrs.dat'
-INFO: [SIM-utils-43] Exported '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.sim/sim_1/behav/xsim/xlnoc.bd'
-INFO: [SIM-utils-43] Exported '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.sim/sim_1/behav/xsim/xlnoc.bda'
-INFO: [SIM-utils-43] Exported '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.sim/sim_1/behav/xsim/nocattrs.dat'
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.sim/sim_1/behav/xsim'
-xvlog --incr --relax -L uvm -L clk_gen_sim_v1_0_4 -L sim_trig_v1_0_13 -L axi4stream_vip_v1_1_19 -L axi_vip_v1_1_19 -L perf_axi_tg_v1_0_15 -L axi_pmon_v1_0_2 -L noc_nps4_v1_0_0 -L noc_nps6_v1_0_0 -L axis_vio_v1_0_12 -L noc_hbm_nmu_sim_v1_0_0 -L noc_nmu_sim_v1_0_0 -L noc_hbm_v1_0_1 -L xilinx_vip -prj design_1_wrapper_sim_wrapper_vlog.prj
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv" into library xil_defaultlib
-WARNING: [VRFC 10-3381] ignoring re-definition of command line macro 'XILINX_SIMULATOR' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:10]
-INFO: [VRFC 10-311] analyzing module bd_8be5_MC_hbmc_0_top_unisim_stack0
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_wrapper.sv" into library xil_defaultlib
-WARNING: [VRFC 10-3381] ignoring re-definition of command line macro 'XILINX_SIMULATOR' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_wrapper.sv:10]
-INFO: [VRFC 10-311] analyzing module bd_8be5_MC_hbmc_0_top_wrapper
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/memory_model/hbm_responder.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module hbm_responder
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/bfm/PHY_IO_PLL/BM_HBM_PHY_MS.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module BM_HBM_PHY_MS
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/bfm/PHY_IO_PLL/BM_IO_MS.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module BM_HBM_IO_MS
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/bfm/PHY_IO_PLL/hbm_io_ms_top_bfm.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module hbm_io_ms_top_bfm
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/bfm/PHY_IO_PLL/hbm_phy_ms_top_bfm.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module hbm_phy_ms_top_bfm
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module bd_8be5_MC_hbmc_0
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_noc_tg_0/ip_3/sim/design_1_noc_tg_0_vip_pkg.sv" into library xil_defaultlib
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_noc_tg_0/ip_3/sim/design_1_noc_tg_0_vip.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module design_1_noc_tg_0_vip
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_noc_tg_0/hdl/rtl/design_1_noc_tg_0_tg_top.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module design_1_noc_tg_0_tg_top
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_noc_tg_0/hdl/rtl/design_1_noc_tg_0_csvsptg_top.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module design_1_noc_tg_0_csvsptg_top
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_noc_tg_0/hdl/bfm/design_1_noc_tg_0_top.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module design_1_noc_tg_0_top
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_noc_tg_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_0_syn_top.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module design_1_noc_tg_0_syn_top
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_noc_tg_0/hdl/bfm/design_1_noc_tg_0_top_axi_mst.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module design_1_noc_tg_0_top_axi_mst
-WARNING: [VRFC 10-3380] identifier 'TAG' is used before its declaration [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/5ace/hdl/bfm/axi_tg_common_methods.svh:84]
-WARNING: [VRFC 10-3380] identifier 'TAG' is used before its declaration [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/5ace/hdl/bfm/axi_tg_common_methods.svh:106]
-WARNING: [VRFC 10-3380] identifier 'TAG' is used before its declaration [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/5ace/hdl/bfm/axi_tg_common_methods.svh:120]
-WARNING: [VRFC 10-3380] identifier 'TAG' is used before its declaration [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/5ace/hdl/bfm/axi_tg_common_methods.svh:134]
-WARNING: [VRFC 10-3380] identifier 'TAG' is used before its declaration [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/5ace/hdl/bfm/axi_tg_common_methods.svh:271]
-WARNING: [VRFC 10-3380] identifier 'TAG' is used before its declaration [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/5ace/hdl/bfm/axi_tg_common_methods.svh:451]
-WARNING: [VRFC 10-3380] identifier 'TAG' is used before its declaration [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/5ace/hdl/bfm/axi_tg_common_methods.svh:458]
-WARNING: [VRFC 10-3380] identifier 'TAG' is used before its declaration [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/5ace/hdl/bfm/axi_tg_common_methods.svh:465]
-WARNING: [VRFC 10-3380] identifier 'TAG' is used before its declaration [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/5ace/hdl/bfm/axi_tg_common_methods.svh:487]
-WARNING: [VRFC 10-3380] identifier 'TAG' is used before its declaration [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/5ace/hdl/bfm/axi_tg_common_methods.svh:491]
-WARNING: [VRFC 10-3380] identifier 'TAG' is used before its declaration [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/5ace/hdl/bfm/axi_tg_common_methods.svh:598]
-WARNING: [VRFC 10-3380] identifier 'TAG' is used before its declaration [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/5ace/hdl/bfm/axi_tg_common_methods.svh:601]
-WARNING: [VRFC 10-3380] identifier 'TAG' is used before its declaration [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/5ace/hdl/bfm/axi_tg_common_methods.svh:606]
-WARNING: [VRFC 10-3380] identifier 'TAG' is used before its declaration [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/5ace/hdl/bfm/axi_tg_common_methods.svh:609]
-WARNING: [VRFC 10-3380] identifier 'TAG' is used before its declaration [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/5ace/hdl/bfm/axi_tg_common_methods.svh:617]
-WARNING: [VRFC 10-3380] identifier 'TAG' is used before its declaration [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/5ace/hdl/bfm/axi_tg_common_methods.svh:1154]
-WARNING: [VRFC 10-3380] identifier 'TAG' is used before its declaration [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/5ace/hdl/bfm/axi_tg_common_methods.svh:1870]
-WARNING: [VRFC 10-3380] identifier 'TAG' is used before its declaration [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/5ace/hdl/bfm/axi_tg_common_methods.svh:1873]
-WARNING: [VRFC 10-3380] identifier 'TAG' is used before its declaration [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/5ace/hdl/bfm/axi_tg_common_methods.svh:1953]
-WARNING: [VRFC 10-3380] identifier 'TAG' is used before its declaration [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/5ace/hdl/bfm/axi_tg_common_methods.svh:1981]
-WARNING: [VRFC 10-3380] identifier 'TAG' is used before its declaration [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/5ace/hdl/bfm/axi_tg_common_methods.svh:2086]
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_noc_tg_0/hdl/rtl/design_1_noc_tg_0_reg_space.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module design_1_noc_tg_0_reg_space
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_noc_tg_0/hdl/rtl/design_1_noc_tg_0_top_axi_stream_sptg.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module design_1_noc_tg_0_top_axi_stream_sptg
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_noc_tg_0/sim/design_1_noc_tg_0.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module design_1_noc_tg_0
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_noc_sim_trig_0/hdl/design_1_noc_sim_trig_0_top.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module design_1_noc_sim_trig_0_top
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_noc_sim_trig_0/hdl/design_1_noc_sim_trig_0.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module design_1_noc_sim_trig_0
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_noc_sim_trig_0/hdl/rtl/traffic_shaping.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module design_1_noc_sim_trig_0_traffic_shapping
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_noc_tg_pmon_0/sim/design_1_noc_tg_pmon_0.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module design_1_noc_tg_pmon_0
-xvhdl --incr --relax -prj design_1_wrapper_sim_wrapper_vhdl.prj
-Waiting for jobs to finish...
-No pending jobs, compilation finished.
-INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.sim/sim_1/behav/xsim'
-xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L xilinx_vip -L xpm -L noc_nps4_v1_0_0 -L noc_nps6_v1_0_0 -L noc_nmu_sim_v1_0_0 -L noc_hbm_nmu_sim_v1_0_0 -L xlconstant_v1_1_9 -L noc_hbm_v1_0_1 -L clk_gen_sim_v1_0_4 -L axi_infrastructure_v1_1_0 -L axi_register_slice_v2_1_33 -L axis_dbg_stub_v1_0_1 -L axis_dbg_sync_v1_0_1 -L axis_vio_v1_0_12 -L axi_vip_v1_1_19 -L axis_infrastructure_v1_1_1 -L axi4stream_vip_v1_1_19 -L perf_axi_tg_v1_0_15 -L lib_pkg_v1_0_4 -L axi_apb_bridge_v3_0_20 -L sim_trig_v1_0_13 -L axi_pmon_v1_0_2 -L lib_cdc_v1_0_3 -L proc_sys_reset_v5_0_16 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip --snapshot design_1_wrapper_sim_wrapper_behav xil_defaultlib.design_1_wrapper_sim_wrapper xil_defaultlib.glbl -log elaborate.log
-Vivado Simulator v2024.2.0
-Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: /tools/Xilinx/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L xilinx_vip -L xpm -L noc_nps4_v1_0_0 -L noc_nps6_v1_0_0 -L noc_nmu_sim_v1_0_0 -L noc_hbm_nmu_sim_v1_0_0 -L xlconstant_v1_1_9 -L noc_hbm_v1_0_1 -L clk_gen_sim_v1_0_4 -L axi_infrastructure_v1_1_0 -L axi_register_slice_v2_1_33 -L axis_dbg_stub_v1_0_1 -L axis_dbg_sync_v1_0_1 -L axis_vio_v1_0_12 -L axi_vip_v1_1_19 -L axis_infrastructure_v1_1_1 -L axi4stream_vip_v1_1_19 -L perf_axi_tg_v1_0_15 -L lib_pkg_v1_0_4 -L axi_apb_bridge_v3_0_20 -L sim_trig_v1_0_13 -L axi_pmon_v1_0_2 -L lib_cdc_v1_0_3 -L proc_sys_reset_v5_0_16 -L uvm -L xilinx_vip -L unisims_ver -L unimacro_ver -L unisims_ver -L secureip --snapshot design_1_wrapper_sim_wrapper_behav xil_defaultlib.design_1_wrapper_sim_wrapper xil_defaultlib.glbl -log elaborate.log 
-Using 8 slave threads.
-Starting static elaboration
-Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-9543] actual bit length 3 differs from formal bit length 12 for port 'NMU_RD_USR_DST' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/sim/bd_8be5.v:234]
-WARNING: [VRFC 10-9543] actual bit length 3 differs from formal bit length 12 for port 'NMU_WR_USR_DST' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/sim/bd_8be5.v:236]
-WARNING: [VRFC 10-9543] actual bit length 12 differs from formal bit length 3 for port 'NMU_WR_USR_DST' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_0/hdl/bfm/bd_8be5_HBM00_AXI_nmu_0.sv:426]
-WARNING: [VRFC 10-9543] actual bit length 12 differs from formal bit length 3 for port 'NMU_RD_USR_DST' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_0/hdl/bfm/bd_8be5_HBM00_AXI_nmu_0.sv:427]
-WARNING: [VRFC 10-9543] actual bit length 96 differs from formal bit length 48 for port 'IF_NOC_AXI_TOP_ARADDR' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_0/hdl/bfm/bd_8be5_HBM00_AXI_nmu_0_top.sv:558]
-WARNING: [VRFC 10-9543] actual bit length 8 differs from formal bit length 2 for port 'IF_NOC_AXI_TOP_ARADDR_PAR' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_0/hdl/bfm/bd_8be5_HBM00_AXI_nmu_0_top.sv:559]
-WARNING: [VRFC 10-9543] actual bit length 8 differs from formal bit length 2 for port 'IF_NOC_AXI_TOP_AWADDR_PAR' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_0/hdl/bfm/bd_8be5_HBM00_AXI_nmu_0_top.sv:560]
-WARNING: [VRFC 10-9543] actual bit length 96 differs from formal bit length 48 for port 'IF_NOC_AXI_TOP_AWADDR' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_0/hdl/bfm/bd_8be5_HBM00_AXI_nmu_0_top.sv:570]
-WARNING: [VRFC 10-9543] actual bit length 3 differs from formal bit length 12 for port 'nmu_wr_usr_dst' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/01b2/hdl/noc_hbm_nmu_sim_v1_0_vl_rfs.sv:3146]
-WARNING: [VRFC 10-9543] actual bit length 3 differs from formal bit length 12 for port 'nmu_rd_usr_dst' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/01b2/hdl/noc_hbm_nmu_sim_v1_0_vl_rfs.sv:3147]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 3 for port 'HBMMC_SPARE_MC_GL' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2453]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 287 for port 'IF_MC2PHY_BLI_DIRECT_0_NOC2PHY' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2487]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 4 for port 'IF_MC2PHY_BLI_DIRECT_0_SPARE_CTRL' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2488]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 4 for port 'IF_MC2PHY_BLI_DIRECT_1_SPARE_CTRL' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2489]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 4 for port 'IF_NOC2PHY_BLI_DIRECT_0_SPARE_CTRL' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2490]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 4 for port 'IF_NOC2PHY_BLI_DIRECT_1_SPARE_CTRL' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2491]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 287 for port 'IF_MC2PHY_BLI_DIRECT_1_NOC2PHY' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2494]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 287 for port 'IF_NOC2PHY_BLI_DIRECT_0_NOC2PHY' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2497]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 287 for port 'IF_NOC2PHY_BLI_DIRECT_1_NOC2PHY' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2500]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 182 for port 'IF_NOC2PHY_NPP_DIRECT_0_NOC_FLIT' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2502]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 8 for port 'IF_NOC2PHY_NPP_DIRECT_0_NOC_VALID' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2504]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 182 for port 'IF_NOC2PHY_NPP_DIRECT_1_NOC_FLIT' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2507]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 8 for port 'IF_NOC2PHY_NPP_DIRECT_1_NOC_VALID' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2509]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 182 for port 'IF_NOC2PHY_NPP_DIRECT_2_NOC_FLIT' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2512]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 8 for port 'IF_NOC2PHY_NPP_DIRECT_2_NOC_VALID' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2514]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 182 for port 'IF_NOC2PHY_NPP_DIRECT_3_NOC_FLIT' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2517]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 8 for port 'IF_NOC2PHY_NPP_DIRECT_3_NOC_VALID' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2519]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 8 for port 'IF_PHY2NOC_NPP_DIRECT_0_NOC_CREDIT_RETURN' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2521]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 8 for port 'IF_PHY2NOC_NPP_DIRECT_1_NOC_CREDIT_RETURN' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2523]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 8 for port 'IF_PHY2NOC_NPP_DIRECT_2_NOC_CREDIT_RETURN' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2525]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 8 for port 'IF_PHY2NOC_NPP_DIRECT_3_NOC_CREDIT_RETURN' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2527]
-WARNING: [VRFC 10-9543] actual bit length 154 differs from formal bit length 150 for port 'IF_MC2PHY_BLI_DIRECT_0_PHY2NOC' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/Unisims/HBM_CHNL.sv:1329]
-WARNING: [VRFC 10-9543] actual bit length 154 differs from formal bit length 150 for port 'IF_MC2PHY_BLI_DIRECT_1_PHY2NOC' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/Unisims/HBM_CHNL.sv:1332]
-WARNING: [VRFC 10-9543] actual bit length 154 differs from formal bit length 150 for port 'IF_NOC2PHY_BLI_DIRECT_0_PHY2NOC' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/Unisims/HBM_CHNL.sv:1335]
-WARNING: [VRFC 10-9543] actual bit length 154 differs from formal bit length 150 for port 'IF_NOC2PHY_BLI_DIRECT_1_PHY2NOC' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/Unisims/HBM_CHNL.sv:1338]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 4 for port 'PHY_CHNL_CORE_PHY2IOB_RDQS_OFFSET_TRNG_EN' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/Unisims/HBM_CHNL.sv:1423]
-WARNING: [VRFC 10-9543] actual bit length 150 differs from formal bit length 154 for port 'IF_MC2PHY_BLI_DIRECT_0_PHY2NOC' [/proj/xbuilds/SWIP/2024.2_1107_2045/installs/lin64/Vivado/2024.2/data/verilog/src/unisims/HBM_PHY_CHNL.v:1851]
-WARNING: [VRFC 10-9543] actual bit length 150 differs from formal bit length 154 for port 'IF_MC2PHY_BLI_DIRECT_1_PHY2NOC' [/proj/xbuilds/SWIP/2024.2_1107_2045/installs/lin64/Vivado/2024.2/data/verilog/src/unisims/HBM_PHY_CHNL.v:1855]
-WARNING: [VRFC 10-9543] actual bit length 150 differs from formal bit length 154 for port 'IF_NOC2PHY_BLI_DIRECT_0_PHY2NOC' [/proj/xbuilds/SWIP/2024.2_1107_2045/installs/lin64/Vivado/2024.2/data/verilog/src/unisims/HBM_PHY_CHNL.v:1859]
-WARNING: [VRFC 10-9543] actual bit length 150 differs from formal bit length 154 for port 'IF_NOC2PHY_BLI_DIRECT_1_PHY2NOC' [/proj/xbuilds/SWIP/2024.2_1107_2045/installs/lin64/Vivado/2024.2/data/verilog/src/unisims/HBM_PHY_CHNL.v:1863]
-WARNING: [VRFC 10-9543] actual bit length 182 differs from formal bit length 364 for port 'wrdata' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbmmc_na_bfm.sv:509]
-WARNING: [VRFC 10-9543] actual bit length 182 differs from formal bit length 364 for port 'rddata' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbmmc_na_bfm.sv:541]
-WARNING: [VRFC 10-9543] actual bit length 32 differs from formal bit length 1 for port 'if_lbus_cmd_pc_cid' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbmmc_na_bfm.sv:1419]
-WARNING: [VRFC 10-9543] actual bit length 27 differs from formal bit length 28 for port 'pend_fifo_clrd_addr' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_txnq_bfm.sv:1182]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 4 for port 'HBM_IO_CHNL_CORE_PHY2RDQS_OFFSET_TRNG_EN' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/Unisims/HBM_CHNL.sv:2163]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 5 for port 'PHY_MS_CORE_DLL_TEST_IN_MISC' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2998]
-WARNING: [VRFC 10-9543] actual bit length 4 differs from formal bit length 8 for port 'CH1_PHY2IOB_TX_DATA_C' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:3052]
-WARNING: [VRFC 10-9543] actual bit length 4 differs from formal bit length 8 for port 'CH2_PHY2IOB_TX_DATA_C' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:3054]
-WARNING: [VRFC 10-9543] actual bit length 4 differs from formal bit length 8 for port 'CH3_PHY2IOB_TX_DATA_C' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:3056]
-WARNING: [VRFC 10-9543] actual bit length 4 differs from formal bit length 8 for port 'CH4_PHY2IOB_TX_DATA_C' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:3058]
-WARNING: [VRFC 10-9543] actual bit length 4 differs from formal bit length 8 for port 'CH5_PHY2IOB_TX_DATA_C' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:3060]
-WARNING: [VRFC 10-9543] actual bit length 4 differs from formal bit length 8 for port 'CH6_PHY2IOB_TX_DATA_C' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:3062]
-WARNING: [VRFC 10-9543] actual bit length 4 differs from formal bit length 8 for port 'CH7_PHY2IOB_TX_DATA_C' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:3064]
-WARNING: [VRFC 10-9543] actual bit length 24 differs from formal bit length 32 for port 'PHY_MS_CORE_DEBUG_OUT' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:3081]
-WARNING: [VRFC 10-9543] actual bit length 8 differs from formal bit length 7 for port 'HBM_IO_MS_CORE_PHY2MS_SPARE' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:3260]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 4 for port 'HBM_IO_MS_CORE_DIG_IN_0' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:3270]
-WARNING: [VRFC 10-9543] actual bit length 1 differs from formal bit length 4 for port 'HBM_IO_MS_CORE_DIG_IN_1' [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:3271]
-WARNING: [VRFC 10-5021] port 'mb_reset' is not connected on this instance [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/sim/design_1.v:214]
-WARNING: [VRFC 10-5021] port 'IF_BLI_PHY_DIR_IN_BLI_CLK' is not connected on this instance [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_0/hdl/bfm/bd_8be5_HBM00_AXI_nmu_0_top.sv:335]
-WARNING: [VRFC 10-5021] port 'hbm_ref_clk_p_0' is not connected on this instance [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0.sv:133]
-WARNING: [VRFC 10-5021] port 'WRCK' is not connected on this instance [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:1841]
-WARNING: [VRFC 10-5021] port 'CH0_HBMMC_NOC_CREDIT_RETURN_EN_MC_NOCOUT' is not connected on this instance [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_2/hdl/rtl/bd_8be5_MC_hbmc_0_top_unisim_stack0.sv:2110]
-WARNING: [VRFC 10-5021] port 'REQ_IN0_NOC_CREDIT_RDY' is not connected on this instance [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/xlnoc/sim/xlnoc.v:81]
-WARNING: [VRFC 10-5021] port 'OUT0_NOC_CREDIT_RETURN' is not connected on this instance [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/xlnoc/sim/xlnoc.v:100]
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling package std.standard
-Compiling package std.textio
-Compiling package ieee.std_logic_1164
-Compiling package ieee.numeric_std
-Compiling package unisim.vcomponents
-Compiling package ieee.vital_timing
-Compiling package ieee.vital_primitives
-Compiling package unisim.vpkg
-Compiling package ieee.std_logic_arith
-Compiling package synopsys.attributes
-Compiling package ieee.std_logic_misc
-Compiling package noc_hbm_nmu_sim_v1_0_0.$unit_noc_hbm_nmu_sim_v1_0_vl_rf...
-WARNING: [XSIM 43-3373] "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/01b2/hdl/noc_hbm_nmu_sim_v1_0_vl_rfs.sv" Line 1391. System function $sscanf is used as system task. This system function should have a LHS e.g. x=$sscanf().
-WARNING: [XSIM 43-3373] "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/01b2/hdl/noc_hbm_nmu_sim_v1_0_vl_rfs.sv" Line 1394. System function $sscanf is used as system task. This system function should have a LHS e.g. x=$sscanf().
-WARNING: [XSIM 43-3373] "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/01b2/hdl/noc_hbm_nmu_sim_v1_0_vl_rfs.sv" Line 1407. System function $sscanf is used as system task. This system function should have a LHS e.g. x=$sscanf().
-Compiling package noc_hbm_nmu_sim_v1_0_0.noc_hbm_nmu_sim_v1_0_0_axi_data_...
-Compiling package xil_defaultlib.$unit_hbm_responder_sv_360702304
-Compiling package noc_hbm_v1_0_1.hbmmc_pkg
-Compiling package noc_hbm_v1_0_1.$unit_HBM_CHNL_sv_3946874195
-Compiling package perf_axi_tg_v1_0_15.axi_data_integrity_checker_pkg
-Compiling package xilinx_vip.xil_common_vip_pkg
-Compiling package xilinx_vip.axi_vip_pkg
-Compiling package std.std
-Compiling package perf_axi_tg_v1_0_15.addr_cls_pkg
-Compiling package noc_nps4_v1_0_0.$unit_noc_nps4_v1_0_vl_rfs_sv
-Compiling package noc_nps6_v1_0_0.$unit_noc_nps6_v1_0_vl_rfs_sv
-Compiling module unisims_ver.NOC_NMU_HBM2E(REG_ADR_MAP_CPM=14...
-Compiling module xil_defaultlib.bd_8be5_HBM00_AXI_nmu_0_top(REG_...
-Compiling module xil_defaultlib.bd_8be5_HBM00_AXI_nmu_0
-Compiling module unisims_ver.HBM_PHY_CHNL(CFG_00=32'b01111000...
-WARNING: [VRFC 10-3705] select index 1 into 'wrdata' is out of bounds [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbmmc_na_bfm.sv:356]
-WARNING: [VRFC 10-3705] select index 1 into 'wrdata' is out of bounds [/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbmmc_na_bfm.sv:357]
-WARNING: [VRFC 10-3705] select index 8 into 'TRAS' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:94]
-WARNING: [VRFC 10-3705] select index 8 into 'TRTP' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:95]
-WARNING: [VRFC 10-3705] select index 8 into 'TWTP' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:96]
-WARNING: [VRFC 10-3705] select index 8 into 'TRRD_L' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:97]
-WARNING: [VRFC 10-3705] select index 8 into 'TRRD_S' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:98]
-WARNING: [VRFC 10-3705] select index 8 into 'TRC' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:99]
-WARNING: [VRFC 10-3705] select index 8 into 'TRP' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:100]
-WARNING: [VRFC 10-3705] select index 8 into 'TRFC_SB' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:101]
-WARNING: [VRFC 10-3705] select index 2 into 'TFAWS_ACT' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:107]
-WARNING: [VRFC 10-3705] select index 2 into 'TFAWL_ACT' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:108]
-WARNING: [VRFC 10-3705] select index 8 into 'TRCD_WR' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:109]
-WARNING: [VRFC 10-3705] select index 2 into 'TRTW' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:110]
-WARNING: [VRFC 10-3705] select index 8 into 'TCCD_L' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:111]
-WARNING: [VRFC 10-3705] select index 8 into 'TCCD_S' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:112]
-WARNING: [VRFC 10-3705] select index 8 into 'TRCD_RD' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:113]
-WARNING: [VRFC 10-3705] select index 8 into 'TWTR_L' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:114]
-WARNING: [VRFC 10-3705] select index 8 into 'TWTR_S' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:115]
-WARNING: [VRFC 10-3705] select index 2 into 'TCCDR' is out of bounds [../../../../hbm_module_1.gen/sources_1/bd/design_1/ipshared/b994/hdl/bfm/MC/hbm_safe_logic_bfm.sv:116]
-Compiling module unisims_ver.HBM_MC(HBMMC_MAX_PG_IDLE=19'b011...
-Compiling module unisims_ver.HBM_IO_CHNL(SIM_MODEL_TYPE="BFM"...
-Compiling module noc_hbm_v1_0_1.HBM_CHNL(CFG_00=32'b011110000011...
-Compiling module unisims_ver.HBM_PHY_MS(CFG0=32'b101110001111...
-Compiling module unisims_ver.HBM_IO_MS(SIM_MODEL_TYPE="BFM")
-Compiling module unisims_ver.HPLL(CLKFBOUT_MULT=32,CLKIN_PERI...
-Compiling module xil_defaultlib.bd_8be5_MC_hbmc_0_top_unisim_sta...
-Compiling module xil_defaultlib.bd_8be5_MC_hbmc_0_top_wrapper
-Compiling module xil_defaultlib.bd_8be5_MC_hbmc_0
-Compiling module xlconstant_v1_1_9.xlconstant_v1_1_9_xlconstant(CON...
-Compiling module xil_defaultlib.bd_8be5_const_0_0
-Compiling module xil_defaultlib.bd_8be5
-Compiling module xil_defaultlib.design_1_axi_noc_0_0
-Compiling module unisims_ver.IBUF
-Compiling module unisims_ver.MMCME5(CLKFBOUT_MULT=30,CLKIN1_P...
-Compiling module unisims_ver.BUFG
-Compiling module xil_defaultlib.design_1_clk_wiz_0_clocking_stru...
-Compiling module xil_defaultlib.design_1_clk_wiz_0_clk_wiz_top(C...
-Compiling module xil_defaultlib.design_1_clk_wiz_0
-Compiling module clk_gen_sim_v1_0_4.clk_gen_sim_v1_0_4(SYS_CLK0_FREQ...
-Compiling module xil_defaultlib.design_1_noc_clk_gen_0
-Compiling module sim_trig_v1_0_13.sim_trig_synchronizer(SYNC_MTBF=...
-Compiling module xil_defaultlib.design_1_noc_sim_trig_0_traffic_...
-Compiling module xil_defaultlib.design_1_noc_sim_trig_0_top(c_su...
-Compiling module xil_defaultlib.design_1_noc_sim_trig_0
-Compiling module xilinx_vip.axi_vip_axi4pc(WADDR_WIDTH=64,RA...
-Compiling module xilinx_vip.cb
-Compiling module xilinx_vip.axi_vip_if(C_AXI_ADDR_WIDTH=64,C...
-Compiling module axi_vip_v1_1_19.axi_vip_v1_1_19_top(C_AXI_INTERF...
-Compiling module xil_defaultlib.design_1_noc_tg_0_vip
-Compiling module xil_defaultlib.design_1_noc_tg_0_top_axi_mst(C_...
-Compiling module xil_defaultlib.design_1_noc_tg_0_top(C_AXI_CLK_...
-Compiling module xil_defaultlib.design_1_noc_tg_0
-Compiling module xil_defaultlib.design_1_noc_tg_pmon_0
-Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
-Compiling architecture fdre_v of entity unisim.FDRE [\FDRE(init='1')\]
-Compiling architecture fdr_v of entity unisim.FDR [fdr_default]
-Compiling architecture implementation of entity lib_cdc_v1_0_3.cdc_sync [\cdc_sync(c_vector_width=2,c_mtb...]
-Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(init="1111111111111111")...]
-Compiling architecture srl16_v of entity unisim.SRL16 [\SRL16(init="1111111111111111")(...]
-Compiling architecture imp of entity proc_sys_reset_v5_0_16.lpf [\lpf(c_ext_rst_width=4,c_aux_rst...]
-Compiling architecture imp of entity proc_sys_reset_v5_0_16.upcnt_n [\upcnt_n(c_size=6)\]
-Compiling architecture imp of entity proc_sys_reset_v5_0_16.sequence_psr [sequence_psr_default]
-Compiling architecture imp of entity proc_sys_reset_v5_0_16.proc_sys_reset [\proc_sys_reset(c_family="versal...]
-Compiling architecture design_1_rst_clk_wiz_100m_0_arch of entity xil_defaultlib.design_1_rst_clk_wiz_100M_0 [design_1_rst_clk_wiz_100m_0_defa...]
-Compiling module xil_defaultlib.design_1
-Compiling module xil_defaultlib.design_1_wrapper
-Compiling module unisims_ver.NOC_NPS4(REG_DST_ID_P0=12'b01000...
-Compiling module xil_defaultlib.xlnoc_nps4_0_0_nps4(REG_DST_ID_P...
-Compiling module xil_defaultlib.xlnoc_nps4_0_0
-Compiling module unisims_ver.NOC_NPS6(REG_P12_P5_1_VCA_TOKEN=...
-Compiling module xil_defaultlib.xlnoc_nps6_0_0_nps6(REG_P12_P5_1...
-Compiling module xil_defaultlib.xlnoc_nps6_0_0
-Compiling module xil_defaultlib.xlnoc
-Compiling module xil_defaultlib.design_1_wrapper_sim_wrapper
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot design_1_wrapper_sim_wrapper_behav
-execute_script: Time (s): cpu = 00:02:49 ; elapsed = 00:01:00 . Memory (MB): peak = 9945.480 ; gain = 0.000 ; free physical = 1694 ; free virtual = 9886
-INFO: [USF-XSim-69] 'elaborate' step finished in '60' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "design_1_wrapper_sim_wrapper_behav -key {Behavioral:sim_1:Functional:design_1_wrapper_sim_wrapper} -tclbatch {design_1_wrapper_sim_wrapper.tcl} -protoinst "protoinst_files/bd_8be5.protoinst" -protoinst "protoinst_files/design_1.protoinst" -protoinst "protoinst_files/xlnoc.protoinst" -view {/home/younas/Documents/Vivado/hbm_module_1/design_1_NoC_Module1_wrapper_sim_wrapper_behav.wcfg} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/bd_8be5.protoinst
-INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axi_noc_0/inst//HBM00_AXI_nmu/SAXI4
-INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_1.protoinst
-INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i//axi_noc_0/HBM00_AXI
-INFO: [Wavedata 42-564]   Found protocol instance at /design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i//noc_tg/M_AXI
-INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/xlnoc.protoinst
-Time resolution is 1 ps
-open_wave_config /home/younas/Documents/Vivado/hbm_module_1/design_1_NoC_Module1_wrapper_sim_wrapper_behav.wcfg
-source design_1_wrapper_sim_wrapper.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# log_wave -r /
-WARNING: [Simtcl 6-197] One or more HDL objects could not be logged because of object type or size limitations.  To see details please rerun the command with -verbose (-v).
-# run 150000ns
-Updating  bd_8be5_HBM00_AXI_nmu_0 and nocattrs.dat
-XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.axi_vip_0.inst
-INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 0 ns : SRC ID = 0 :: Waiting for axi tg reset to be asserted ...
-INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 0 ns : SRC ID = 0 ::  axi tg reset is asserted ...
-INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 0 ns : SRC ID = 0 :: Waiting for axi tg reset to be released ...
-INFO: 18 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.axi_vip_0.inst.IF.WREADY_eight_cycle_chk : XILINX_WREADY_MAX_RESET: WREADY must go low after 8 cycles following the first clock edge that ARESETn goes low--UG1037 Xilinx IP generally deasserts all VALID and READY outputs within eight cycles of reset. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
-INFO: 18 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.axi_vip_0.inst.IF.AWREADY_eight_cycle_chk : XILINX_AWREADY_MAX_RESET: AWREADY must go low after 8 cycles following the first clock edge that ARESETn goes low--UG1037 Xilinx IP generally deasserts all VALID and READY outputs within eight cycles of reset. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
-INFO: 18 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.axi_vip_0.inst.IF.ARREADY_eight_cycle_chk : XILINX_ARREADY_MAX_RESET: ARREADY must go low after 8 cycles following the first clock edge that ARESETn goes low--UG1037 Xilinx IP generally deasserts all VALID and READY outputs within eight cycles of reset. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
-HBMMC_MC_BFM: MODULAR_NOC = 0  
-design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 22 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b11111111
-Warning: 
-Time: 21501 ps  Iteration: 0
-design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 22 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b11111111
-Warning: 
-Time: 21501 ps  Iteration: 0
-design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 23 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b11111111
-Warning: 
-Time: 22501 ps  Iteration: 0
-design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 23 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b11111111
-Warning: 
-Time: 22501 ps  Iteration: 0
-design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 24 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b11111111
-Warning: 
-Time: 23501 ps  Iteration: 0
-design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 24 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b11111111
-Warning: 
-Time: 23501 ps  Iteration: 0
-design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 25 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b01110111
-Warning: 
-Time: 24501 ps  Iteration: 0
-design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 25 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b01110111
-Warning: 
-Time: 24501 ps  Iteration: 0
-design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 26 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b01110111
-Warning: 
-Time: 25501 ps  Iteration: 0
-design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 26 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b01110111
-Warning: 
-Time: 25501 ps  Iteration: 0
-INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 2498 ns : SRC ID = 0 ::  axi tg reset is released ...
-INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 2498 ns : SRC ID = 0 :: Waiting for axi_tg_start to be asserted ...
-INFO: 2500 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.axi_vip_0.inst.IF.AWREADY_one_cycle_chk : XILINX_AWREADY_RESET: AWREADY must be low for the first clock edge that ARESETn goes high--PG101 XILINX_AWREADY_RESET. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
-INFO: 2500 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.axi_vip_0.inst.IF.WREADY_one_cycle_chk : XILINX_WREADY_RESET: WREADY must be low for the first clock edge that ARESETn goes high--PG101 XILINX_WREADY_RESET. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
-INFO: 2500 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.axi_vip_0.inst.IF.ARREADY_one_cycle_chk : XILINX_ARREADY_RESET: ARREADY must be low for the first clock edge that ARESETn goes high--PG101 XILINX_ARREADY_RESET. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
-INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 2500 ns : SRC ID = 0 :: Got axi_tg_start asserted ...
-INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 2500 ns : SRC ID = 0 :: writes_followed_by_reads :::: Running Test .....
-INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.addr_delay_for_bw) 2508 ns : SRC_ID 0 ::: BANDWIDTH_SETTING :: WRITE :: REQUESTED_BANDWIDTH 12800.000000MBps, MAX_POSSIBLE_BANDWIDTH (by DataWidth= 12800.000000MBps, by AxSize= 12800.000000MBps), AXI_DATA_WIDTH 256bit, AXI_SIZE 'h5, AXI_LEN 'h7f, CLK_FREQ = 400.000000MHz, ADDR_DELAY 128cyc(rounded off), ADDR_DELAY (actual) = 128.000000cyc, FRACTIONAL_DELAY_MISSED = (-)0.000000cyc
-INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 2510 ns : SRC_ID = 0 ::: started sending transactions at time 2510 ns
-INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 18823 ns : SRC_ID = 0 ::: Write Request Sent = 50
-INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 21178 ns : SRC_ID = 0 ::: Write Response Received = 50
-INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 36488 ns : SRC_ID = 0 ::: Write Request Sent = 100
-INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 39163 ns : SRC_ID = 0 ::: Write Response Received = 100
-INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.addr_delay_for_bw) 39163 ns : SRC_ID 0 ::: BANDWIDTH_SETTING :: READ :: REQUESTED_BANDWIDTH 12800.000000MBps, MAX_POSSIBLE_BANDWIDTH (by DataWidth= 12800.000000MBps, by AxSize= 12800.000000MBps), AXI_DATA_WIDTH 256bit, AXI_SIZE 'h5, AXI_LEN 'h7f, CLK_FREQ = 400.000000MHz, ADDR_DELAY 128cyc(rounded off), ADDR_DELAY (actual) = 128.000000cyc, FRACTIONAL_DELAY_MISSED = (-)0.000000cyc
-INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 54848 ns : SRC_ID = 0 ::: Read Request Sent = 50
-INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 56368 ns : SRC_ID = 0 ::: Read Response Received = 50
-INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 71095 ns : SRC_ID = 0 ::: Read Request Sent = 100
-INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 73345 ns : SRC_ID = 0 ::: Read Response Received = 100
-INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 73360 ns : SRC ID = 0 ::: ALL AXI TRANSACTIONS ARE COMPLETED
-INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 73360 ns : SRC ID = 0 ::: completed transactions at time 73360 ns
-INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 73360 ns : SRC ID = 0 ::: Total time transactions were sent = 70850 ns
-INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 73360 ns : SRC ID = 0 ::: Waiting for Drain time (200cyc)...
-INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 73860 ns : SRC ID = 0 ::: All transactions are assumed to be drained at sink.
-Executing Axi4 End Of Simulation checks
-=========================================================
->>>>>> SRC ID 0 :: TEST REPORT >>>>>>
-=========================================================
-[INFO] SRC ID = 0 ::: TG_HIERARCHY          = design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst
-[INFO] SRC ID = 0 ::: AXI_PROTOCOL          = AXI4
-[INFO] SRC ID = 0 ::: AXI_CLK_PERIOD        = 2500ps, AXI_DATAWIDTH  = 256bit
-[INFO] SRC ID = 0 ::: TEST_NAME             = writes_followed_by_reads
-[INFO] SRC ID = 0 ::: TOTAL_WRITE_REQ_SENT  = 100, TOTAL_WRITE_RESP_RECEIVED  = 100
-[INFO] SRC ID = 0 ::: TOTAL_READ_REQ_SENT   = 100, TOTAL_READ_RESP_RECEIVED   = 100
-[INFO] SRC ID = 0 ::: DATA_INTEGRITY_CHECK  = DISABLED
-[INFO] SRC ID = 0 ::: TEST_STATUS           = TEST PASSED
-=========================================================
-
-=========================================================
->>>>>> SRC_ID 0 :: AXI_PMON :: BW ANALYSIS >>>>>>
-=========================================================
-AXI Clock Period = 2500 ps
-Min Write Latency = 555 axi clock cycles
-Max Write Latency = 1085 axi clock cycles
-Avg Write Latency = 899 axi clock cycles
-Actual Achieved Write Bandwidth = 11175.989086 MBps
-***************************************************
-Min Read Latency = 168 axi clock cycles
-Max Read Latency = 996 axi clock cycles
-Avg Read Latency = 603 axi clock cycles
-Actual Achieved Read Bandwidth = 11984.492722 MBps
-$finish called at time : 73870001 ps : File "/home/younas/Documents/Vivado/hbm_module_1/hbm_module_1.ip_user_files/bd/design_1/ip/design_1_noc_sim_trig_0/hdl/rtl/traffic_shaping.sv" Line 219
-run: Time (s): cpu = 00:02:18 ; elapsed = 00:02:22 . Memory (MB): peak = 10097.758 ; gain = 152.277 ; free physical = 570 ; free virtual = 9028
-xsim: Time (s): cpu = 00:02:25 ; elapsed = 00:02:27 . Memory (MB): peak = 10097.758 ; gain = 152.277 ; free physical = 570 ; free virtual = 9028
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'design_1_wrapper_sim_wrapper_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 150000ns
-launch_simulation: Time (s): cpu = 00:05:22 ; elapsed = 00:03:35 . Memory (MB): peak = 10097.758 ; gain = 152.277 ; free physical = 570 ; free virtual = 9028
-close_sim
-INFO: xsimkernel Simulation Memory Usage: 997248 KB (Peak: 997248 KB), Simulation CPU Usage: 142340 ms
-INFO: [Simtcl 6-16] Simulation closed
-close_project
-open_project /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.xpr
-Scanning sources...
-Finished scanning sources
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2024.2/data/ip'.
-update_compile_order -fileset sources_1
-create_bd_cell -type ip -vlnv xilinx.com:ip:versal_cips versal_cips_0
-ERROR: [BD 5-104] A block design must be open to run this command. Please create/open a block design.
-ERROR: [Common 17-39] 'create_bd_cell' failed due to earlier errors.
-open_bd_design {/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.srcs/sources_1/bd/design_2/design_2.bd}
-Reading block design file </home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.srcs/sources_1/bd/design_2/design_2.bd>...
-Adding component instance block -- xilinx.com:ip:axi_noc:1.1 - axi_noc_0
-Adding component instance block -- xilinx.com:ip:clk_gen_sim:1.0 - noc_clk_gen
-Adding component instance block -- xilinx.com:ip:perf_axi_tg:1.0 - noc_tg
-Adding component instance block -- xilinx.com:ip:sim_trig:1.0 - noc_sim_trig
-Adding component instance block -- xilinx.com:ip:axi_pmon:1.0 - noc_tg_pmon
-Adding component instance block -- xilinx.com:ip:perf_axi_tg:1.0 - noc_tg_1
-Adding component instance block -- xilinx.com:ip:axi_pmon:1.0 - noc_tg_pmon_1
-Adding component instance block -- xilinx.com:ip:perf_axi_tg:1.0 - noc_tg_2
-Adding component instance block -- xilinx.com:ip:axi_pmon:1.0 - noc_tg_pmon_2
-Adding component instance block -- xilinx.com:ip:perf_axi_tg:1.0 - noc_tg_3
-Adding component instance block -- xilinx.com:ip:axi_pmon:1.0 - noc_tg_pmon_3
-Successfully read diagram <design_2> from block design file </home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.srcs/sources_1/bd/design_2/design_2.bd>
-INFO: [BD 41-3052] NOC Block /axi_noc_0 does not have shared segments on DDR and HBM. Shared segments allow full range access via NSU irrespective of multipath topology. Mutiple paths to DDR  across /axi_noc_0 with current configuration may split assignment. Please use the following AR-000036160  to leverage shared segments for DDR/HBM.
-create_bd_cell -type ip -vlnv xilinx.com:ip:versal_cips versal_cips_0
-create_bd_cell: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 10125.980 ; gain = 0.000 ; free physical = 967 ; free virtual = 9585
-/versal_cips_0
 set_property -dict [list \
   CONFIG.CLOCK_MODE {Custom} \
   CONFIG.PS_PMC_CONFIG { \
@@ -659,18 +314,36 @@ set_property -dict [list \
 startgroup
 create_bd_cell -type ip -vlnv xilinx.com:ip:proc_sys_reset:5.0 proc_sys_reset_0
 endgroup
-create_bd_cell -type ip -vlnv xilinx.com:ip:clk_wizard clk_wizard_0
-/clk_wizard_0
-set_property -dict [list CONFIG.CLKOUT_DRIVES {BUFG,BUFG,BUFG,BUFG,BUFG,BUFG,BUFG} CONFIG.CLKOUT_DYN_PS {None,None,None,None,None,None,None} CONFIG.CLKOUT_GROUPING {Auto,Auto,Auto,Auto,Auto,Auto,Auto} CONFIG.CLKOUT_MATCHED_ROUTING {false,false,false,false,false,false,false} CONFIG.CLKOUT_PORT {clk_out1,clk_out2,clk_out3,clk_out4,clk_out5,clk_out6,clk_out7} CONFIG.CLKOUT_REQUESTED_DUTY_CYCLE {50.000,50.000,50.000,50.000,50.000,50.000,50.000} CONFIG.CLKOUT_REQUESTED_OUT_FREQUENCY {300,100.000,100.000,100.000,100.000,100.000,100.000} CONFIG.CLKOUT_REQUESTED_PHASE {0.000,0.000,0.000,0.000,0.000,0.000,0.000} CONFIG.CLKOUT_USED {true,false,false,false,false,false,false} ] [get_bd_cells clk_wizard_0]
-create_bd_cell -type ip -vlnv xilinx.com:ip:axis_ila axis_ila_0
-/axis_ila_0
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:clk_wizard:1.0 clk_wizard_0
+endgroup
+set_property -dict [list \
+  CONFIG.CLKOUT_DRIVES {BUFG,BUFG,BUFG,BUFG,BUFG,BUFG,BUFG} \
+  CONFIG.CLKOUT_DYN_PS {None,None,None,None,None,None,None} \
+  CONFIG.CLKOUT_GROUPING {Auto,Auto,Auto,Auto,Auto,Auto,Auto} \
+  CONFIG.CLKOUT_MATCHED_ROUTING {false,false,false,false,false,false,false} \
+  CONFIG.CLKOUT_PORT {clk_out1,clk_out2,clk_out3,clk_out4,clk_out5,clk_out6,clk_out7} \
+  CONFIG.CLKOUT_REQUESTED_DUTY_CYCLE {50.000,50.000,50.000,50.000,50.000,50.000,50.000} \
+  CONFIG.CLKOUT_REQUESTED_OUT_FREQUENCY {300,100.000,100.000,100.000,100.000,100.000,100.000} \
+  CONFIG.CLKOUT_REQUESTED_PHASE {0.000,0.000,0.000,0.000,0.000,0.000,0.000} \
+  CONFIG.CLKOUT_USED {true,false,false,false,false,false,false} \
+] [get_bd_cells clk_wizard_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axis_ila:1.3 axis_ila_0
+endgroup
 set_property CONFIG.C_MON_TYPE {Interface_Monitor} [get_bd_cells axis_ila_0]
 regenerate_bd_layout
-connect_bd_net [get_bd_pins versal_cips_0/pl0_ref_clk] [get_bd_pins clk_wizard_0/clk_in1]
-connect_bd_net [get_bd_pins versal_cips_0/pl0_resetn] [get_bd_pins proc_sys_reset_0/ext_reset_in]
+connect_bd_net [get_bd_pins clk_wizard_0/clk_in1] [get_bd_pins noc_clk_gen/axi_clk_0]
+delete_bd_objs [get_bd_nets noc_clk_gen_axi_clk_0]
+connect_bd_net [get_bd_pins clk_wizard_0/clk_in1] [get_bd_pins versal_cips_0/pl0_ref_clk]
+connect_bd_net [get_bd_pins proc_sys_reset_0/ext_reset_in] [get_bd_pins versal_cips_0/pl0_resetn]
 connect_bd_net [get_bd_pins clk_wizard_0/clk_out1] [get_bd_pins proc_sys_reset_0/slowest_sync_clk]
 connect_bd_net [get_bd_pins proc_sys_reset_0/peripheral_aresetn] [get_bd_pins noc_clk_gen/axi_rst_in_0_n]
-connect_bd_net [get_bd_pins clk_wizard_0/clk_out1] [get_bd_pins noc_clk_gen/axi_clk_in_0]
+connect_bd_net [get_bd_pins noc_clk_gen/axi_clk_in_0] [get_bd_pins clk_wizard_0/clk_out1]
+connect_bd_net [get_bd_pins versal_cips_0/pl0_ref_clk] [get_bd_pins clk_wizard_0/clk_in1]
+WARNING: [BD 41-395] Exec TCL: all ports/pins are already connected to '/versal_cips_0_pl0_ref_clk'
+ERROR: [BD 5-4] Error: running connect_bd_net.
+ERROR: [Common 17-39] 'connect_bd_net' failed due to earlier errors.
 connect_bd_net [get_bd_pins noc_clk_gen/axi_rst_0_n] [get_bd_pins noc_sim_trig/rst_n]
 connect_bd_net [get_bd_pins noc_clk_gen/axi_rst_0_n] [get_bd_pins noc_tg/tg_rst_n] 
 connect_bd_net [get_bd_pins noc_clk_gen/axi_rst_0_n] [get_bd_pins noc_tg_1/tg_rst_n] 
@@ -702,37 +375,6 @@ Slave segment '/axi_noc_0/HBM02_AXI/HBM0_PC1' is being assigned into address spa
 Slave segment '/axi_noc_0/HBM03_AXI/HBM0_PC1' is being assigned into address space '/noc_tg_3/Data' at <0x40_4000_0000 [ 1G ]>.
 INFO: [BD 41-3052] NOC Block /axi_noc_0 does not have shared segments on DDR and HBM. Shared segments allow full range access via NSU irrespective of multipath topology. Mutiple paths to DDR  across /axi_noc_0 with current configuration may split assignment. Please use the following AR-000036160  to leverage shared segments for DDR/HBM.
 auto_assign_options {memory_capacity 0G}
-assign_bd_address
-INFO: [BD 41-3092] Triggering Container based Auto Assign Algorithm
-auto_assign_options {memory_capacity 0G}
-validate_bd_design
-INFO: [BD 41-3052] NOC Block /axi_noc_0 does not have shared segments on DDR and HBM. Shared segments allow full range access via NSU irrespective of multipath topology. Mutiple paths to DDR  across /axi_noc_0 with current configuration may split assignment. Please use the following AR-000036160  to leverage shared segments for DDR/HBM.
-ERROR: [BD 41-758] The following clock pins are not connected to a valid clock source: 
-/noc_clk_gen/SYS_CLK0_IN
-
-ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
-delete_bd_objs [get_bd_intf_nets noc_clk_gen_SYS_CLK0]
-WARNING: [BD 5-231] No interface nets matched 'get_bd_intf_nets noc_clk_gen_SYS_CLK0'
-validate_bd_design
-INFO: [BD 41-3052] NOC Block /axi_noc_0 does not have shared segments on DDR and HBM. Shared segments allow full range access via NSU irrespective of multipath topology. Mutiple paths to DDR  across /axi_noc_0 with current configuration may split assignment. Please use the following AR-000036160  to leverage shared segments for DDR/HBM.
-ERROR: [BD 41-758] The following clock pins are not connected to a valid clock source: 
-/noc_clk_gen/SYS_CLK0_IN
-
-ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
-set_property CONFIG.HBM_REF_CLK_SELECTION {Internal} [get_bd_cells axi_noc_0]
-Internal
-set_property -dict [list CONFIG.CONNECTIONS {HBM0_PORT0 {read_bw {12800} write_bw {12800} read_avg_burst {4} write_avg_burst {4}}}] [get_bd_intf_pins /axi_noc_0/HBM00_AXI]
-set_property -dict [list CONFIG.CONNECTIONS {HBM0_PORT1 {read_bw {12800} write_bw {12800} read_avg_burst {4} write_avg_burst {4}}}] [get_bd_intf_pins /axi_noc_0/HBM01_AXI]
-set_property -dict [list CONFIG.CONNECTIONS {HBM0_PORT2 {read_bw {12800} write_bw {12800} read_avg_burst {4} write_avg_burst {4}}}] [get_bd_intf_pins /axi_noc_0/HBM02_AXI]
-set_property -dict [list CONFIG.CONNECTIONS {HBM0_PORT3 {read_bw {12800} write_bw {12800} read_avg_burst {4} write_avg_burst {4}}}] [get_bd_intf_pins /axi_noc_0/HBM03_AXI]
-delete_bd_objs [get_bd_intf_nets noc_clk_gen_SYS_CLK0]
-WARNING: [BD 5-231] No interface nets matched 'get_bd_intf_nets noc_clk_gen_SYS_CLK0'
-delete_bd_objs [get_bd_intf_nets noc_clk_gen]
-WARNING: [BD 5-231] No interface nets matched 'get_bd_intf_nets noc_clk_gen'
-startgroup
-set_property CONFIG.USER_NUM_OF_SYS_CLK {0} [get_bd_cells noc_clk_gen]
-endgroup
-regenerate_bd_layout
 validate_bd_design
 INFO: [BD 41-3052] NOC Block /axi_noc_0 does not have shared segments on DDR and HBM. Shared segments allow full range access via NSU irrespective of multipath topology. Mutiple paths to DDR  across /axi_noc_0 with current configuration may split assignment. Please use the following AR-000036160  to leverage shared segments for DDR/HBM.
 Generating placement and routing for NoC components
@@ -746,10 +388,10 @@ INFO: [Ipconfig 75-122] Detailed placement phase
 INFO: [Ipconfig 75-133] Running NoC Routing
 NoC Compiler Finished Successfully
 NoC Solution | Checksum: e960db22
-INFO: [Ipconfig 75-108] Writing file /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.gen/sources_1/common/nsln/NOC_Power.xpe.
+INFO: [Ipconfig 75-108] Writing file /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/common/nsln/NOC_Power.xpe.
 ERROR: [xilinx.com:ip:perf_axi_tg:1.0-15] /noc_tgWhen the connected slave type is HBM, AXI ID Width is limited to a maximum of 7 bits. Selected AXI ID Width under Non-Synthesizable TG Options is 16 bits.
-ERROR: [xilinx.com:ip:perf_axi_tg:1.0-15] /noc_tg_1When the connected slave type is HBM, AXI ID Width is limited to a maximum of 7 bits. Selected AXI ID Width under Non-Synthesizable TG Options is 16 bits.
 ERROR: [xilinx.com:ip:perf_axi_tg:1.0-15] /noc_tg_2When the connected slave type is HBM, AXI ID Width is limited to a maximum of 7 bits. Selected AXI ID Width under Non-Synthesizable TG Options is 16 bits.
+ERROR: [xilinx.com:ip:perf_axi_tg:1.0-15] /noc_tg_1When the connected slave type is HBM, AXI ID Width is limited to a maximum of 7 bits. Selected AXI ID Width under Non-Synthesizable TG Options is 16 bits.
 ERROR: [xilinx.com:ip:perf_axi_tg:1.0-15] /noc_tg_3When the connected slave type is HBM, AXI ID Width is limited to a maximum of 7 bits. Selected AXI ID Width under Non-Synthesizable TG Options is 16 bits.
 WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /noc_tg_pmon/S_AXI(0) and /noc_tg/M_AXI(16)
 WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /noc_tg_pmon/S_AXI(0) and /noc_tg/M_AXI(16)
@@ -771,34 +413,23 @@ WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between 
 WARNING: [BD 41-237] Bus Interface property WUSER_WIDTH does not match between /noc_tg_pmon_3/S_AXI(0) and /noc_tg_3/M_AXI(16)
 WARNING: [BD 41-237] Bus Interface property RUSER_WIDTH does not match between /noc_tg_pmon_3/S_AXI(0) and /noc_tg_3/M_AXI(16)
 WARNING: [BD 41-237] Bus Interface property BUSER_WIDTH does not match between /noc_tg_pmon_3/S_AXI(0) and /noc_tg_3/M_AXI(16)
-validate_bd_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:27 . Memory (MB): peak = 10957.379 ; gain = 105.469 ; free physical = 210 ; free virtual = 8650
+validate_bd_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:25 . Memory (MB): peak = 11243.711 ; gain = 152.680 ; free physical = 8116 ; free virtual = 11219
 ERROR: [Common 17-39] 'validate_bd_design' failed due to earlier errors.
-INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_2_noc_tg_0: value of Parity is FALSE
+INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_1_noc_tg_3_0: value of Parity is FALSE
 startgroup
+set_property CONFIG.USER_C_AXI_WID_WIDTH {7} [get_bd_cells noc_tg_3]
 endgroup
-INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_2_noc_tg_0: value of Parity is FALSE
-INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_2_noc_tg_2_0: value of Parity is FALSE
-startgroup
-endgroup
-INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_2_noc_tg_1_0: value of Parity is FALSE
-startgroup
-endgroup
-INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_2_noc_tg_3_0: value of Parity is FALSE
-INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_2_noc_tg_0: value of Parity is FALSE
-startgroup
-set_property CONFIG.USER_C_AXI_WID_WIDTH {7} [get_bd_cells noc_tg]
-endgroup
-INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_2_noc_tg_2_0: value of Parity is FALSE
-startgroup
-set_property CONFIG.USER_C_AXI_WID_WIDTH {7} [get_bd_cells noc_tg_2]
-endgroup
-INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_2_noc_tg_1_0: value of Parity is FALSE
+INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_1_noc_tg_1_0: value of Parity is FALSE
 startgroup
 set_property CONFIG.USER_C_AXI_WID_WIDTH {7} [get_bd_cells noc_tg_1]
 endgroup
-INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_2_noc_tg_3_0: value of Parity is FALSE
+INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_1_noc_tg_2_0: value of Parity is FALSE
 startgroup
-set_property CONFIG.USER_C_AXI_WID_WIDTH {7} [get_bd_cells noc_tg_3]
+set_property CONFIG.USER_C_AXI_WID_WIDTH {7} [get_bd_cells noc_tg_2]
+endgroup
+INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_1_noc_tg_0: value of Parity is FALSE
+startgroup
+set_property CONFIG.USER_C_AXI_WID_WIDTH {7} [get_bd_cells noc_tg]
 endgroup
 validate_bd_design
 INFO: [BD 41-3052] NOC Block /axi_noc_0 does not have shared segments on DDR and HBM. Shared segments allow full range access via NSU irrespective of multipath topology. Mutiple paths to DDR  across /axi_noc_0 with current configuration may split assignment. Please use the following AR-000036160  to leverage shared segments for DDR/HBM.
@@ -813,7 +444,7 @@ INFO: [Ipconfig 75-122] Detailed placement phase
 INFO: [Ipconfig 75-133] Running NoC Routing
 NoC Compiler Finished Successfully
 NoC Solution | Checksum: e960db22
-INFO: [Ipconfig 75-108] Writing file /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.gen/sources_1/common/nsln/NOC_Power.xpe.
+INFO: [Ipconfig 75-108] Writing file /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/common/nsln/NOC_Power.xpe.
 WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /noc_tg_pmon/S_AXI(0) and /noc_tg/M_AXI(16)
 WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /noc_tg_pmon/S_AXI(0) and /noc_tg/M_AXI(16)
 WARNING: [BD 41-237] Bus Interface property WUSER_WIDTH does not match between /noc_tg_pmon/S_AXI(0) and /noc_tg/M_AXI(16)
@@ -834,167 +465,164 @@ WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between 
 WARNING: [BD 41-237] Bus Interface property WUSER_WIDTH does not match between /noc_tg_pmon_3/S_AXI(0) and /noc_tg_3/M_AXI(16)
 WARNING: [BD 41-237] Bus Interface property RUSER_WIDTH does not match between /noc_tg_pmon_3/S_AXI(0) and /noc_tg_3/M_AXI(16)
 WARNING: [BD 41-237] Bus Interface property BUSER_WIDTH does not match between /noc_tg_pmon_3/S_AXI(0) and /noc_tg_3/M_AXI(16)
-validate_bd_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:22 . Memory (MB): peak = 11114.266 ; gain = 84.852 ; free physical = 211 ; free virtual = 8485
-make_wrapper -files [get_files /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.srcs/sources_1/bd/design_2/design_2.bd] -top
-INFO: [BD 41-1662] The design 'design_2.bd' is already validated. Therefore parameter propagation will not be re-run.
-Wrote  : </home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.srcs/sources_1/bd/design_2/design_2.bd> 
-Wrote  : </home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.srcs/sources_1/bd/design_2/ui/bd_1fdbff51.ui> 
+validate_bd_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:25 . Memory (MB): peak = 11383.051 ; gain = 72.711 ; free physical = 7938 ; free virtual = 11044
+make_wrapper -files [get_files /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.srcs/sources_1/bd/design_1/design_1.bd] -top
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+Wrote  : </home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : </home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM00_AXI_aruser'(11) to pin: '/noc_tg/axi_aruser'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM00_AXI_awuser'(11) to pin: '/noc_tg/axi_awuser'(16) - Only lower order bits will be connected.
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM01_AXI_aruser'(11) to pin: '/noc_tg_1/axi_aruser'(16) - Only lower order bits will be connected.
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM01_AXI_awuser'(11) to pin: '/noc_tg_1/axi_awuser'(16) - Only lower order bits will be connected.
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM02_AXI_aruser'(11) to pin: '/noc_tg_2/axi_aruser'(16) - Only lower order bits will be connected.
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM02_AXI_awuser'(11) to pin: '/noc_tg_2/axi_awuser'(16) - Only lower order bits will be connected.
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM03_AXI_aruser'(11) to pin: '/noc_tg_3/axi_aruser'(16) - Only lower order bits will be connected.
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM03_AXI_awuser'(11) to pin: '/noc_tg_3/axi_awuser'(16) - Only lower order bits will be connected.
+Verilog Output written to : /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM00_AXI_aruser'(11) to pin: '/noc_tg/axi_aruser'(16) - Only lower order bits will be connected.
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM00_AXI_awuser'(11) to pin: '/noc_tg/axi_awuser'(16) - Only lower order bits will be connected.
-Verilog Output written to : /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.gen/sources_1/bd/design_2/synth/design_2.v
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM01_AXI_aruser'(11) to pin: '/noc_tg_1/axi_aruser'(16) - Only lower order bits will be connected.
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM01_AXI_awuser'(11) to pin: '/noc_tg_1/axi_awuser'(16) - Only lower order bits will be connected.
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM02_AXI_aruser'(11) to pin: '/noc_tg_2/axi_aruser'(16) - Only lower order bits will be connected.
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM02_AXI_awuser'(11) to pin: '/noc_tg_2/axi_awuser'(16) - Only lower order bits will be connected.
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM03_AXI_aruser'(11) to pin: '/noc_tg_3/axi_aruser'(16) - Only lower order bits will be connected.
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM03_AXI_awuser'(11) to pin: '/noc_tg_3/axi_awuser'(16) - Only lower order bits will be connected.
-WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM00_AXI_aruser'(11) to pin: '/noc_tg/axi_aruser'(16) - Only lower order bits will be connected.
-WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM00_AXI_awuser'(11) to pin: '/noc_tg/axi_awuser'(16) - Only lower order bits will be connected.
-Verilog Output written to : /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.gen/sources_1/bd/design_2/sim/design_2.v
-Verilog Output written to : /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.gen/sources_1/bd/design_2/hdl/design_2_wrapper.v
-make_wrapper: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 11186.301 ; gain = 0.000 ; free physical = 260 ; free virtual = 8369
-add_files -norecurse /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.gen/sources_1/bd/design_2/hdl/design_2_wrapper.v
+Verilog Output written to : /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/sim/design_1.v
+Verilog Output written to : /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+make_wrapper: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 11413.062 ; gain = 10.004 ; free physical = 7839 ; free virtual = 11022
+add_files -norecurse /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
 update_compile_order -fileset sources_1
-launch_runs synth_1 -jobs 4
-INFO: [BD 41-1662] The design 'design_2.bd' is already validated. Therefore parameter propagation will not be re-run.
+launch_runs synth_1 -jobs 2
+INFO: [BD 41-1662] The design 'design_1.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM00_AXI_aruser'(11) to pin: '/noc_tg/axi_aruser'(16) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM00_AXI_awuser'(11) to pin: '/noc_tg/axi_awuser'(16) - Only lower order bits will be connected.
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM01_AXI_aruser'(11) to pin: '/noc_tg_1/axi_aruser'(16) - Only lower order bits will be connected.
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM01_AXI_awuser'(11) to pin: '/noc_tg_1/axi_awuser'(16) - Only lower order bits will be connected.
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM02_AXI_aruser'(11) to pin: '/noc_tg_2/axi_aruser'(16) - Only lower order bits will be connected.
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM02_AXI_awuser'(11) to pin: '/noc_tg_2/axi_awuser'(16) - Only lower order bits will be connected.
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM03_AXI_aruser'(11) to pin: '/noc_tg_3/axi_aruser'(16) - Only lower order bits will be connected.
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM03_AXI_awuser'(11) to pin: '/noc_tg_3/axi_awuser'(16) - Only lower order bits will be connected.
+Verilog Output written to : /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM00_AXI_aruser'(11) to pin: '/noc_tg/axi_aruser'(16) - Only lower order bits will be connected.
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM00_AXI_awuser'(11) to pin: '/noc_tg/axi_awuser'(16) - Only lower order bits will be connected.
-Verilog Output written to : /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.gen/sources_1/bd/design_2/synth/design_2.v
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM01_AXI_aruser'(11) to pin: '/noc_tg_1/axi_aruser'(16) - Only lower order bits will be connected.
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM01_AXI_awuser'(11) to pin: '/noc_tg_1/axi_awuser'(16) - Only lower order bits will be connected.
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM02_AXI_aruser'(11) to pin: '/noc_tg_2/axi_aruser'(16) - Only lower order bits will be connected.
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM02_AXI_awuser'(11) to pin: '/noc_tg_2/axi_awuser'(16) - Only lower order bits will be connected.
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM03_AXI_aruser'(11) to pin: '/noc_tg_3/axi_aruser'(16) - Only lower order bits will be connected.
 WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM03_AXI_awuser'(11) to pin: '/noc_tg_3/axi_awuser'(16) - Only lower order bits will be connected.
-WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM00_AXI_aruser'(11) to pin: '/noc_tg/axi_aruser'(16) - Only lower order bits will be connected.
-WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_noc_0/HBM00_AXI_awuser'(11) to pin: '/noc_tg/axi_awuser'(16) - Only lower order bits will be connected.
-Verilog Output written to : /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.gen/sources_1/bd/design_2/sim/design_2.v
-Verilog Output written to : /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.gen/sources_1/bd/design_2/hdl/design_2_wrapper.v
+Verilog Output written to : /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/sim/design_1.v
+Verilog Output written to : /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
 INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'HBM00_AXI'. A default connection has been created.
 INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'HBM01_AXI'. A default connection has been created.
 INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'HBM02_AXI'. A default connection has been created.
 INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'HBM03_AXI'. A default connection has been created.
-INFO: [xilinx.com:ip:noc_nmu:1.0-1] bd_48e0_HBM03_AXI_nmu_0: device = xcvh1582
-INFO: [xilinx.com:ip:noc_nmu:1.0-1] bd_48e0_HBM03_AXI_nmu_0: device = xcvh1582
+INFO: [xilinx.com:ip:noc_nmu:1.0-1] bd_8be5_HBM03_AXI_nmu_0: device = xcvh1582
+INFO: [xilinx.com:ip:noc_nmu:1.0-1] bd_8be5_HBM03_AXI_nmu_0: device = xcvh1582
 INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'SAXI4'. A default connection has been created.
-INFO: [xilinx.com:ip:noc_nmu:1.0-1] bd_48e0_HBM02_AXI_nmu_0: device = xcvh1582
-INFO: [xilinx.com:ip:noc_nmu:1.0-1] bd_48e0_HBM02_AXI_nmu_0: device = xcvh1582
+INFO: [xilinx.com:ip:noc_nmu:1.0-1] bd_8be5_HBM02_AXI_nmu_0: device = xcvh1582
+INFO: [xilinx.com:ip:noc_nmu:1.0-1] bd_8be5_HBM02_AXI_nmu_0: device = xcvh1582
 INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'SAXI4'. A default connection has been created.
-INFO: [xilinx.com:ip:noc_nmu:1.0-1] bd_48e0_HBM01_AXI_nmu_0: device = xcvh1582
-INFO: [xilinx.com:ip:noc_nmu:1.0-1] bd_48e0_HBM01_AXI_nmu_0: device = xcvh1582
+INFO: [xilinx.com:ip:noc_nmu:1.0-1] bd_8be5_HBM01_AXI_nmu_0: device = xcvh1582
+INFO: [xilinx.com:ip:noc_nmu:1.0-1] bd_8be5_HBM01_AXI_nmu_0: device = xcvh1582
 INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'SAXI4'. A default connection has been created.
-INFO: [xilinx.com:ip:noc_nmu:1.0-1] bd_48e0_HBM00_AXI_nmu_0: device = xcvh1582
-INFO: [xilinx.com:ip:noc_nmu:1.0-1] bd_48e0_HBM00_AXI_nmu_0: device = xcvh1582
+INFO: [xilinx.com:ip:noc_nmu:1.0-1] bd_8be5_HBM00_AXI_nmu_0: device = xcvh1582
+INFO: [xilinx.com:ip:noc_nmu:1.0-1] bd_8be5_HBM00_AXI_nmu_0: device = xcvh1582
 INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'SAXI4'. A default connection has been created.
 Calling reg_generate
-Exporting to file /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.gen/sources_1/bd/design_2/ip/design_2_axi_noc_0_0/bd_0/hw_handoff/design_2_axi_noc_0_0.hwh
-Generated Hardware Definition File /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.gen/sources_1/bd/design_2/ip/design_2_axi_noc_0_0/bd_0/synth/design_2_axi_noc_0_0.hwdef
+Exporting to file /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/hw_handoff/design_1_axi_noc_0_0.hwh
+Generated Hardware Definition File /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/synth/design_1_axi_noc_0_0.hwdef
 INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_noc_0 .
 INFO: [BD 41-1029] Generation completed for the IP Integrator block noc_clk_gen .
-INFO: [CSV-I-1] CSV to MEM file convertion flow initiated for IP design_2_noc_tg_0
-INFO: [CSV-I-2] Parsing the file design_2_noc_tg_0_synth_pattern.csv for IP design_2_noc_tg_0
-INFO: [CSV-I-3] Converting the file design_2_noc_tg_0_synth_pattern.csv to MEM file for IP design_2_noc_tg_0
-WARNING: [CSV-W-5] The Source ids: 0 do not have the last command as 'PHASE_DONE', hence adding 'PHASE_DONE' command as last command to all the TG ids in the input csv file : design_2_noc_tg_0_synth_pattern.csv!.
-INFO: [CSV-I-4] CSV to MEM file convertion flow Completed for IP design_2_noc_tg_0
+INFO: [CSV-I-1] CSV to MEM file convertion flow initiated for IP design_1_noc_tg_0
+INFO: [CSV-I-2] Parsing the file design_1_noc_tg_0_synth_pattern.csv for IP design_1_noc_tg_0
+INFO: [CSV-I-3] Converting the file design_1_noc_tg_0_synth_pattern.csv to MEM file for IP design_1_noc_tg_0
+WARNING: [CSV-W-5] The Source ids: 0 do not have the last command as 'PHASE_DONE', hence adding 'PHASE_DONE' command as last command to all the TG ids in the input csv file : design_1_noc_tg_0_synth_pattern.csv!.
+INFO: [CSV-I-4] CSV to MEM file convertion flow Completed for IP design_1_noc_tg_0
 INFO: [BD 41-1029] Generation completed for the IP Integrator block noc_tg .
 INFO: [BD 41-1029] Generation completed for the IP Integrator block noc_sim_trig .
 INFO: [BD 41-1029] Generation completed for the IP Integrator block noc_tg_pmon .
-INFO: [CSV-I-1] CSV to MEM file convertion flow initiated for IP design_2_noc_tg_1_0
-INFO: [CSV-I-2] Parsing the file design_2_noc_tg_1_0_synth_pattern.csv for IP design_2_noc_tg_1_0
-INFO: [CSV-I-3] Converting the file design_2_noc_tg_1_0_synth_pattern.csv to MEM file for IP design_2_noc_tg_1_0
-WARNING: [CSV-W-5] The Source ids: 1 do not have the last command as 'PHASE_DONE', hence adding 'PHASE_DONE' command as last command to all the TG ids in the input csv file : design_2_noc_tg_1_0_synth_pattern.csv!.
-INFO: [CSV-I-4] CSV to MEM file convertion flow Completed for IP design_2_noc_tg_1_0
+INFO: [CSV-I-1] CSV to MEM file convertion flow initiated for IP design_1_noc_tg_1_0
+INFO: [CSV-I-2] Parsing the file design_1_noc_tg_1_0_synth_pattern.csv for IP design_1_noc_tg_1_0
+INFO: [CSV-I-3] Converting the file design_1_noc_tg_1_0_synth_pattern.csv to MEM file for IP design_1_noc_tg_1_0
+WARNING: [CSV-W-5] The Source ids: 1 do not have the last command as 'PHASE_DONE', hence adding 'PHASE_DONE' command as last command to all the TG ids in the input csv file : design_1_noc_tg_1_0_synth_pattern.csv!.
+INFO: [CSV-I-4] CSV to MEM file convertion flow Completed for IP design_1_noc_tg_1_0
 INFO: [BD 41-1029] Generation completed for the IP Integrator block noc_tg_1 .
 INFO: [BD 41-1029] Generation completed for the IP Integrator block noc_tg_pmon_1 .
-INFO: [CSV-I-1] CSV to MEM file convertion flow initiated for IP design_2_noc_tg_2_0
-INFO: [CSV-I-2] Parsing the file design_2_noc_tg_2_0_synth_pattern.csv for IP design_2_noc_tg_2_0
-INFO: [CSV-I-3] Converting the file design_2_noc_tg_2_0_synth_pattern.csv to MEM file for IP design_2_noc_tg_2_0
-WARNING: [CSV-W-5] The Source ids: 2 do not have the last command as 'PHASE_DONE', hence adding 'PHASE_DONE' command as last command to all the TG ids in the input csv file : design_2_noc_tg_2_0_synth_pattern.csv!.
-INFO: [CSV-I-4] CSV to MEM file convertion flow Completed for IP design_2_noc_tg_2_0
+INFO: [CSV-I-1] CSV to MEM file convertion flow initiated for IP design_1_noc_tg_2_0
+INFO: [CSV-I-2] Parsing the file design_1_noc_tg_2_0_synth_pattern.csv for IP design_1_noc_tg_2_0
+INFO: [CSV-I-3] Converting the file design_1_noc_tg_2_0_synth_pattern.csv to MEM file for IP design_1_noc_tg_2_0
+WARNING: [CSV-W-5] The Source ids: 2 do not have the last command as 'PHASE_DONE', hence adding 'PHASE_DONE' command as last command to all the TG ids in the input csv file : design_1_noc_tg_2_0_synth_pattern.csv!.
+INFO: [CSV-I-4] CSV to MEM file convertion flow Completed for IP design_1_noc_tg_2_0
 INFO: [BD 41-1029] Generation completed for the IP Integrator block noc_tg_2 .
 INFO: [BD 41-1029] Generation completed for the IP Integrator block noc_tg_pmon_2 .
-INFO: [CSV-I-1] CSV to MEM file convertion flow initiated for IP design_2_noc_tg_3_0
-INFO: [CSV-I-2] Parsing the file design_2_noc_tg_3_0_synth_pattern.csv for IP design_2_noc_tg_3_0
-INFO: [CSV-I-3] Converting the file design_2_noc_tg_3_0_synth_pattern.csv to MEM file for IP design_2_noc_tg_3_0
-WARNING: [CSV-W-5] The Source ids: 3 do not have the last command as 'PHASE_DONE', hence adding 'PHASE_DONE' command as last command to all the TG ids in the input csv file : design_2_noc_tg_3_0_synth_pattern.csv!.
-INFO: [CSV-I-4] CSV to MEM file convertion flow Completed for IP design_2_noc_tg_3_0
+INFO: [CSV-I-1] CSV to MEM file convertion flow initiated for IP design_1_noc_tg_3_0
+INFO: [CSV-I-2] Parsing the file design_1_noc_tg_3_0_synth_pattern.csv for IP design_1_noc_tg_3_0
+INFO: [CSV-I-3] Converting the file design_1_noc_tg_3_0_synth_pattern.csv to MEM file for IP design_1_noc_tg_3_0
+WARNING: [CSV-W-5] The Source ids: 3 do not have the last command as 'PHASE_DONE', hence adding 'PHASE_DONE' command as last command to all the TG ids in the input csv file : design_1_noc_tg_3_0_synth_pattern.csv!.
+INFO: [CSV-I-4] CSV to MEM file convertion flow Completed for IP design_1_noc_tg_3_0
 INFO: [BD 41-1029] Generation completed for the IP Integrator block noc_tg_3 .
 INFO: [BD 41-1029] Generation completed for the IP Integrator block noc_tg_pmon_3 .
-INFO: [xilinx.com:ip:pspmc:1.4-2] bd_802a_pspmc_0_0: XDC Generation
-INFO: [xilinx.com:ip:pspmc:1.4-2] bd_802a_pspmc_0_0: Time taken by generate_ps_data 1902 ms
-INFO: [xilinx.com:ip:pspmc:1.4-2] bd_802a_pspmc_0_0: Time taken by XDC_generate is 1903 ms
-INFO: [xilinx.com:ip:pspmc:1.4-2] bd_802a_pspmc_0_0: REG Generation
-INFO: [xilinx.com:ip:pspmc:1.4-2] bd_802a_pspmc_0_0: Time taken by generate_ps_data 1482 ms
-INFO: [xilinx.com:ip:pspmc:1.4-2] bd_802a_pspmc_0_0: Time taken by reg_generate is 1482 ms
-Exporting to file /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.gen/sources_1/bd/design_2/ip/design_2_versal_cips_0_0/bd_0/hw_handoff/design_2_versal_cips_0_0.hwh
-Generated Hardware Definition File /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.gen/sources_1/bd/design_2/ip/design_2_versal_cips_0_0/bd_0/synth/design_2_versal_cips_0_0.hwdef
+INFO: [xilinx.com:ip:pspmc:1.4-2] bd_70da_pspmc_0_0: XDC Generation
+INFO: [xilinx.com:ip:pspmc:1.4-2] bd_70da_pspmc_0_0: Time taken by generate_ps_data 1891 ms
+INFO: [xilinx.com:ip:pspmc:1.4-2] bd_70da_pspmc_0_0: Time taken by XDC_generate is 1891 ms
+INFO: [xilinx.com:ip:pspmc:1.4-2] bd_70da_pspmc_0_0: REG Generation
+INFO: [xilinx.com:ip:pspmc:1.4-2] bd_70da_pspmc_0_0: Time taken by generate_ps_data 1381 ms
+INFO: [xilinx.com:ip:pspmc:1.4-2] bd_70da_pspmc_0_0: Time taken by reg_generate is 1382 ms
+Exporting to file /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/hw_handoff/design_1_versal_cips_0_0.hwh
+Generated Hardware Definition File /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/synth/design_1_versal_cips_0_0.hwdef
 INFO: [BD 41-1029] Generation completed for the IP Integrator block versal_cips_0 .
 INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_0 .
 INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wizard_0 .
-Exporting to file /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.gen/sources_1/bd/design_2/ip/design_2_axis_ila_0_0/bd_0/hw_handoff/design_2_axis_ila_0_0.hwh
-Generated Hardware Definition File /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.gen/sources_1/bd/design_2/ip/design_2_axis_ila_0_0/bd_0/synth/design_2_axis_ila_0_0.hwdef
+Exporting to file /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_axis_ila_0_0/bd_0/hw_handoff/design_1_axis_ila_0_0.hwh
+Generated Hardware Definition File /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_axis_ila_0_0/bd_0/synth/design_1_axis_ila_0_0.hwdef
 INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_ila_0 .
-Exporting to file /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.gen/sources_1/bd/design_2/hw_handoff/design_2.hwh
-Generated Hardware Definition File /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.gen/sources_1/bd/design_2/synth/design_2.hwdef
+Exporting to file /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Hardware Definition File /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.hwdef
 INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_2_axi_noc_0_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_2_axis_ila_0_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_2_clk_wizard_0_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_2_noc_sim_trig_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_2_noc_tg_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_2_noc_tg_1_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_2_noc_tg_2_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_2_noc_tg_3_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_2_noc_tg_pmon_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_2_noc_tg_pmon_1_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_2_noc_tg_pmon_2_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_2_noc_tg_pmon_3_0
-INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_2_proc_sys_reset_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axi_noc_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_axis_ila_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_clk_wizard_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_noc_sim_trig_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_noc_tg_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_noc_tg_1_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_noc_tg_2_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_noc_tg_3_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_noc_tg_pmon_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_noc_tg_pmon_1_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_noc_tg_pmon_2_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_noc_tg_pmon_3_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP design_1_proc_sys_reset_0_0
 INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_2_axi_noc_0_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_2_axis_ila_0_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_2_clk_wizard_0_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_2_noc_sim_trig_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_2_noc_tg_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_2_noc_tg_1_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_2_noc_tg_2_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_2_noc_tg_3_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_2_noc_tg_pmon_3_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_2_proc_sys_reset_0_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_2_noc_tg_pmon_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_2_noc_tg_pmon_1_0
-INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_2_noc_tg_pmon_2_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axi_noc_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_axis_ila_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_noc_tg_pmon_3_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_clk_wizard_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_noc_sim_trig_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_noc_tg_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_noc_tg_1_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_noc_tg_2_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_noc_tg_3_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_noc_tg_pmon_2_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_proc_sys_reset_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_noc_tg_pmon_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_noc_tg_pmon_1_0
 WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
-[Thu May  1 15:13:18 2025] Launched design_2_noc_tg_0_synth_1, design_2_noc_tg_pmon_3_0_synth_1, design_2_axi_noc_0_0_synth_1, design_2_noc_tg_3_0_synth_1, design_2_noc_tg_2_0_synth_1, design_2_noc_tg_pmon_2_0_synth_1, design_2_noc_tg_1_0_synth_1, design_2_noc_tg_pmon_1_0_synth_1, design_2_noc_sim_trig_0_synth_1, design_2_noc_tg_pmon_0_synth_1, design_2_clk_wizard_0_0_synth_1, design_2_proc_sys_reset_0_0_synth_1, design_2_axis_ila_0_0_synth_1...
+[Fri May  2 23:01:12 2025] Launched design_1_noc_tg_0_synth_1, design_1_noc_sim_trig_0_synth_1, design_1_noc_tg_3_0_synth_1, design_1_noc_tg_pmon_0_synth_1, design_1_clk_wizard_0_0_synth_1, design_1_noc_tg_pmon_2_0_synth_1, design_1_noc_tg_2_0_synth_1, design_1_noc_tg_pmon_3_0_synth_1, design_1_noc_tg_pmon_1_0_synth_1, design_1_axi_noc_0_0_synth_1, design_1_axis_ila_0_0_synth_1, design_1_proc_sys_reset_0_0_synth_1, design_1_noc_tg_1_0_synth_1...
 Run output will be captured here:
-design_2_noc_tg_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.runs/design_2_noc_tg_0_synth_1/runme.log
-design_2_noc_tg_pmon_3_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.runs/design_2_noc_tg_pmon_3_0_synth_1/runme.log
-design_2_axi_noc_0_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.runs/design_2_axi_noc_0_0_synth_1/runme.log
-design_2_noc_tg_3_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.runs/design_2_noc_tg_3_0_synth_1/runme.log
-design_2_noc_tg_2_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.runs/design_2_noc_tg_2_0_synth_1/runme.log
-design_2_noc_tg_pmon_2_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.runs/design_2_noc_tg_pmon_2_0_synth_1/runme.log
-design_2_noc_tg_1_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.runs/design_2_noc_tg_1_0_synth_1/runme.log
-design_2_noc_tg_pmon_1_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.runs/design_2_noc_tg_pmon_1_0_synth_1/runme.log
-design_2_noc_sim_trig_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.runs/design_2_noc_sim_trig_0_synth_1/runme.log
-design_2_noc_tg_pmon_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.runs/design_2_noc_tg_pmon_0_synth_1/runme.log
-design_2_clk_wizard_0_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.runs/design_2_clk_wizard_0_0_synth_1/runme.log
-design_2_proc_sys_reset_0_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.runs/design_2_proc_sys_reset_0_0_synth_1/runme.log
-design_2_axis_ila_0_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.runs/design_2_axis_ila_0_0_synth_1/runme.log
-[Thu May  1 15:13:18 2025] Launched synth_1...
-Run output will be captured here: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2.runs/synth_1/runme.log
-launch_runs: Time (s): cpu = 00:00:57 ; elapsed = 00:00:52 . Memory (MB): peak = 11803.012 ; gain = 518.430 ; free physical = 187 ; free virtual = 8222
-INFO: [xilinx.com:ip:perf_axi_tg:1.0-10001] design_2_noc_tg_1_0: value of Parity is FALSE
-exit
-INFO: [Common 17-206] Exiting Vivado at Thu May  1 18:43:48 2025...
+design_1_noc_tg_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/design_1_noc_tg_0_synth_1/runme.log
+design_1_noc_sim_trig_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/design_1_noc_sim_trig_0_synth_1/runme.log
+design_1_noc_tg_3_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/design_1_noc_tg_3_0_synth_1/runme.log
+design_1_noc_tg_pmon_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/design_1_noc_tg_pmon_0_synth_1/runme.log
+design_1_clk_wizard_0_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/design_1_clk_wizard_0_0_synth_1/runme.log
+design_1_noc_tg_pmon_2_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/design_1_noc_tg_pmon_2_0_synth_1/runme.log
+design_1_noc_tg_2_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/design_1_noc_tg_2_0_synth_1/runme.log
+design_1_noc_tg_pmon_3_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/design_1_noc_tg_pmon_3_0_synth_1/runme.log
+design_1_noc_tg_pmon_1_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/design_1_noc_tg_pmon_1_0_synth_1/runme.log
+design_1_axi_noc_0_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/design_1_axi_noc_0_0_synth_1/runme.log
+design_1_axis_ila_0_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/design_1_axis_ila_0_0_synth_1/runme.log
+design_1_proc_sys_reset_0_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/design_1_proc_sys_reset_0_0_synth_1/runme.log
+design_1_noc_tg_1_0_synth_1: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/design_1_noc_tg_1_0_synth_1/runme.log
+[Fri May  2 23:01:12 2025] Launched synth_1...
+Run output will be captured here: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:01:00 ; elapsed = 00:00:55 . Memory (MB): peak = 11995.156 ; gain = 454.031 ; free physical = 7328 ; free virtual = 10823

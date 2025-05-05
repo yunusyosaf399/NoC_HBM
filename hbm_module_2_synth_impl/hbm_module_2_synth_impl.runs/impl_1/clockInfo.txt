@@ -1,0 +1,200 @@
+-------------------------------------
+| Tool Version : Vivado v.2024.2
+| Date         : Mon May  5 16:33:16 2025
+| Host         : younas-Latitude-7280
+| Device       : xcvh1582-vsva3697-2MP-E-S
+-------------------------------------
+
+For more information on clockInfo.txt clock routing debug file see https://support.xilinx.com/s/article/000035660?language=en_US
+
+*********************
+Validating user input
+*********************
+No user input conflicts found
+
+Number of global clocks: 6
+	Number of BUFGCE: 1
+	Number of BUFGCE_HDIO: 0
+	Number of BUFGCTRL: 0
+	Number of BUFGCE_DIV: 4
+	Number of BUFG_GT: 0
+	Number of BUFG_PS: 1
+	Number of BUFG_FABRIC: 0
+
+
+********************************
+Clock Net Route Info (CRP Input)
+********************************
+Clock 1: design_1_i/clk_wizard_0/inst/clock_primitive_inst/clk_out1
+	Clock source type: BUFGCE
+	Clock source region: X6Y0
+	Clock regions with fixed/placed loads: X0Y8 X1Y7 X1Y8 X2Y0 X3Y0 X4Y0 X5Y0 X6Y0 X7Y0 X8Y0 X9Y0 
+Clock 2: design_1_i/versal_cips_0/inst/pspmc_0/inst/pl0_ref_clk
+	Clock source type: BUFG_PS fixed to track 6
+	Clock source region: X1Y1
+	Clock regions with fixed/placed loads: X6Y0 
+Clock 3: design_1_i/noc_tg_3/inst/i_pclk_tg
+	Clock source type: BUFGCE_DIV
+	Clock source region: X9Y0
+Clock 4: design_1_i/noc_tg/inst/i_pclk_tg
+	Clock source type: BUFGCE_DIV
+	Clock source region: X8Y0
+Clock 5: design_1_i/noc_tg_1/inst/i_pclk_tg
+	Clock source type: BUFGCE_DIV
+	Clock source region: X7Y0
+Clock 6: design_1_i/noc_tg_2/inst/i_pclk_tg
+	Clock source type: BUFGCE_DIV
+	Clock source region: X2Y0
+
+
+*****************
+User Constraints:
+*****************
+No user constraints found
+
+*****************
+Tool Constraints:
+*****************
+No tool constraints found
+
+
+
+**************************
+Dump ILP Clock Region Info
+**************************
+clock name: design_1_i/clk_wizard_0/inst/clock_primitive_inst/clk_out1
+  Source: X6Y0
+  VR/Distribution Track: 3
+  HR Track: 3
+  HR regions: X3Y0, X4Y0, X5Y0, X6Y0
+  VR regions: X3Y0, X1Y1, X1Y2, X1Y3, X1Y4, X1Y5, X1Y6
+  Root: X1Y6
+  VD regions: X1Y0, X1Y1, X1Y2, X1Y3, X1Y4, X1Y5, X1Y6, X1Y7, X1Y8
+  HD regions: X0Y0, X0Y5, X0Y6, X0Y7, X0Y8, X1Y0, X1Y5, X1Y6, X1Y7, X1Y8, X2Y0, X2Y5, X2Y6, X2Y7, X2Y8, X3Y0, X3Y5, X3Y6, X3Y7, X3Y8, X4Y0, X4Y5, X4Y6, X4Y7, X4Y8, X5Y0, X5Y5, X5Y6, X5Y7, X5Y8, X6Y0, X6Y5, X6Y6, X6Y7, X6Y8, X7Y0, X7Y5, X7Y6, X7Y7, X7Y8, X8Y0, X8Y5, X8Y6, X8Y7, X8Y8, X9Y0, X9Y5, X9Y6, X9Y7, X10Y0, X11Y0, X12Y0
+
+clock name: design_1_i/versal_cips_0/inst/pspmc_0/inst/pl0_ref_clk
+  Source: X1Y1
+  VR/Distribution Track: 4
+  HR Track: 6
+  HR regions: X1Y1, X2Y1, X3Y1
+  VR regions: X3Y1, X3Y2, X3Y3, X3Y4
+  Root: X3Y4
+  VD regions: X3Y0, X3Y1, X3Y2, X3Y3, X3Y4, X3Y5, X3Y6, X3Y7
+  HD regions: X0Y0, X0Y1, X0Y2, X0Y3, X0Y4, X0Y5, X0Y6, X0Y7, X1Y0, X1Y1, X1Y2, X1Y3, X1Y4, X1Y5, X1Y6, X1Y7, X2Y0, X2Y1, X2Y2, X2Y3, X2Y4, X2Y5, X2Y6, X2Y7, X3Y0, X3Y1, X3Y2, X3Y3, X3Y4, X3Y5, X3Y6, X3Y7, X4Y0, X4Y1, X4Y2, X4Y3, X4Y4, X4Y5, X4Y6, X4Y7, X5Y0, X5Y1, X5Y2, X5Y3, X5Y4, X5Y5, X5Y6, X5Y7, X6Y0, X6Y1, X6Y2, X6Y3, X6Y4, X6Y5, X6Y6, X6Y7
+
+clock name: design_1_i/noc_tg_3/inst/i_pclk_tg
+  Source: X9Y0
+  VR/Distribution Track: 15
+  HR Track: 15
+  HR regions: X3Y0, X4Y0, X5Y0, X6Y0, X7Y0, X8Y0, X9Y0
+  VR regions: X3Y0, X1Y1, X1Y2, X1Y3, X1Y4, X1Y5, X1Y6
+  Root: X1Y6
+  VD regions: X1Y5, X1Y6, X1Y7
+  HD regions: X0Y5, X0Y6, X0Y7, X1Y5, X1Y6, X1Y7, X2Y5, X2Y6, X2Y7, X3Y5, X3Y6, X3Y7, X4Y5, X4Y6, X4Y7, X5Y5, X5Y6, X5Y7, X6Y5, X6Y6, X6Y7, X7Y5, X7Y6, X7Y7, X8Y5, X8Y6, X8Y7, X9Y5, X9Y6, X9Y7
+
+clock name: design_1_i/noc_tg/inst/i_pclk_tg
+  Source: X8Y0
+  VR/Distribution Track: 5
+  HR Track: 5
+  HR regions: X3Y0, X4Y0, X5Y0, X6Y0, X7Y0, X8Y0
+  VR regions: X3Y0, X1Y1, X1Y2, X1Y3, X1Y4, X1Y5, X1Y6
+  Root: X1Y6
+  VD regions: X1Y5, X1Y6, X1Y7
+  HD regions: X0Y5, X0Y6, X0Y7, X1Y5, X1Y6, X1Y7, X2Y5, X2Y6, X2Y7, X3Y5, X3Y6, X3Y7, X4Y5, X4Y6, X4Y7, X5Y5, X5Y6, X5Y7, X6Y5, X6Y6, X6Y7, X7Y5, X7Y6, X7Y7, X8Y5, X8Y6, X8Y7, X9Y5, X9Y6, X9Y7
+
+clock name: design_1_i/noc_tg_1/inst/i_pclk_tg
+  Source: X7Y0
+  VR/Distribution Track: 18
+  HR Track: 18
+  HR regions: X3Y0, X4Y0, X5Y0, X6Y0, X7Y0
+  VR regions: X3Y0, X1Y1, X1Y2, X1Y3, X1Y4, X1Y5, X1Y6
+  Root: X1Y6
+  VD regions: X1Y5, X1Y6, X1Y7
+  HD regions: X0Y5, X0Y6, X0Y7, X1Y5, X1Y6, X1Y7, X2Y5, X2Y6, X2Y7, X3Y5, X3Y6, X3Y7, X4Y5, X4Y6, X4Y7, X5Y5, X5Y6, X5Y7, X6Y5, X6Y6, X6Y7, X7Y5, X7Y6, X7Y7, X8Y5, X8Y6, X8Y7, X9Y5, X9Y6, X9Y7
+
+clock name: design_1_i/noc_tg_2/inst/i_pclk_tg
+  Source: X2Y0
+  VR/Distribution Track: 10
+  HR Track: 10
+  HR regions: X2Y0, X3Y0
+  VR regions: X3Y0, X1Y1, X1Y2, X1Y3, X1Y4, X1Y5, X1Y6
+  Root: X1Y6
+  VD regions: X1Y5, X1Y6, X1Y7
+  HD regions: X0Y5, X0Y6, X0Y7, X1Y5, X1Y6, X1Y7, X2Y5, X2Y6, X2Y7, X3Y5, X3Y6, X3Y7, X4Y5, X4Y6, X4Y7, X5Y5, X5Y6, X5Y7, X6Y5, X6Y6, X6Y7, X7Y5, X7Y6, X7Y7, X8Y5, X8Y6, X8Y7, X9Y5, X9Y6, X9Y7
+
+
+Number of clock sources in each region:
+#BUFGCE, #BUFGCE_DIV, #BUFGCTRL, #BUFG_GT, #BUFG_PS, #BUFG_FABRIC, #BUFGCE_HDIO
+   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Y8| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0|                   X|                   X|                   X|                   X|
+   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Y7| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0|                   X|                   X|                   X|
+   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Y6| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0|                   X|                   X|                   X|
+   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Y5| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0|                   X|                   X|                   X|
+   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Y4| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0|                   X|                   X|                   X|
+   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Y3| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0|                   X|                   X|                   X|
+   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Y2| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0|                   X|                   X|                   X|
+   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Y1| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 1, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0|                   X|                   X|                   X|
+   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Y0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 1, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 1, 0, 0, 0, 0, 0, 0| 0, 1, 0, 0, 0, 0, 0| 0, 1, 0, 0, 0, 0, 0| 0, 1, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0| 0, 0, 0, 0, 0, 0, 0|
+   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+              X0                   X1                   X2                   X3                   X4                   X5                   X6                   X7                   X8                   X9                  X10                  X11                  X12       
+
+
+*******************************************
+Clock Net Info After Depositing Clock Trees
+*******************************************
+Clock name: design_1_i/clk_wizard_0/inst/clock_primitive_inst/clk_out1
+Clock source: X6Y0
+VR/Distribution Track: 3
+HR Track: 3
+Clock root: X1Y6
+Clock expansion window: CLOCKREGION_X0Y6:CLOCKREGION_X3Y7
+Clock region(s) of placed loads: X0Y8 X1Y7 X1Y8 X2Y7 X0Y7 X1Y6 X8Y0 X7Y0 X2Y6 X2Y0 X3Y7 X9Y0 
+
+Clock name: design_1_i/versal_cips_0/inst/pspmc_0/inst/pl0_ref_clk
+Clock source: X1Y1
+VR/Distribution Track: 4
+HR Track: 6
+Clock root: X3Y6
+Clock expansion window: CLOCKREGION_X0Y6:CLOCKREGION_X4Y7
+Clock region(s) of placed loads: X2Y7 X1Y7 X0Y7 X6Y0 X3Y7 X4Y7 X1Y6 
+
+Clock name: design_1_i/noc_tg_3/inst/i_pclk_tg
+Clock source: X9Y0
+VR/Distribution Track: 15
+HR Track: 15
+Clock root: X1Y6
+Clock expansion window: CLOCKREGION_X0Y6:CLOCKREGION_X3Y7
+Clock region(s) of placed loads: X1Y7 X3Y7 X2Y7 X2Y6 X1Y6 X0Y7 
+
+Clock name: design_1_i/noc_tg/inst/i_pclk_tg
+Clock source: X8Y0
+VR/Distribution Track: 5
+HR Track: 5
+Clock root: X1Y6
+Clock expansion window: CLOCKREGION_X1Y6:CLOCKREGION_X1Y7
+Clock region(s) of placed loads: X1Y6 X1Y7 
+
+Clock name: design_1_i/noc_tg_1/inst/i_pclk_tg
+Clock source: X7Y0
+VR/Distribution Track: 18
+HR Track: 18
+Clock root: X1Y6
+Clock expansion window: CLOCKREGION_X1Y6:CLOCKREGION_X2Y7
+Clock region(s) of placed loads: X1Y7 X1Y6 X2Y7 
+
+Clock name: design_1_i/noc_tg_2/inst/i_pclk_tg
+Clock source: X2Y0
+VR/Distribution Track: 10
+HR Track: 10
+Clock root: X1Y6
+Clock expansion window: CLOCKREGION_X1Y6:CLOCKREGION_X2Y7
+Clock region(s) of placed loads: X2Y7 X2Y6 
+

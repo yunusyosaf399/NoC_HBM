@@ -1,0 +1,226 @@
+xilinx rtfpga
+rt::do_reinfer_area_combined 1
+DSP Report: Generating DSP fifo_din0, operation Mode is: C'+A2*B.
+DSP Report: register fifo_din0 is absorbed into DSP fifo_din0.
+DSP Report: register fifo_din0 is absorbed into DSP fifo_din0.
+DSP Report: operator fifo_din0 is absorbed into DSP fifo_din0.
+DSP Report: operator fifo_din1 is absorbed into DSP fifo_din0.
+WARNING: [Synth 8-7129] Port rid[0] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rresp[1] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rresp[0] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ruser[15] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ruser[14] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ruser[13] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ruser[12] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ruser[11] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ruser[10] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ruser[9] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ruser[8] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ruser[7] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ruser[6] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ruser[5] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ruser[4] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ruser[3] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ruser[2] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ruser[1] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ruser[0] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[255] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[254] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[253] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[252] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[251] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[250] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[249] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[248] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[247] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[246] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[245] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[244] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[243] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[242] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[241] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[240] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[239] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[238] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[237] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[236] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[235] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[234] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[233] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[232] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[231] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[230] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[229] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[228] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[227] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[226] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[225] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[224] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[223] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[222] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[221] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[220] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[219] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[218] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[217] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[216] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[215] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[214] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[213] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[212] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[211] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[210] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[209] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[208] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[207] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[206] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[205] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[204] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[203] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[202] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[201] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[200] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[199] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[198] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[197] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[196] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[195] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[194] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[193] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[192] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[191] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[190] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[189] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[188] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[187] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[186] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[185] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[184] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[183] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[182] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[181] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[180] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[179] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[178] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[177] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[176] in module axi_rd_wr_err_detect is either unconnected or has no load
+WARNING: [Synth 8-7129] Port first_err_received_data[175] in module axi_rd_wr_err_detect is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[47]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[46]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[46]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[45]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[45]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[44]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[44]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[43]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[43]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[42]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[42]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[41]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[41]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[40]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[40]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[39]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[39]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[38]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[38]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[37]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[37]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[36]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[36]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[35]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[35]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[34]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[34]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[33]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[33]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[32]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[32]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[31]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[31]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[30]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[30]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[29]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[29]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[28]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[28]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[27]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[27]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[26]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[26]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[25]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[25]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[24]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[24]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[23]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[23]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[22]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[22]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[21]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[21]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[20]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[20]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[19]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[19]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[18]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[18]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[17]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[17]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[16]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[16]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[14]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[13]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[15]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[14]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[13]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[12]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[12]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[11]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gen_rd_ch_en_1.u_axi_rdch_ctrl /\next_num_bytes_per_txn_2x_reg[0] )
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[1]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[0]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[2]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[1]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[3]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[2]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[4]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[3]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[5]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[4]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[6]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[7]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[6]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[8]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[9]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[8]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[10]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[9]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_2x_reg[11]' (FD) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_num_bytes_per_txn_x_reg[10]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/size_alignment_factor_nxt_reg[48]' (FDR) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/size_alignment_factor_reg[48]' (FDRE) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/wrap_alignment_factor_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_txn_size_reg[16]' (FDR) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/next_inst_invalid_ff1_reg'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[0]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[1]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[1]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[2]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[2]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[3]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[4]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[5]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[5]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[6]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[6]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[7]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[8]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[9]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[9]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[10]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[10]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[11]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[12]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[13]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[13]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[14]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[14]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[15]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[16]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[17]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[17]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[18]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[18]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[19]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[20]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[21]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[21]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[22]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[22]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[23]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[24]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[25]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[25]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[26]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[26]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[27]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[28]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[29]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[29]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[30]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[30]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[31]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[32]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[33]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[33]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[34]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[34]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[35]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[36]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[37]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[37]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[38]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[38]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[39]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[40]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[41]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[41]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[42]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[42]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[43]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[44]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[45]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[45]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[46]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[46]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[47]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[48]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[49]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[49]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[50]'
+INFO: [Synth 8-3886] merging instance 'mem_strobe_gen/wr_strobe_reg[50]' (FDCE) to 'mem_strobe_gen/wr_strobe_reg[51]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/wrap_alignment_factor_nxt_reg[47]' (FDR) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/wrap_alignment_factor_reg[47]' (FDRE) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/wrap_alignment_factor_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/wrap_alignment_factor_nxt_reg[46]' (FDR) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/wrap_alignment_factor_reg[46]' (FDRE) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/wrap_alignment_factor_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/wrap_alignment_factor_nxt_reg[45]' (FDR) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/wrap_alignment_factor_reg[45]' (FDRE) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/wrap_alignment_factor_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/wrap_alignment_factor_nxt_reg[44]' (FDR) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/wrap_alignment_factor_reg[44]' (FDRE) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/wrap_alignment_factor_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/wrap_alignment_factor_nxt_reg[43]' (FDR) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/wrap_alignment_factor_reg[43]' (FDRE) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/wrap_alignment_factor_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_rd_ch_en_1.u_axi_rdch_ctrl/wrap_alignment_factor_nxt_reg[42]' (FDR) to 'gen_rd_ch_en_1.u_axi_rdch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_rd_wr_err_detect/tg_done_in_d1_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gen_rd_ch_en_1.u_axi_rdch_ctrl /next_inst_invalid_ff1_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_rd_wr_err_detect/\di_araddr_reg[47] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_rd_wr_err_detect/\di_arid_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (issue_rereads_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u_axi_inst_core/mem_init_start_reg)

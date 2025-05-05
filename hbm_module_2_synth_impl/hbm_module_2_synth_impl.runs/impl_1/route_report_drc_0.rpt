@@ -1,0 +1,144 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (lin64) Build 5239630 Fri Nov 08 22:34:34 MST 2024
+| Date         : Mon May  5 16:43:36 2025
+| Host         : younas-Latitude-7280 running 64-bit Ubuntu 20.04.6 LTS
+| Command      : report_drc -file route_report_drc_0.rpt -pb route_report_drc_0.pb -rpx route_report_drc_0.rpx
+| Design       : design_1_wrapper
+| Device       : xcvh1582-vsva3697-2MP-e-S
+| Speed File   : -2MP
+| Design State : Fully Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max checks: <unlimited>
+             Checks found: 18
++-----------+----------+-------------------------+--------+
+| Rule      | Severity | Description             | Checks |
++-----------+----------+-------------------------+--------+
+| DPIP-3    | Warning  | Input pipelining        | 4      |
+| DPOP-6    | Warning  | MREG Output pipelining  | 4      |
+| PDCN-1569 | Warning  | LUT equation term check | 9      |
+| RTSTAT-10 | Warning  | No routable loads       | 1      |
++-----------+----------+-------------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+DPIP-3#1 Warning
+Input pipelining  
+DSP design_1_i/noc_tg/inst/u_top_axi_mst/u_tg_top/u_axi_inst_core/fifo_din0 input design_1_i/noc_tg/inst/u_top_axi_mst/u_tg_top/u_axi_inst_core/fifo_din0/B[23:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-3#2 Warning
+Input pipelining  
+DSP design_1_i/noc_tg_1/inst/u_top_axi_mst/u_tg_top/u_axi_inst_core/fifo_din0 input design_1_i/noc_tg_1/inst/u_top_axi_mst/u_tg_top/u_axi_inst_core/fifo_din0/B[23:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-3#3 Warning
+Input pipelining  
+DSP design_1_i/noc_tg_2/inst/u_top_axi_mst/u_tg_top/u_axi_inst_core/fifo_din0 input design_1_i/noc_tg_2/inst/u_top_axi_mst/u_tg_top/u_axi_inst_core/fifo_din0/B[23:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-3#4 Warning
+Input pipelining  
+DSP design_1_i/noc_tg_3/inst/u_top_axi_mst/u_tg_top/u_axi_inst_core/fifo_din0 input design_1_i/noc_tg_3/inst/u_top_axi_mst/u_tg_top/u_axi_inst_core/fifo_din0/B[23:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-6#1 Warning
+MREG Output pipelining  
+DSP design_1_i/noc_tg/inst/u_top_axi_mst/u_tg_top/u_axi_inst_core/fifo_din0 multiplier stage design_1_i/noc_tg/inst/u_top_axi_mst/u_tg_top/u_axi_inst_core/fifo_din0/P[57:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-6#2 Warning
+MREG Output pipelining  
+DSP design_1_i/noc_tg_1/inst/u_top_axi_mst/u_tg_top/u_axi_inst_core/fifo_din0 multiplier stage design_1_i/noc_tg_1/inst/u_top_axi_mst/u_tg_top/u_axi_inst_core/fifo_din0/P[57:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-6#3 Warning
+MREG Output pipelining  
+DSP design_1_i/noc_tg_2/inst/u_top_axi_mst/u_tg_top/u_axi_inst_core/fifo_din0 multiplier stage design_1_i/noc_tg_2/inst/u_top_axi_mst/u_tg_top/u_axi_inst_core/fifo_din0/P[57:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-6#4 Warning
+MREG Output pipelining  
+DSP design_1_i/noc_tg_3/inst/u_top_axi_mst/u_tg_top/u_axi_inst_core/fifo_din0 multiplier stage design_1_i/noc_tg_3/inst/u_top_axi_mst/u_tg_top/u_axi_inst_core/fifo_din0/P[57:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+PDCN-1569#1 Warning
+LUT equation term check  
+Used physical LUT pin 'A1' of cell design_1_i/axis_ila_0/inst/axis_mem/inst/u_generic_memrd/data_word_out_o[28]_INST_0_i_1 (pin design_1_i/axis_ila_0/inst/axis_mem/inst/u_generic_memrd/data_word_out_o[28]_INST_0_i_1/I4) is not included in the LUT equation: 'O6=(A2*A6)+(A2*(~A6)*A5*A3)+(A2*(~A6)*A5*(~A3)*A4)+(A2*(~A6)*(~A5)*(~A3)*A4)+((~A2)*(~A6)*A5*A3)+((~A2)*(~A6)*A5*(~A3)*A4)+((~A2)*(~A6)*(~A5)*(~A3)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#2 Warning
+LUT equation term check  
+Used physical LUT pin 'A2' of cell design_1_i/axis_ila_0/inst/axis_mem/inst/u_generic_memrd/data_word_out_o[24]_INST_0_i_1 (pin design_1_i/axis_ila_0/inst/axis_mem/inst/u_generic_memrd/data_word_out_o[24]_INST_0_i_1/I4) is not included in the LUT equation: 'O6=(A3*A1)+(A3*(~A1)*A4*A5)+(A3*(~A1)*A4*(~A5)*A6)+(A3*(~A1)*(~A4)*(~A5)*A6)+((~A3)*(~A1)*A4*A5)+((~A3)*(~A1)*A4*(~A5)*A6)+((~A3)*(~A1)*(~A4)*(~A5)*A6)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#3 Warning
+LUT equation term check  
+Used physical LUT pin 'A2' of cell design_1_i/axis_ila_0/inst/axis_mem/inst/u_generic_memrd/data_word_out_o[25]_INST_0_i_1 (pin design_1_i/axis_ila_0/inst/axis_mem/inst/u_generic_memrd/data_word_out_o[25]_INST_0_i_1/I4) is not included in the LUT equation: 'O6=(A1*A4)+(A1*(~A4)*A3*A6)+(A1*(~A4)*A3*(~A6)*A5)+(A1*(~A4)*(~A3)*(~A6)*A5)+((~A1)*(~A4)*A3*A6)+((~A1)*(~A4)*A3*(~A6)*A5)+((~A1)*(~A4)*(~A3)*(~A6)*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#4 Warning
+LUT equation term check  
+Used physical LUT pin 'A2' of cell design_1_i/axis_ila_0/inst/axis_mem/inst/u_generic_memrd/data_word_out_o[27]_INST_0_i_1 (pin design_1_i/axis_ila_0/inst/axis_mem/inst/u_generic_memrd/data_word_out_o[27]_INST_0_i_1/I4) is not included in the LUT equation: 'O6=(A3*A1)+(A3*(~A1)*A6*A4)+(A3*(~A1)*A6*(~A4)*A5)+(A3*(~A1)*(~A6)*(~A4)*A5)+((~A3)*(~A1)*A6*A4)+((~A3)*(~A1)*A6*(~A4)*A5)+((~A3)*(~A1)*(~A6)*(~A4)*A5)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#5 Warning
+LUT equation term check  
+Used physical LUT pin 'A2' of cell design_1_i/axis_ila_0/inst/axis_mem/inst/u_generic_memrd/data_word_out_o[30]_INST_0_i_1 (pin design_1_i/axis_ila_0/inst/axis_mem/inst/u_generic_memrd/data_word_out_o[30]_INST_0_i_1/I4) is not included in the LUT equation: 'O6=(A6*A4)+(A6*(~A4)*A3*A5)+(A6*(~A4)*A3*(~A5)*A1)+(A6*(~A4)*(~A3)*(~A5)*A1)+((~A6)*(~A4)*A3*A5)+((~A6)*(~A4)*A3*(~A5)*A1)+((~A6)*(~A4)*(~A3)*(~A5)*A1)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#6 Warning
+LUT equation term check  
+Used physical LUT pin 'A4' of cell design_1_i/axis_ila_0/inst/axis_mem/inst/u_generic_memrd/data_word_out_o[31]_INST_0_i_1 (pin design_1_i/axis_ila_0/inst/axis_mem/inst/u_generic_memrd/data_word_out_o[31]_INST_0_i_1/I4) is not included in the LUT equation: 'O6=(A5*A6)+(A5*(~A6)*A2*A1)+(A5*(~A6)*A2*(~A1)*A3)+(A5*(~A6)*(~A2)*(~A1)*A3)+((~A5)*(~A6)*A2*A1)+((~A5)*(~A6)*A2*(~A1)*A3)+((~A5)*(~A6)*(~A2)*(~A1)*A3)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#7 Warning
+LUT equation term check  
+Used physical LUT pin 'A5' of cell design_1_i/axis_ila_0/inst/axis_mem/inst/u_generic_memrd/data_word_out_o[26]_INST_0_i_1 (pin design_1_i/axis_ila_0/inst/axis_mem/inst/u_generic_memrd/data_word_out_o[26]_INST_0_i_1/I4) is not included in the LUT equation: 'O6=(A2*A6)+(A2*(~A6)*A1*A3)+(A2*(~A6)*A1*(~A3)*A4)+(A2*(~A6)*(~A1)*(~A3)*A4)+((~A2)*(~A6)*A1*A3)+((~A2)*(~A6)*A1*(~A3)*A4)+((~A2)*(~A6)*(~A1)*(~A3)*A4)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#8 Warning
+LUT equation term check  
+Used physical LUT pin 'A6' of cell design_1_i/axis_ila_0/inst/axis_mem/inst/u_generic_memrd/data_word_out_o[23]_INST_0_i_1 (pin design_1_i/axis_ila_0/inst/axis_mem/inst/u_generic_memrd/data_word_out_o[23]_INST_0_i_1/I4) is not included in the LUT equation: 'O6=(A5*A3)+(A5*(~A3)*A4*A2)+(A5*(~A3)*A4*(~A2)*A1)+(A5*(~A3)*(~A4)*(~A2)*A1)+((~A5)*(~A3)*A4*A2)+((~A5)*(~A3)*A4*(~A2)*A1)+((~A5)*(~A3)*(~A4)*(~A2)*A1)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+PDCN-1569#9 Warning
+LUT equation term check  
+Used physical LUT pin 'A6' of cell design_1_i/axis_ila_0/inst/axis_mem/inst/u_generic_memrd/data_word_out_o[29]_INST_0_i_1 (pin design_1_i/axis_ila_0/inst/axis_mem/inst/u_generic_memrd/data_word_out_o[29]_INST_0_i_1/I4) is not included in the LUT equation: 'O6=(A3*A5)+(A3*(~A5)*A2*A4)+(A3*(~A5)*A2*(~A4)*A1)+(A3*(~A5)*(~A2)*(~A4)*A1)+((~A3)*(~A5)*A2*A4)+((~A3)*(~A5)*A2*(~A4)*A1)+((~A3)*(~A5)*(~A2)*(~A4)*A1)'. If this cell is a user instantiated LUT in the design, please remove connectivity to the pin or change the equation and/or INIT string of the LUT to prevent this issue. If the cell is inferred or IP created LUT, please regenerate the IP and/or resynthesize the design to attempt to correct the issue.
+Related violations: <none>
+
+RTSTAT-10#1 Warning
+No routable loads  
+772 net(s) have no routable loads. The problem bus(es) and/or net(s) are design_1_i/axi_noc_0/inst/MC_hbmc/inst/hbm_st0/I_hbm_chnl0/CH0_PHY_CHNL_CORE_DFI_CLK_MC2PHY_BLI,
+design_1_i/axi_noc_0/inst/MC_hbmc/inst/hbm_st0/I_hbm_chnl0/CH0_PHY_CHNL_CORE_DFI_CLK_NOC2PHY_BLI,
+design_1_i/axi_noc_0/inst/MC_hbmc/inst/hbm_st0/I_hbm_chnl0/HBM_IO_CHNL_CORE_HBM_AERR_PAD,
+design_1_i/axi_noc_0/inst/MC_hbmc/inst/hbm_st0/I_hbm_chnl0/HBM_IO_CHNL_CORE_HBM_CKE_PAD,
+design_1_i/axi_noc_0/inst/MC_hbmc/inst/hbm_st0/I_hbm_chnl0/HBM_IO_CHNL_CORE_HBM_CK_C_PAD,
+design_1_i/axi_noc_0/inst/MC_hbmc/inst/hbm_st0/I_hbm_chnl0/HBM_IO_CHNL_CORE_HBM_CK_T_PAD,
+design_1_i/axi_noc_0/inst/MC_hbmc/inst/hbm_st0/I_hbm_chnl0/HBM_IO_CHNL_CORE_HBM_C_PAD_0,
+design_1_i/axi_noc_0/inst/MC_hbmc/inst/hbm_st0/I_hbm_chnl0/HBM_IO_CHNL_CORE_HBM_C_PAD_1,
+design_1_i/axi_noc_0/inst/MC_hbmc/inst/hbm_st0/I_hbm_chnl0/HBM_IO_CHNL_CORE_HBM_C_PAD_2,
+design_1_i/axi_noc_0/inst/MC_hbmc/inst/hbm_st0/I_hbm_chnl0/HBM_IO_CHNL_CORE_HBM_C_PAD_3,
+design_1_i/axi_noc_0/inst/MC_hbmc/inst/hbm_st0/I_hbm_chnl0/HBM_IO_CHNL_CORE_HBM_C_PAD_4,
+design_1_i/axi_noc_0/inst/MC_hbmc/inst/hbm_st0/I_hbm_chnl0/HBM_IO_CHNL_CORE_HBM_C_PAD_5,
+design_1_i/axi_noc_0/inst/MC_hbmc/inst/hbm_st0/I_hbm_chnl0/HBM_IO_CHNL_CORE_HBM_C_PAD_6,
+design_1_i/axi_noc_0/inst/MC_hbmc/inst/hbm_st0/I_hbm_chnl0/HBM_IO_CHNL_CORE_HBM_C_PAD_7,
+design_1_i/axi_noc_0/inst/MC_hbmc/inst/hbm_st0/I_hbm_chnl0/HBM_IO_CHNL_CORE_HBM_C_PAD_8
+ (the first 15 of 345 listed nets/buses).
+Related violations: <none>
+
+

@@ -5672,6 +5672,10 @@ OUT_38:MCSIO_OUT_39:MCSIO_OUT_40:MCSIO_OUT_41:MCSIO_OUT_42:MCSIO_OUT_43:MCSIO_OU
         </spirit:fileSetRef>
         <spirit:parameters>
           <spirit:parameter>
+            <spirit:name>GENtimestamp</spirit:name>
+            <spirit:value>Fri May 02 16:39:34 UTC 2025</spirit:value>
+          </spirit:parameter>
+          <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
             <spirit:value>9:1f3a2588</spirit:value>
           </spirit:parameter>

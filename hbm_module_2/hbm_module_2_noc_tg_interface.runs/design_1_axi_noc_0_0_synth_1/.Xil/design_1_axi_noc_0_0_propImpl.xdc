@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_5/hdl/par/bd_8be5_MC_hbmc_0_ip.xdc rfile:../../../hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_5/hdl/par/bd_8be5_MC_hbmc_0_ip.xdc id:1 order:EARLY scoped_inst:inst/MC_hbmc/inst} [current_design]
+set_property SRC_FILE_INFO {cfile:/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_5/hdl/par/bd_8be5_MC_hbmc_0_ip.xdc rfile:../../../hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_axi_noc_0_0/bd_0/ip/ip_5/hdl/par/bd_8be5_MC_hbmc_0_ip.xdc id:1 order:EARLY scoped_inst:inst/MC_hbmc/inst} [current_design]
 current_instance inst/MC_hbmc/inst
 set_property src_info {type:SCOPED_XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
 set_property LOC HBM_PHY_MS_X0Y0 [get_cells -hier -filter {NAME =~ *inst/hbm_st0/I_hbm_phy_ms}]

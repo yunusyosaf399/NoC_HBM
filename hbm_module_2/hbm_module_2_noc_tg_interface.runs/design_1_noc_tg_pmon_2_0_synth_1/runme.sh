@@ -21,7 +21,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_pmon_2_0_synth_1'
+HD_PWD='/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_pmon_2_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

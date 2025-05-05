@@ -1,0 +1,892 @@
+
+*** Running vivado
+    with args -log design_1_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Mon May  5 16:19:47 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source design_1_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1502.328 ; gain = 76.805 ; free physical = 12115 ; free virtual = 41714
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2024.2/data/ip'.
+add_files: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1848.633 ; gain = 346.305 ; free physical = 11614 ; free virtual = 41410
+Command: synth_design -top design_1_wrapper -part xcvh1582-vsva3697-2MP-e-S
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcvh1582'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcvh1582'
+INFO: [Device 21-403] Loading part xcvh1582-vsva3697-2MP-e-S
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 26223
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3530.824 ; gain = 74.875 ; free physical = 9695 ; free virtual = 39562
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'pmc_i2c_sda_oen_tn_temp', assumed default net type 'wire' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8198]
+INFO: [Synth 8-11241] undeclared symbol 'xpipe0_phystatus', assumed default net type 'wire' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:9848]
+INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_1' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_noc_0_0' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_axi_noc_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_noc_0_0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_axi_noc_0_0_stub.v:6]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:344]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axis_ila_0_0' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_axis_ila_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axis_ila_0_0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_axis_ila_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wizard_0_0' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_clk_wizard_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wizard_0_0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_clk_wizard_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_noc_clk_gen_0' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_noc_clk_gen_0/hdl/design_1_noc_clk_gen_0.sv:53]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_noc_clk_gen_0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_noc_clk_gen_0/hdl/design_1_noc_clk_gen_0.sv:53]
+INFO: [Synth 8-6157] synthesizing module 'design_1_noc_sim_trig_0' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_noc_sim_trig_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_noc_sim_trig_0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_noc_sim_trig_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_noc_tg_0' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_noc_tg_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_noc_tg_0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_noc_tg_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'trigger_out' of module 'design_1_noc_tg_0' is unconnected for instance 'noc_tg' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:415]
+WARNING: [Synth 8-7071] port 'axi_tg_error' of module 'design_1_noc_tg_0' is unconnected for instance 'noc_tg' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:415]
+WARNING: [Synth 8-7023] instance 'noc_tg' of module 'design_1_noc_tg_0' has 51 connections declared, but only 49 given [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:415]
+INFO: [Synth 8-6157] synthesizing module 'design_1_noc_tg_1_0' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_noc_tg_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_noc_tg_1_0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_noc_tg_1_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'axi_awregion' of module 'design_1_noc_tg_1_0' is unconnected for instance 'noc_tg_1' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:465]
+WARNING: [Synth 8-7071] port 'axi_awqos' of module 'design_1_noc_tg_1_0' is unconnected for instance 'noc_tg_1' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:465]
+WARNING: [Synth 8-7071] port 'axi_wuser' of module 'design_1_noc_tg_1_0' is unconnected for instance 'noc_tg_1' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:465]
+WARNING: [Synth 8-7071] port 'axi_arregion' of module 'design_1_noc_tg_1_0' is unconnected for instance 'noc_tg_1' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:465]
+WARNING: [Synth 8-7071] port 'axi_arqos' of module 'design_1_noc_tg_1_0' is unconnected for instance 'noc_tg_1' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:465]
+WARNING: [Synth 8-7071] port 'trigger_out' of module 'design_1_noc_tg_1_0' is unconnected for instance 'noc_tg_1' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:465]
+WARNING: [Synth 8-7071] port 'axi_tg_error' of module 'design_1_noc_tg_1_0' is unconnected for instance 'noc_tg_1' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:465]
+WARNING: [Synth 8-7023] instance 'noc_tg_1' of module 'design_1_noc_tg_1_0' has 51 connections declared, but only 44 given [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:465]
+INFO: [Synth 8-6157] synthesizing module 'design_1_noc_tg_2_0' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_noc_tg_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_noc_tg_2_0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_noc_tg_2_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'axi_awregion' of module 'design_1_noc_tg_2_0' is unconnected for instance 'noc_tg_2' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:510]
+WARNING: [Synth 8-7071] port 'axi_awqos' of module 'design_1_noc_tg_2_0' is unconnected for instance 'noc_tg_2' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:510]
+WARNING: [Synth 8-7071] port 'axi_wuser' of module 'design_1_noc_tg_2_0' is unconnected for instance 'noc_tg_2' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:510]
+WARNING: [Synth 8-7071] port 'axi_arregion' of module 'design_1_noc_tg_2_0' is unconnected for instance 'noc_tg_2' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:510]
+WARNING: [Synth 8-7071] port 'axi_arqos' of module 'design_1_noc_tg_2_0' is unconnected for instance 'noc_tg_2' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:510]
+WARNING: [Synth 8-7071] port 'trigger_out' of module 'design_1_noc_tg_2_0' is unconnected for instance 'noc_tg_2' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:510]
+WARNING: [Synth 8-7071] port 'axi_tg_error' of module 'design_1_noc_tg_2_0' is unconnected for instance 'noc_tg_2' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:510]
+WARNING: [Synth 8-7023] instance 'noc_tg_2' of module 'design_1_noc_tg_2_0' has 51 connections declared, but only 44 given [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:510]
+INFO: [Synth 8-6157] synthesizing module 'design_1_noc_tg_3_0' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_noc_tg_3_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_noc_tg_3_0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_noc_tg_3_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'axi_awregion' of module 'design_1_noc_tg_3_0' is unconnected for instance 'noc_tg_3' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:555]
+WARNING: [Synth 8-7071] port 'axi_awqos' of module 'design_1_noc_tg_3_0' is unconnected for instance 'noc_tg_3' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:555]
+WARNING: [Synth 8-7071] port 'axi_wuser' of module 'design_1_noc_tg_3_0' is unconnected for instance 'noc_tg_3' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:555]
+WARNING: [Synth 8-7071] port 'axi_arregion' of module 'design_1_noc_tg_3_0' is unconnected for instance 'noc_tg_3' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:555]
+WARNING: [Synth 8-7071] port 'axi_arqos' of module 'design_1_noc_tg_3_0' is unconnected for instance 'noc_tg_3' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:555]
+WARNING: [Synth 8-7071] port 'trigger_out' of module 'design_1_noc_tg_3_0' is unconnected for instance 'noc_tg_3' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:555]
+WARNING: [Synth 8-7071] port 'axi_tg_error' of module 'design_1_noc_tg_3_0' is unconnected for instance 'noc_tg_3' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:555]
+WARNING: [Synth 8-7023] instance 'noc_tg_3' of module 'design_1_noc_tg_3_0' has 51 connections declared, but only 44 given [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:555]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:600]
+INFO: [Synth 8-6157] synthesizing module 'design_1_noc_tg_pmon_0' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_noc_tg_pmon_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_noc_tg_pmon_0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_noc_tg_pmon_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'dummy_out' of module 'design_1_noc_tg_pmon_0' is unconnected for instance 'noc_tg_pmon' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:600]
+WARNING: [Synth 8-7023] instance 'noc_tg_pmon' of module 'design_1_noc_tg_pmon_0' has 35 connections declared, but only 34 given [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:600]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:635]
+INFO: [Synth 8-6157] synthesizing module 'design_1_noc_tg_pmon_1_0' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_noc_tg_pmon_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_noc_tg_pmon_1_0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_noc_tg_pmon_1_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'dummy_out' of module 'design_1_noc_tg_pmon_1_0' is unconnected for instance 'noc_tg_pmon_1' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:635]
+WARNING: [Synth 8-7023] instance 'noc_tg_pmon_1' of module 'design_1_noc_tg_pmon_1_0' has 35 connections declared, but only 34 given [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:635]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:670]
+INFO: [Synth 8-6157] synthesizing module 'design_1_noc_tg_pmon_2_0' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_noc_tg_pmon_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_noc_tg_pmon_2_0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_noc_tg_pmon_2_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'dummy_out' of module 'design_1_noc_tg_pmon_2_0' is unconnected for instance 'noc_tg_pmon_2' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:670]
+WARNING: [Synth 8-7023] instance 'noc_tg_pmon_2' of module 'design_1_noc_tg_pmon_2_0' has 35 connections declared, but only 34 given [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:670]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:705]
+INFO: [Synth 8-6157] synthesizing module 'design_1_noc_tg_pmon_3_0' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_noc_tg_pmon_3_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_noc_tg_pmon_3_0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_noc_tg_pmon_3_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'dummy_out' of module 'design_1_noc_tg_pmon_3_0' is unconnected for instance 'noc_tg_pmon_3' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:705]
+WARNING: [Synth 8-7023] instance 'noc_tg_pmon_3' of module 'design_1_noc_tg_pmon_3_0' has 35 connections declared, but only 34 given [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:705]
+INFO: [Synth 8-6157] synthesizing module 'design_1_proc_sys_reset_0_0' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_proc_sys_reset_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_proc_sys_reset_0_0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/.Xil/Vivado-26150-younas-Latitude-7280/realtime/design_1_proc_sys_reset_0_0_stub.v:6]
+WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:740]
+WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:740]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'design_1_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:740]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'design_1_proc_sys_reset_0_0' is unconnected for instance 'proc_sys_reset_0' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:740]
+WARNING: [Synth 8-7023] instance 'proc_sys_reset_0' of module 'design_1_proc_sys_reset_0_0' has 10 connections declared, but only 6 given [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:740]
+INFO: [Synth 8-6157] synthesizing module 'design_1_versal_cips_0_0' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/synth/design_1_versal_cips_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'bd_70da' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/synth/bd_70da.v:10]
+INFO: [Synth 8-6157] synthesizing module 'bd_70da_pspmc_0_0' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/synth/bd_70da_pspmc_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'pspmc_v1_4_4_pspmc' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:3]
+INFO: [Synth 8-6157] synthesizing module 'BUFG_PS' [/tools/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:2912]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG_PS' (0#1) [/tools/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:2912]
+INFO: [Synth 8-6157] synthesizing module 'PS9' [/tools/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:127262]
+INFO: [Synth 8-6155] done synthesizing module 'PS9' (0#1) [/tools/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:127262]
+WARNING: [Synth 8-689] width (4) of port connection 'FMIOSD0SDIFDATIN' does not match port width (8) of module 'PS9' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8304]
+WARNING: [Synth 8-689] width (4) of port connection 'FMIOSD1SDIFDATIN' does not match port width (8) of module 'PS9' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8322]
+WARNING: [Synth 8-689] width (2) of port connection 'PSPLTRACEDATA' does not match port width (32) of module 'PS9' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8889]
+WARNING: [Synth 8-689] width (10) of port connection 'SAXIGP4ARUSER' does not match port width (11) of module 'PS9' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:9601]
+WARNING: [Synth 8-689] width (10) of port connection 'SAXIGP4AWUSER' does not match port width (11) of module 'PS9' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:9612]
+WARNING: [Synth 8-7071] port 'CCI_NOC_0' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'CCI_NOC_1' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'CCI_NOC_2' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'CCI_NOC_3' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'FMIOFPDLPDEMIOIN' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'FMIOGEM0ADDMATCHVEC' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'FMIOGEM0RXDATABUFWRQ0' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'FMIOGEM0RXDATABUFWRQ1' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'FMIOGEM0RXWQUEUE' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'FMIOGEM0TXRQUEUE' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'FMIOGEM0TXRTIMESTAMP' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'FMIOGEM1ADDMATCHVEC' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'FMIOGEM1RXDATABUFWRQ0' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'FMIOGEM1RXDATABUFWRQ1' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'FMIOGEM1RXWQUEUE' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'FMIOGEM1TXRQUEUE' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'FMIOGEM1TXRTIMESTAMP' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'IFPSCPMPCSRECOECO' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'NCI_NOC_0' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'NCI_NOC_1' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'NPICLK' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'NPIRSTN' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'PCIE_NOC_0' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'PCIE_NOC_1' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'PMCERRORTOPL' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'PMC_NOC_0' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'PSMERRORTOPL' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'PSPLAFVALID' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'PSPLSYNCREQ' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'RPU_NOC_0' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'PSS_PAD_DONE' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'PSS_PAD_ERROROUT' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'PSS_PAD_JTAGTCK' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'PSS_PAD_JTAGTDI' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'PSS_PAD_JTAGTDO' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'PSS_PAD_JTAGTMS' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'PSS_PAD_MODE' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'PSS_PAD_PMCMIO' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'PSS_PAD_PUDCB' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'PSS_PAD_REFCLK' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'PSS_PAD_RTCPADI' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'PSS_PAD_RTCPADO' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'AXDS4COHDISABLE' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'FMIOFPDLPDEMIOOE' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'FMIOFPDLPDEMIOOUT' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'FMIOLPDPMCEMIOOE' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'FMIOLPDPMCEMIOOUT' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'IFPSCPMPCSRCPMPSSPARE' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'IFPSCPMPCSRPSRBISRDONE' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'IFPSCPMPCSRPSRBISRERR' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'IFPSCPMPCSRPSRCALDONE' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'IFPSCPMPCSRPSRCALERROR' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'IFPSCPMPCSRPSRINCAL' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'IFPSCPMPCSRPSRMEMCLRDONE' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'IFPSCPMPCSRPSRMEMCLRPASS' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'IFPSCPMPCSRPSRSCANCLRDONE' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'IFPSCPMPCSRPSRSCANCLRPASS' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'NOC_CCI_0' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'NOC_CCI_1' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'NOC_NCI_0' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'NOC_NCI_1' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'NOC_PCIE_0' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'NOC_PMC_0' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'NPIINTERRUPTOUT' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'PLFPDSPARE0IN' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'PLFPDSPARE1IN' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'PLLPDSPARE0IN' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'PLLPDSPARE1IN' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+WARNING: [Synth 8-7071] port 'PLLPDSPARE2IN' of module 'PS9' is unconnected for instance 'PS9_inst' [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+INFO: [Common 17-14] Message 'Synth 8-7071' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-7023] instance 'PS9_inst' of module 'PS9' has 2288 connections declared, but only 2211 given [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:8115]
+INFO: [Synth 8-6155] done synthesizing module 'pspmc_v1_4_4_pspmc' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:3]
+WARNING: [Synth 8-7023] instance 'inst' of module 'pspmc_v1_4_4_pspmc' has 3328 connections declared, but only 717 given [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/synth/bd_70da_pspmc_0_0.v:2283]
+INFO: [Synth 8-6155] done synthesizing module 'bd_70da_pspmc_0_0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/synth/bd_70da_pspmc_0_0.v:53]
+WARNING: [Synth 8-7023] instance 'pspmc_0' of module 'bd_70da_pspmc_0_0' has 717 connections declared, but only 289 given [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/synth/bd_70da.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'bd_70da' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/synth/bd_70da.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_versal_cips_0_0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/synth/design_1_versal_cips_0_0.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'design_1' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:13]
+WARNING: [Synth 8-3848] Net pl_pcie0_resetn in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:210]
+WARNING: [Synth 8-3848] Net pl_pcie1_resetn in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:211]
+WARNING: [Synth 8-3848] Net i2c0_scl_t in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:303]
+WARNING: [Synth 8-3848] Net i2c0_scl_tn in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:304]
+WARNING: [Synth 8-3848] Net i2c0_sda_t in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:306]
+WARNING: [Synth 8-3848] Net i2c0_sda_tn in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:307]
+WARNING: [Synth 8-3848] Net i2c1_scl_t in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:310]
+WARNING: [Synth 8-3848] Net i2c1_scl_tn in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:311]
+WARNING: [Synth 8-3848] Net i2c1_sda_t in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:313]
+WARNING: [Synth 8-3848] Net i2c1_sda_tn in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:314]
+WARNING: [Synth 8-3848] Net pmc_i2c_scl_oen in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:316]
+WARNING: [Synth 8-3848] Net pmc_i2c_scl_oen_tn in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:317]
+WARNING: [Synth 8-3848] Net pmc_i2c_sda_oen in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:319]
+WARNING: [Synth 8-3848] Net pmc_i2c_sda_oen_tn in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:320]
+WARNING: [Synth 8-3848] Net emio_wdt0rsto in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:386]
+WARNING: [Synth 8-3848] Net emio_wdt1rsto in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:387]
+WARNING: [Synth 8-3848] Net lpd_gpio_t in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:393]
+WARNING: [Synth 8-3848] Net lpd_gpio_tn in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:394]
+WARNING: [Synth 8-3848] Net pmc_gpio_oe in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:397]
+WARNING: [Synth 8-3848] Net pmc_gpio_oen in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:398]
+WARNING: [Synth 8-3848] Net pmc_gpio_out in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:399]
+WARNING: [Synth 8-3848] Net pl0_sem in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:402]
+WARNING: [Synth 8-3848] Net pl1_sem in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:403]
+WARNING: [Synth 8-3848] Net pl2_sem in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:404]
+WARNING: [Synth 8-3848] Net pl3_sem in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:405]
+WARNING: [Synth 8-3848] Net m_axi_fpd_wdata_i in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:3828]
+WARNING: [Synth 8-3848] Net m_axi_fpd_wstrb_i in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:3826]
+WARNING: [Synth 8-3848] Net m_axi_lpd_wdata_i in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:3829]
+WARNING: [Synth 8-3848] Net m_axi_lpd_wstrb_i in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:3827]
+WARNING: [Synth 8-3848] Net trace_ctrl in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1056]
+WARNING: [Synth 8-3848] Net trace_data in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1057]
+WARNING: [Synth 8-3848] Net trace_clk in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1058]
+WARNING: [Synth 8-3848] Net ps_pl_trigack in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1060]
+WARNING: [Synth 8-3848] Net ps_pl_trigger in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1061]
+WARNING: [Synth 8-3848] Net ps_ps_noc_nci_axi2_clk in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1068]
+WARNING: [Synth 8-3848] Net s_axi_gp2_arready in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1122]
+WARNING: [Synth 8-3848] Net s_axi_gp2_awready in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1123]
+WARNING: [Synth 8-3848] Net s_axi_gp2_bid in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1124]
+WARNING: [Synth 8-3848] Net s_axi_gp2_bresp in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1125]
+WARNING: [Synth 8-3848] Net s_axi_gp2_bvalid in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1126]
+WARNING: [Synth 8-3848] Net s_axi_gp2_racount in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1127]
+WARNING: [Synth 8-3848] Net s_axi_gp2_rcount in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1128]
+WARNING: [Synth 8-3848] Net s_axi_gp2_rdata in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1129]
+WARNING: [Synth 8-3848] Net s_axi_gp2_rid in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1130]
+WARNING: [Synth 8-3848] Net s_axi_gp2_rlast in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1131]
+WARNING: [Synth 8-3848] Net s_axi_gp2_rresp in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1132]
+WARNING: [Synth 8-3848] Net s_axi_gp2_rvalid in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1133]
+WARNING: [Synth 8-3848] Net s_axi_gp2_wacount in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1134]
+WARNING: [Synth 8-3848] Net s_axi_gp2_wcount in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1135]
+WARNING: [Synth 8-3848] Net s_axi_gp2_wready in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1136]
+WARNING: [Synth 8-3848] Net s_cci_fpd_arready in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1804]
+WARNING: [Synth 8-3848] Net s_cci_fpd_awready in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1805]
+WARNING: [Synth 8-3848] Net s_cci_fpd_bid in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1806]
+WARNING: [Synth 8-3848] Net s_cci_fpd_bresp in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1807]
+WARNING: [Synth 8-3848] Net s_cci_fpd_bvalid in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1808]
+WARNING: [Synth 8-3848] Net s_cci_fpd_racount in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1809]
+WARNING: [Synth 8-3848] Net s_cci_fpd_rcount in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1810]
+WARNING: [Synth 8-3848] Net s_cci_fpd_rdata in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1811]
+WARNING: [Synth 8-3848] Net s_cci_fpd_rid in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1812]
+WARNING: [Synth 8-3848] Net s_cci_fpd_rlast in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1813]
+WARNING: [Synth 8-3848] Net s_cci_fpd_rresp in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1814]
+WARNING: [Synth 8-3848] Net s_cci_fpd_rvalid in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1815]
+WARNING: [Synth 8-3848] Net s_cci_fpd_wacount in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1816]
+WARNING: [Synth 8-3848] Net s_cci_fpd_wcount in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1817]
+WARNING: [Synth 8-3848] Net s_cci_fpd_wready in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:1818]
+WARNING: [Synth 8-3848] Net ps_pmc_to_core in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2062]
+WARNING: [Synth 8-3848] Net dbg0 in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2064]
+WARNING: [Synth 8-3848] Net dbg0_ext in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2065]
+WARNING: [Synth 8-3848] Net dbg1 in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2066]
+WARNING: [Synth 8-3848] Net dbg1_ext in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2067]
+WARNING: [Synth 8-3848] Net dbg2 in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2068]
+WARNING: [Synth 8-3848] Net dbg2_ext in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2069]
+WARNING: [Synth 8-3848] Net dbg3 in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2070]
+WARNING: [Synth 8-3848] Net dbg3_ext in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2071]
+WARNING: [Synth 8-3848] Net dbg4 in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2072]
+WARNING: [Synth 8-3848] Net dbg4_ext in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2073]
+WARNING: [Synth 8-3848] Net cpmdpllpcie0userclk in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2149]
+WARNING: [Synth 8-3848] Net cpmdpllpcie1userclk in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2150]
+WARNING: [Synth 8-3848] Net ifextplpcie0cfghpocfgccixedrdataratechangereq in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2151]
+WARNING: [Synth 8-3848] Net ifextplpcie0cfghpocfgcurrentspeed in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2152]
+WARNING: [Synth 8-3848] Net ifextplpcie0cfghpocfgedrenable in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2153]
+WARNING: [Synth 8-3848] Net ifextplpcie0cfghpocfgerrcorout in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2154]
+WARNING: [Synth 8-3848] Net ifextplpcie0cfghpocfgerrfatalout in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2155]
+WARNING: [Synth 8-3848] Net ifextplpcie0cfghpocfgerrnonfatalout in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2156]
+WARNING: [Synth 8-3848] Net ifextplpcie0cfghpocfgextfunctionnumber in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2157]
+WARNING: [Synth 8-3848] Net ifextplpcie0cfghpocfgextreadreceived in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2158]
+WARNING: [Synth 8-3848] Net ifextplpcie0cfghpocfgextregisternumber in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2159]
+WARNING: [Synth 8-3848] Net ifextplpcie0cfghpocfgextwritebyteenable in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2160]
+WARNING: [Synth 8-3848] Net ifextplpcie0cfghpocfgextwritedata in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2161]
+WARNING: [Synth 8-3848] Net ifextplpcie0cfghpocfgextwritereceived in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2162]
+WARNING: [Synth 8-3848] Net ifextplpcie0cfghpocfgfcnpd in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2163]
+WARNING: [Synth 8-3848] Net ifextplpcie0cfghpocfgfcnpdscale in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2164]
+WARNING: [Synth 8-3848] Net ifextplpcie0cfghpocfgfcnph in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2165]
+WARNING: [Synth 8-3848] Net ifextplpcie0cfghpocfgfcnphscale in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2166]
+WARNING: [Synth 8-3848] Net ifextplpcie0cfghpocfgfcpd in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2167]
+WARNING: [Synth 8-3848] Net ifextplpcie0cfghpocfgfcpdscale in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2168]
+WARNING: [Synth 8-3848] Net ifextplpcie0cfghpocfgfcph in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2169]
+WARNING: [Synth 8-3848] Net ifextplpcie0cfghpocfgfcphscale in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2170]
+WARNING: [Synth 8-3848] Net ifextplpcie0cfghpocfghotresetout in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2171]
+WARNING: [Synth 8-3848] Net ifextplpcie0cfghpocfginterruptsent in module/entity pspmc_v1_4_4_pspmc does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/hdl/pspmc_v1_4_4.v:2172]
+INFO: [Common 17-14] Message 'Synth 8-3848' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-7129] Port pl_pcie0_resetn in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pl_pcie1_resetn in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i2c0_scl_t in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i2c0_scl_tn in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i2c0_sda_t in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i2c0_sda_tn in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i2c1_scl_t in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i2c1_scl_tn in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i2c1_sda_t in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port i2c1_sda_tn in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pmc_i2c_scl_oen in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pmc_i2c_scl_oen_tn in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pmc_i2c_sda_oen in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pmc_i2c_sda_oen_tn in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port emio_wdt0rsto in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port emio_wdt1rsto in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[31] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[30] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[29] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[28] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[27] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[26] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[25] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[24] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[23] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[22] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[21] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[20] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[19] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[18] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[17] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[16] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[15] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[14] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[13] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[12] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[11] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[10] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[9] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[8] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[7] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[6] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[5] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[4] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[3] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[2] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[1] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_t[0] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[31] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[30] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[29] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[28] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[27] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[26] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[25] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[24] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[23] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[22] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[21] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[20] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[19] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[18] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[17] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[16] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[15] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[14] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[13] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[12] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[11] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[10] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[9] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[8] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[7] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[6] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[5] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[4] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[3] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[2] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[1] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port lpd_gpio_tn[0] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pmc_gpio_oe[63] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pmc_gpio_oe[62] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pmc_gpio_oe[61] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pmc_gpio_oe[60] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pmc_gpio_oe[59] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pmc_gpio_oe[58] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pmc_gpio_oe[57] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pmc_gpio_oe[56] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pmc_gpio_oe[55] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pmc_gpio_oe[54] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pmc_gpio_oe[53] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pmc_gpio_oe[52] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pmc_gpio_oe[51] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pmc_gpio_oe[50] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pmc_gpio_oe[49] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pmc_gpio_oe[48] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pmc_gpio_oe[47] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pmc_gpio_oe[46] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pmc_gpio_oe[45] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port pmc_gpio_oe[44] in module pspmc_v1_4_4_pspmc is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 3646.434 ; gain = 190.484 ; free physical = 9557 ; free virtual = 39428
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 3646.434 ; gain = 190.484 ; free physical = 9557 ; free virtual = 39428
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 3646.434 ; gain = 190.484 ; free physical = 9557 ; free virtual = 39428
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.1 ; elapsed = 00:00:00.11 . Memory (MB): peak = 3657.402 ; gain = 0.000 ; free physical = 9557 ; free virtual = 39428
+INFO: [Constraints 18-5720] The default GCLK Deskew mode is Off.
+INFO: [Device 21-9335] Optimized delay calculation is enabled for this device.
+INFO: [Constraints 18-13227] Created floorplan with Advanced Flow Feature Set
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_axi_noc_0_0/design_1_axi_noc_0_0/design_1_axi_noc_0_0_in_context.xdc] for cell 'design_1_i/axi_noc_0'
+Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_axi_noc_0_0/design_1_axi_noc_0_0/design_1_axi_noc_0_0_in_context.xdc] for cell 'design_1_i/axi_noc_0'
+Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_noc_tg_0/design_1_noc_tg_0/design_1_noc_tg_0_in_context.xdc] for cell 'design_1_i/noc_tg'
+Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_noc_tg_0/design_1_noc_tg_0/design_1_noc_tg_0_in_context.xdc] for cell 'design_1_i/noc_tg'
+Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_noc_sim_trig_0/design_1_noc_sim_trig_0/design_1_noc_sim_trig_0_in_context.xdc] for cell 'design_1_i/noc_sim_trig'
+Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_noc_sim_trig_0/design_1_noc_sim_trig_0/design_1_noc_sim_trig_0_in_context.xdc] for cell 'design_1_i/noc_sim_trig'
+Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_0/design_1_noc_tg_pmon_0/design_1_noc_tg_pmon_0_in_context.xdc] for cell 'design_1_i/noc_tg_pmon'
+Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_0/design_1_noc_tg_pmon_0/design_1_noc_tg_pmon_0_in_context.xdc] for cell 'design_1_i/noc_tg_pmon'
+Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/design_1_noc_tg_1_0/design_1_noc_tg_1_0_in_context.xdc] for cell 'design_1_i/noc_tg_1'
+Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/design_1_noc_tg_1_0/design_1_noc_tg_1_0_in_context.xdc] for cell 'design_1_i/noc_tg_1'
+Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_1_0/design_1_noc_tg_pmon_1_0/design_1_noc_tg_pmon_1_0_in_context.xdc] for cell 'design_1_i/noc_tg_pmon_1'
+Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_1_0/design_1_noc_tg_pmon_1_0/design_1_noc_tg_pmon_1_0_in_context.xdc] for cell 'design_1_i/noc_tg_pmon_1'
+Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_noc_tg_2_0/design_1_noc_tg_2_0/design_1_noc_tg_2_0_in_context.xdc] for cell 'design_1_i/noc_tg_2'
+Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_noc_tg_2_0/design_1_noc_tg_2_0/design_1_noc_tg_2_0_in_context.xdc] for cell 'design_1_i/noc_tg_2'
+Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_2_0/design_1_noc_tg_pmon_2_0/design_1_noc_tg_pmon_2_0_in_context.xdc] for cell 'design_1_i/noc_tg_pmon_2'
+Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_2_0/design_1_noc_tg_pmon_2_0/design_1_noc_tg_pmon_2_0_in_context.xdc] for cell 'design_1_i/noc_tg_pmon_2'
+Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_noc_tg_3_0/design_1_noc_tg_3_0/design_1_noc_tg_3_0_in_context.xdc] for cell 'design_1_i/noc_tg_3'
+Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_noc_tg_3_0/design_1_noc_tg_3_0/design_1_noc_tg_3_0_in_context.xdc] for cell 'design_1_i/noc_tg_3'
+Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_3_0/design_1_noc_tg_pmon_3_0/design_1_noc_tg_pmon_3_0_in_context.xdc] for cell 'design_1_i/noc_tg_pmon_3'
+Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_noc_tg_pmon_3_0/design_1_noc_tg_pmon_3_0/design_1_noc_tg_pmon_3_0_in_context.xdc] for cell 'design_1_i/noc_tg_pmon_3'
+Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_in_context.xdc] for cell 'design_1_i/proc_sys_reset_0'
+Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_in_context.xdc] for cell 'design_1_i/proc_sys_reset_0'
+Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_in_context.xdc] for cell 'design_1_i/clk_wizard_0'
+create_clock: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 3993.570 ; gain = 113.656 ; free physical = 9294 ; free virtual = 39190
+Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_in_context.xdc] for cell 'design_1_i/clk_wizard_0'
+Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_axis_ila_0_0/design_1_axis_ila_0_0/design_1_axis_ila_0_0_in_context.xdc] for cell 'design_1_i/axis_ila_0'
+Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_axis_ila_0_0/design_1_axis_ila_0_0/design_1_axis_ila_0_0_in_context.xdc] for cell 'design_1_i/axis_ila_0'
+Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/bd_70da_pspmc_0_0.xdc] for cell 'design_1_i/versal_cips_0/inst/pspmc_0/inst'
+Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/bd_70da_pspmc_0_0.xdc] for cell 'design_1_i/versal_cips_0/inst/pspmc_0/inst'
+Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Ipconfig 75-709] Read and Merge Traffic Stats:  Before Read: 0 insts (0 INI), 0 paths (0 INI). Read In: 0 insts (0 INI), 0 paths (0 INI). After Merge: 0 insts (0 INI), 0 paths (0 INI). 0 error slaves
+INFO: [Ipconfig 75-709] Read and Merge Traffic Stats:  Before Read: 0 insts (0 INI), 0 paths (0 INI). Read In: 4 insts (0 INI), 2 paths (0 INI). After Merge: 4 insts (0 INI), 2 paths (0 INI). 0 error slaves
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4005.445 ; gain = 0.000 ; free physical = 9279 ; free virtual = 39177
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+validate_noc  -part xcvh1582-vsva3697-2MP-e-S
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 4008.414 ; gain = 0.000 ; free physical = 9269 ; free virtual = 39167
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 4008.414 ; gain = 552.465 ; free physical = 9248 ; free virtual = 39156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcvh1582-vsva3697-2MP-e-S
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 4016.418 ; gain = 560.469 ; free physical = 9248 ; free virtual = 39156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property keep_hierarchy = soft for design_1_i/versal_cips_0/inst/pspmc_0/inst. (constraint file  /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ip/design_1_axis_ila_0_0/design_1_axis_ila_0_0/design_1_axis_ila_0_0_in_context.xdc, line 2).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/versal_cips_0/inst/pspmc_0/inst. (constraint file  /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/dont_touch.xdc, line 62).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/axi_noc_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/noc_clk_gen. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/noc_tg. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/noc_sim_trig. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/noc_tg_pmon. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/noc_tg_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/noc_tg_pmon_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/noc_tg_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/noc_tg_pmon_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/noc_tg_3. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/noc_tg_pmon_3. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/versal_cips_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/versal_cips_0/inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/versal_cips_0/inst/pspmc_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/proc_sys_reset_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/clk_wizard_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/axis_ila_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 4016.418 ; gain = 560.469 ; free physical = 9248 ; free virtual = 39156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 4016.418 ; gain = 560.469 ; free physical = 9243 ; free virtual = 39153
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 7392 (col length:154)
+BRAMs: 5082 (col length: RAMB18 312 RAMB36 156)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:35 . Memory (MB): peak = 4016.418 ; gain = 560.469 ; free physical = 9240 ; free virtual = 39159
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:08 ; elapsed = 00:01:10 . Memory (MB): peak = 5170.176 ; gain = 1714.227 ; free physical = 8015 ; free virtual = 37983
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:08 ; elapsed = 00:01:10 . Memory (MB): peak = 5199.184 ; gain = 1743.234 ; free physical = 7986 ; free virtual = 37954
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11328] No retiming is needed, due to no register satisfying retiming conditions
+INFO: [Synth 8-5816] Retiming module `design_1_noc_clk_gen_0`
+   Worst Slack before retiming is invalid and worst slack after retiming is invalid
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `design_1_noc_clk_gen_0' done
+
+
+INFO: [Synth 8-11328] No retiming is needed, due to no register satisfying retiming conditions
+INFO: [Synth 8-5816] Retiming module `pspmc_v1_4_4_pspmc`
+   Worst Slack before retiming is invalid and worst slack after retiming is invalid
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `pspmc_v1_4_4_pspmc' done
+
+
+INFO: [Synth 8-11328] No retiming is needed, due to no register satisfying retiming conditions
+INFO: [Synth 8-5816] Retiming module `bd_70da_pspmc_0_0`
+   Worst Slack before retiming is invalid and worst slack after retiming is invalid
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `bd_70da_pspmc_0_0' done
+
+
+INFO: [Synth 8-11328] No retiming is needed, due to no register satisfying retiming conditions
+INFO: [Synth 8-5816] Retiming module `bd_70da`
+   Worst Slack before retiming is invalid and worst slack after retiming is invalid
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `bd_70da' done
+
+
+INFO: [Synth 8-11328] No retiming is needed, due to no register satisfying retiming conditions
+INFO: [Synth 8-5816] Retiming module `design_1_versal_cips_0_0`
+   Worst Slack before retiming is invalid and worst slack after retiming is invalid
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `design_1_versal_cips_0_0' done
+
+
+INFO: [Synth 8-11328] No retiming is needed, due to no register satisfying retiming conditions
+INFO: [Synth 8-5816] Retiming module `design_1`
+   Worst Slack before retiming is invalid and worst slack after retiming is invalid
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `design_1' done
+
+
+INFO: [Synth 8-11328] No retiming is needed, due to no register satisfying retiming conditions
+INFO: [Synth 8-5816] Retiming module `design_1_wrapper`
+   Worst Slack before retiming is invalid and worst slack after retiming is invalid
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `design_1_wrapper' done
+
+
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:09 ; elapsed = 00:01:10 . Memory (MB): peak = 5228.293 ; gain = 1772.344 ; free physical = 7962 ; free virtual = 37930
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5816] Retiming module `design_1_noc_clk_gen_0`
+   Worst Slack before retiming is invalid and worst slack after retiming is invalid
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `design_1_noc_clk_gen_0' done
+
+
+INFO: [Synth 8-5816] Retiming module `pspmc_v1_4_4_pspmc`
+   Worst Slack before retiming is invalid and worst slack after retiming is invalid
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `pspmc_v1_4_4_pspmc' done
+
+
+INFO: [Synth 8-5816] Retiming module `bd_70da_pspmc_0_0`
+   Worst Slack before retiming is invalid and worst slack after retiming is invalid
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `bd_70da_pspmc_0_0' done
+
+
+INFO: [Synth 8-5816] Retiming module `bd_70da`
+   Worst Slack before retiming is invalid and worst slack after retiming is invalid
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `bd_70da' done
+
+
+INFO: [Synth 8-5816] Retiming module `design_1_versal_cips_0_0`
+   Worst Slack before retiming is invalid and worst slack after retiming is invalid
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `design_1_versal_cips_0_0' done
+
+
+INFO: [Synth 8-5816] Retiming module `design_1`
+   Worst Slack before retiming is invalid and worst slack after retiming is invalid
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `design_1' done
+
+
+INFO: [Synth 8-5816] Retiming module `design_1_wrapper`
+   Worst Slack before retiming is invalid and worst slack after retiming is invalid
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `design_1_wrapper' done
+
+
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_i2c_scl_in to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_i2c_sda_in to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:uart0_ctsn to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:uart0_dcdn to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:uart0_dsrn to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:uart0_rin to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:uart0_rxd to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:fmio_uart0_sir_in to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:uart1_ctsn to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:uart1_dcdn to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:uart1_dsrn to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:uart1_rin to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:uart1_rxd to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:fmio_uart1_sir_in to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[31] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[30] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[29] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[28] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[27] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[26] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[25] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[24] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[23] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[22] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[21] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[20] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[19] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[18] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[17] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[16] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_pl_gpi[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[31] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[30] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[29] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[28] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[27] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[26] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[25] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[24] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[23] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[22] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[21] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[20] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[19] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[18] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[17] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[16] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[15] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[14] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[13] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[12] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[11] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[10] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[9] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[8] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[7] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[6] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[5] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[4] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[3] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[2] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[1] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:lpd_gpio_i[0] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_gpio_in[63] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_gpio_in[62] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_gpio_in[61] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_gpio_in[60] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_gpio_in[59] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_gpio_in[58] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_gpio_in[57] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_gpio_in[56] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_gpio_in[55] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_gpio_in[54] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_gpio_in[53] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_gpio_in[52] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_gpio_in[51] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_gpio_in[50] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_gpio_in[49] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_gpio_in[48] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_gpio_in[47] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_gpio_in[46] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_gpio_in[45] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_gpio_in[44] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_gpio_in[43] to constant 0
+WARNING: [Synth 8-3295] tying undriven pin inst:pmc_gpio_in[42] to constant 0
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:13 ; elapsed = 00:01:14 . Memory (MB): peak = 5372.207 ; gain = 1916.258 ; free physical = 7836 ; free virtual = 37804
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:13 ; elapsed = 00:01:14 . Memory (MB): peak = 5372.207 ; gain = 1916.258 ; free physical = 7836 ; free virtual = 37804
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:13 ; elapsed = 00:01:14 . Memory (MB): peak = 5372.207 ; gain = 1916.258 ; free physical = 7832 ; free virtual = 37800
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:13 ; elapsed = 00:01:14 . Memory (MB): peak = 5372.207 ; gain = 1916.258 ; free physical = 7832 ; free virtual = 37800
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:13 ; elapsed = 00:01:14 . Memory (MB): peak = 5372.207 ; gain = 1916.258 ; free physical = 7832 ; free virtual = 37800
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:13 ; elapsed = 00:01:14 . Memory (MB): peak = 5372.207 ; gain = 1916.258 ; free physical = 7832 ; free virtual = 37800
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+----------------------------+----------+
+|      |BlackBox name               |Instances |
++------+----------------------------+----------+
+|1     |design_1_axi_noc_0_0        |         1|
+|2     |design_1_axis_ila_0_0       |         1|
+|3     |design_1_clk_wizard_0_0     |         1|
+|4     |design_1_noc_sim_trig_0     |         1|
+|5     |design_1_noc_tg_0           |         1|
+|6     |design_1_noc_tg_1_0         |         1|
+|7     |design_1_noc_tg_2_0         |         1|
+|8     |design_1_noc_tg_3_0         |         1|
+|9     |design_1_noc_tg_pmon_0      |         1|
+|10    |design_1_noc_tg_pmon_1_0    |         1|
+|11    |design_1_noc_tg_pmon_2_0    |         1|
+|12    |design_1_noc_tg_pmon_3_0    |         1|
+|13    |design_1_proc_sys_reset_0_0 |         1|
++------+----------------------------+----------+
+
+Report Cell Usage: 
++------+--------------------------+------+
+|      |Cell                      |Count |
++------+--------------------------+------+
+|1     |design_1_axi_noc_0        |     1|
+|2     |design_1_axis_ila_0       |     1|
+|3     |design_1_clk_wizard_0     |     1|
+|4     |design_1_noc_sim_trig     |     1|
+|5     |design_1_noc_tg           |     1|
+|6     |design_1_noc_tg_1         |     1|
+|7     |design_1_noc_tg_2         |     1|
+|8     |design_1_noc_tg_3         |     1|
+|9     |design_1_noc_tg_pmon      |     1|
+|10    |design_1_noc_tg_pmon_1    |     1|
+|11    |design_1_noc_tg_pmon_2    |     1|
+|12    |design_1_noc_tg_pmon_3    |     1|
+|13    |design_1_proc_sys_reset_0 |     1|
+|14    |BUFG_PS                   |     5|
+|15    |LUT1                      |     2|
+|16    |PS9                       |     2|
++------+--------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:13 ; elapsed = 00:01:14 . Memory (MB): peak = 5372.207 ; gain = 1916.258 ; free physical = 7832 ; free virtual = 37800
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 60910 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:58 ; elapsed = 00:00:59 . Memory (MB): peak = 5372.207 ; gain = 1554.277 ; free physical = 7831 ; free virtual = 37800
+Synthesis Optimization Complete : Time (s): cpu = 00:01:14 ; elapsed = 00:01:15 . Memory (MB): peak = 5372.207 ; gain = 1916.258 ; free physical = 7831 ; free virtual = 37800
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.16 . Memory (MB): peak = 5372.207 ; gain = 0.000 ; free physical = 7991 ; free virtual = 37959
+INFO: [Constraints 18-5720] The default GCLK Deskew mode is Off.
+INFO: [Device 21-9335] Optimized delay calculation is enabled for this device.
+INFO: [Constraints 18-13227] Created floorplan with Advanced Flow Feature Set
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Ipconfig 75-709] Read and Merge Traffic Stats:  Before Read: 0 insts (0 INI), 0 paths (0 INI). Read In: 0 insts (0 INI), 0 paths (0 INI). After Merge: 0 insts (0 INI), 0 paths (0 INI). 0 error slaves
+INFO: [Ipconfig 75-709] Read and Merge Traffic Stats:  Before Read: 0 insts (0 INI), 0 paths (0 INI). Read In: 4 insts (0 INI), 2 paths (0 INI). After Merge: 4 insts (0 INI), 2 paths (0 INI). 0 error slaves
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5372.207 ; gain = 0.000 ; free physical = 7989 ; free virtual = 37958
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 5bcff21e
+INFO: [Common 17-83] Releasing license: Synthesis
+47 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:42 ; elapsed = 00:01:42 . Memory (MB): peak = 5372.207 ; gain = 3523.574 ; free physical = 7989 ; free virtual = 37958
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 4854.256; main = 4792.777; forked = 329.078
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 6153.215; main = 5359.109; forked = 915.816
+INFO: [Common 17-1381] The checkpoint '/home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/synth_1/design_1_wrapper.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon May  5 16:21:56 2025...

@@ -1,0 +1,448 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri May  2 21:41:17 2025
+# Process ID         : 6830
+# Current directory  : /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_clk_wizard_0_0_synth_1
+# Command line       : vivado -log design_1_clk_wizard_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_clk_wizard_0_0.tcl
+# Log file           : /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_clk_wizard_0_0_synth_1/design_1_clk_wizard_0_0.vds
+# Journal file       : /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_clk_wizard_0_0_synth_1/vivado.jou
+# Running On         : younas-Latitude-7280
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 20.04.6 LTS
+# Processor Detail   : Intel(R) Core(TM) i7-7600U CPU @ 2.80GHz
+# CPU Frequency      : 2900.000 MHz
+# CPU Physical cores : 2
+# CPU Logical cores  : 4
+# Host memory        : 16358 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 18506 MB
+# Available Virtual  : 14511 MB
+#-----------------------------------------------------------
+source design_1_clk_wizard_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1506.371 ; gain = 94.773 ; free physical = 11119 ; free virtual = 13404
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_clk_wizard_0_0
+Command: synth_design -top design_1_clk_wizard_0_0 -part xcvh1582-vsva3697-2MP-e-S -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcvh1582'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcvh1582'
+INFO: [Device 21-403] Loading part xcvh1582-vsva3697-2MP-e-S
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 6893
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 3347.035 ; gain = 75.875 ; free physical = 9110 ; free virtual = 11408
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-11065] parameter 'DCO_DCLK_DIV' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:52]
+WARNING: [Synth 8-11065] parameter 'DCNT_B' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:54]
+WARNING: [Synth 8-11065] parameter 'DCO_CODE_INIT' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:56]
+WARNING: [Synth 8-11065] parameter 'DCO_CODE_FINAL' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:57]
+WARNING: [Synth 8-11065] parameter 'BCODE_B' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:58]
+WARNING: [Synth 8-11065] parameter 'T_RST' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:60]
+WARNING: [Synth 8-11065] parameter 'T1_RST' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:61]
+WARNING: [Synth 8-11065] parameter 'RCNT_B' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:62]
+WARNING: [Synth 8-11065] parameter 'T_DCO' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:66]
+WARNING: [Synth 8-11065] parameter 'T_DCO_SYN' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:70]
+WARNING: [Synth 8-11065] parameter 'T_CAL_STEP' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:74]
+WARNING: [Synth 8-11065] parameter 'SESSION_END' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:76]
+WARNING: [Synth 8-11065] parameter 'S_RST' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:80]
+WARNING: [Synth 8-11065] parameter 'S_1' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:81]
+WARNING: [Synth 8-11065] parameter 'S_2' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:82]
+WARNING: [Synth 8-11065] parameter 'S_3' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:83]
+WARNING: [Synth 8-11065] parameter 'S_4' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:84]
+WARNING: [Synth 8-11065] parameter 'S_5' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:85]
+WARNING: [Synth 8-11065] parameter 'S_6' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:86]
+WARNING: [Synth 8-11065] parameter 'S_7' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:87]
+WARNING: [Synth 8-11065] parameter 'S_8' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:88]
+WARNING: [Synth 8-11065] parameter 'S_9' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:89]
+WARNING: [Synth 8-11065] parameter 'S_10' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:90]
+WARNING: [Synth 8-11065] parameter 'S_11' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:91]
+WARNING: [Synth 8-11065] parameter 'S_12' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:92]
+WARNING: [Synth 8-11065] parameter 'S_13' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:93]
+WARNING: [Synth 8-11065] parameter 'S_14' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:94]
+WARNING: [Synth 8-11065] parameter 'S_15' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:95]
+WARNING: [Synth 8-11065] parameter 'S_FINISH' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:96]
+WARNING: [Synth 8-11065] parameter 'DONT_CARE_STATE' becomes localparam in 'design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal' with formal parameter declaration list [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_cmt_dpll_fd_cal.sv:97]
+INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wizard_0_0' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/synth/design_1_clk_wizard_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wizard_0_0_clk_wiz_top' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:47]
+INFO: [Synth 8-6157] synthesizing module 'design_1_clk_wizard_0_0_clocking_structure' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_structure.v:47]
+INFO: [Synth 8-6157] synthesizing module 'IBUF' [/tools/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:75825]
+INFO: [Synth 8-6155] done synthesizing module 'IBUF' (0#1) [/tools/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:75825]
+INFO: [Synth 8-6157] synthesizing module 'MMCME5' [/tools/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:85183]
+INFO: [Synth 8-6155] done synthesizing module 'MMCME5' (0#1) [/tools/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:85183]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [/tools/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:2676]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (0#1) [/tools/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:2676]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wizard_0_0_clocking_structure' (0#1) [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clocking_structure.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wizard_0_0_clk_wiz_top' (0#1) [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:47]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_clk_wizard_0_0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/synth/design_1_clk_wizard_0_0.v:53]
+WARNING: [Synth 8-3848] Net s_axi_awready in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:342]
+WARNING: [Synth 8-3848] Net s_axi_wready in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:343]
+WARNING: [Synth 8-3848] Net s_axi_bresp in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:344]
+WARNING: [Synth 8-3848] Net s_axi_bvalid in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:345]
+WARNING: [Synth 8-3848] Net s_axi_arready in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:346]
+WARNING: [Synth 8-3848] Net s_axi_rdata in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:347]
+WARNING: [Synth 8-3848] Net s_axi_rresp in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:348]
+WARNING: [Synth 8-3848] Net s_axi_rvalid in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:349]
+WARNING: [Synth 8-3848] Net clk_stop in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:378]
+WARNING: [Synth 8-3848] Net clk_glitch in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:379]
+WARNING: [Synth 8-3848] Net clk_oor in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:380]
+WARNING: [Synth 8-3848] Net interrupt in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:381]
+WARNING: [Synth 8-3848] Net locked in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:397]
+WARNING: [Synth 8-3848] Net locked_fb in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:398]
+WARNING: [Synth 8-3848] Net clkfb_out_p in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:403]
+WARNING: [Synth 8-3848] Net clkfb_out_n in module/entity design_1_clk_wizard_0_0_clk_wiz_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_clk_wiz_top.v:404]
+WARNING: [Synth 8-7129] Port clkin1_deskew in module design_1_clk_wizard_0_0_clocking_structure is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clkin2_deskew in module design_1_clk_wizard_0_0_clocking_structure is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clkfb1_deskew in module design_1_clk_wizard_0_0_clocking_structure is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clkfb2_deskew in module design_1_clk_wizard_0_0_clocking_structure is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awready in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wready in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_bresp[1] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_bresp[0] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_bvalid in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_arready in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[31] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[30] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[29] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[28] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[27] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[26] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[25] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[24] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[23] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[22] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[21] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[20] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[19] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[18] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[17] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[16] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[15] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[14] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[13] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[12] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[11] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[10] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[9] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[8] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[7] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[6] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[5] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[4] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[3] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[2] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[1] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rdata[0] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rresp[1] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rresp[0] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_rvalid in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_stop[3] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_stop[2] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_stop[1] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_stop[0] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_glitch[3] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_glitch[2] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_glitch[1] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_glitch[0] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_oor[3] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_oor[2] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_oor[1] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk_oor[0] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port interrupt in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port locked in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port locked_fb in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clkfb_out_p in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clkfb_out_n in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_aclk in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_aresetn in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[10] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[9] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[8] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[7] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[6] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[5] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[4] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[3] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[2] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[1] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awaddr[0] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_awvalid in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[31] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[30] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[29] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[28] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[27] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[26] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[25] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[24] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[23] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[22] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[21] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[20] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[19] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[18] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[17] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[16] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[15] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[14] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[13] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[12] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[11] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[10] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[9] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axi_wdata[8] in module design_1_clk_wizard_0_0_clk_wiz_top is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3425.973 ; gain = 154.812 ; free physical = 9017 ; free virtual = 11316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3434.879 ; gain = 163.719 ; free physical = 9015 ; free virtual = 11314
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3434.879 ; gain = 163.719 ; free physical = 9015 ; free virtual = 11314
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3448.816 ; gain = 0.000 ; free physical = 9002 ; free virtual = 11301
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Constraints 18-5720] The default GCLK Deskew mode is Off.
+INFO: [Device 21-9335] Optimized delay calculation is enabled for this device.
+INFO: [Constraints 18-13227] Created floorplan with Advanced Flow Feature Set
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_board.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0_board.xdc] for cell 'inst'
+Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0.xdc] for cell 'inst'
+WARNING: [Vivado 12-2489] -period contains time 10.000100 which will be rounded to 10.000 to ensure it is an integer multiple of 1 picosecond [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0.xdc:8]
+create_clock: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 3725.691 ; gain = 102.688 ; free physical = 8812 ; free virtual = 11114
+Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0.xdc] for cell 'inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_clk_wizard_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_clk_wizard_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_clk_wizard_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_clk_wizard_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Ipconfig 75-709] Read and Merge Traffic Stats:  Before Read: 0 insts (0 INI), 0 paths (0 INI). Read In: 0 insts (0 INI), 0 paths (0 INI). After Merge: 0 insts (0 INI), 0 paths (0 INI). 0 error slaves
+INFO: [Ipconfig 75-709] Read and Merge Traffic Stats:  Before Read: 0 insts (0 INI), 0 paths (0 INI). Read In: 4 insts (0 INI), 2 paths (0 INI). After Merge: 4 insts (0 INI), 2 paths (0 INI). 0 error slaves
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3734.598 ; gain = 0.000 ; free physical = 8812 ; free virtual = 11114
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  BUFG => BUFGCE: 1 instance 
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3737.566 ; gain = 2.969 ; free physical = 8812 ; free virtual = 11114
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 3737.566 ; gain = 466.406 ; free physical = 8811 ; free virtual = 11113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcvh1582-vsva3697-2MP-e-S
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 3745.570 ; gain = 474.410 ; free physical = 8811 ; free virtual = 11113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property keep_hierarchy = soft for inst. (constraint file  /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_clk_wizard_0_0/design_1_clk_wizard_0_0.xdc, line 8).
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_clk_wizard_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 3745.570 ; gain = 474.410 ; free physical = 8811 ; free virtual = 11113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 3745.570 ; gain = 474.410 ; free physical = 8809 ; free virtual = 11111
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 7392 (col length:154)
+BRAMs: 5082 (col length: RAMB18 312 RAMB36 156)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 3745.570 ; gain = 474.410 ; free physical = 8809 ; free virtual = 11111
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:59 ; elapsed = 00:01:00 . Memory (MB): peak = 4946.695 ; gain = 1675.535 ; free physical = 7593 ; free virtual = 9896
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:59 ; elapsed = 00:01:00 . Memory (MB): peak = 4946.695 ; gain = 1675.535 ; free physical = 7593 ; free virtual = 9896
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11328] No retiming is needed, due to no register satisfying retiming conditions
+INFO: [Synth 8-5816] Retiming module `design_1_clk_wizard_0_0_clk_wiz_top`
+   Worst Slack before retiming is invalid and worst slack after retiming is invalid
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `design_1_clk_wizard_0_0_clk_wiz_top' done
+
+
+INFO: [Synth 8-11328] No retiming is needed, due to no register satisfying retiming conditions
+INFO: [Synth 8-5816] Retiming module `design_1_clk_wizard_0_0`
+   Worst Slack before retiming is invalid and worst slack after retiming is invalid
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `design_1_clk_wizard_0_0' done
+
+
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:59 ; elapsed = 00:01:00 . Memory (MB): peak = 4956.711 ; gain = 1685.551 ; free physical = 7584 ; free virtual = 9887
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5816] Retiming module `design_1_clk_wizard_0_0_clk_wiz_top`
+   Worst Slack before retiming is invalid and worst slack after retiming is invalid
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `design_1_clk_wizard_0_0_clk_wiz_top' done
+
+
+INFO: [Synth 8-5816] Retiming module `design_1_clk_wizard_0_0`
+   Worst Slack before retiming is invalid and worst slack after retiming is invalid
+   Numbers of local forward move = 0, and local backward move = 0
+
+
+INFO: [Synth 8-5816] Retiming module `design_1_clk_wizard_0_0' done
+
+
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:02 ; elapsed = 00:01:03 . Memory (MB): peak = 5126.523 ; gain = 1855.363 ; free physical = 7443 ; free virtual = 9746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:02 ; elapsed = 00:01:03 . Memory (MB): peak = 5126.523 ; gain = 1855.363 ; free physical = 7443 ; free virtual = 9746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:02 ; elapsed = 00:01:03 . Memory (MB): peak = 5126.523 ; gain = 1855.363 ; free physical = 7443 ; free virtual = 9746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:02 ; elapsed = 00:01:03 . Memory (MB): peak = 5126.523 ; gain = 1855.363 ; free physical = 7443 ; free virtual = 9746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:02 ; elapsed = 00:01:03 . Memory (MB): peak = 5126.523 ; gain = 1855.363 ; free physical = 7443 ; free virtual = 9746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:02 ; elapsed = 00:01:03 . Memory (MB): peak = 5126.523 ; gain = 1855.363 ; free physical = 7443 ; free virtual = 9746
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |MMCME5 |     1|
+|3     |IBUF   |     1|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:02 ; elapsed = 00:01:03 . Memory (MB): peak = 5126.523 ; gain = 1855.363 ; free physical = 7443 ; free virtual = 9746
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 156 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:51 ; elapsed = 00:00:51 . Memory (MB): peak = 5126.523 ; gain = 1552.676 ; free physical = 7443 ; free virtual = 9746
+Synthesis Optimization Complete : Time (s): cpu = 00:01:03 ; elapsed = 00:01:04 . Memory (MB): peak = 5126.523 ; gain = 1855.363 ; free physical = 7443 ; free virtual = 9746
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5126.523 ; gain = 0.000 ; free physical = 7442 ; free virtual = 9745
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Constraints 18-5720] The default GCLK Deskew mode is Off.
+INFO: [Device 21-9335] Optimized delay calculation is enabled for this device.
+INFO: [Constraints 18-13227] Created floorplan with Advanced Flow Feature Set
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-326] The CLKFBOUT to CLKFBIN net for instance inst/clock_primitive_inst/MMCME5_inst with COMPENSATION=INTERNAL is optimized away to aid design routability
+INFO: [Ipconfig 75-709] Read and Merge Traffic Stats:  Before Read: 0 insts (0 INI), 0 paths (0 INI). Read In: 0 insts (0 INI), 0 paths (0 INI). After Merge: 0 insts (0 INI), 0 paths (0 INI). 0 error slaves
+INFO: [Ipconfig 75-709] Read and Merge Traffic Stats:  Before Read: 0 insts (0 INI), 0 paths (0 INI). Read In: 4 insts (0 INI), 2 paths (0 INI). After Merge: 4 insts (0 INI), 2 paths (0 INI). 0 error slaves
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5126.523 ; gain = 0.000 ; free physical = 7581 ; free virtual = 9884
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  BUFG => BUFGCE: 1 instance 
+
+Synth Design complete | Checksum: dca547fa
+INFO: [Common 17-83] Releasing license: Synthesis
+55 Infos, 148 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:25 ; elapsed = 00:01:23 . Memory (MB): peak = 5126.523 ; gain = 3531.809 ; free physical = 7581 ; free virtual = 9884
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 4589.938; main = 4547.534; forked = 323.802
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 5892.531; main = 5113.426; forked = 915.816
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5137.434 ; gain = 0.000 ; free physical = 7580 ; free virtual = 9883
+INFO: [Common 17-1381] The checkpoint '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_clk_wizard_0_0_synth_1/design_1_clk_wizard_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_clk_wizard_0_0, cache-ID = ebdfbb0e2735fb93
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 5161.445 ; gain = 0.000 ; free physical = 7539 ; free virtual = 9842
+INFO: [Common 17-1381] The checkpoint '/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_clk_wizard_0_0_synth_1/design_1_clk_wizard_0_0.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_clk_wizard_0_0_utilization_synth.rpt -pb design_1_clk_wizard_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri May  2 21:42:56 2025...

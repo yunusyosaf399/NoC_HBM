@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../hbm_module_2_synth_impl.ip_user_files/bd/design_1/ip/design_1_noc_sim_trig_0/ip_0/sim/axi_apb_bridge_0.vhd" \
+"../../../../hbm_module_2_synth_impl.ip_user_files/bd/design_1/ip/design_1_proc_sys_reset_0_0/sim/design_1_proc_sys_reset_0_0.vhd" \
+
+# Do not sort compile order
+nosort

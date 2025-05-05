@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon May  5 16:12:40 2025
+# Process ID         : 24448
+# Current directory  : /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/design_1_noc_tg_1_0_synth_1
+# Command line       : vivado -log design_1_noc_tg_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_noc_tg_1_0.tcl
+# Log file           : /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/design_1_noc_tg_1_0_synth_1/design_1_noc_tg_1_0.vds
+# Journal file       : /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.runs/design_1_noc_tg_1_0_synth_1/vivado.jou
+# Running On         : younas-Latitude-7280
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 20.04.6 LTS
+# Processor Detail   : Intel(R) Core(TM) i7-7600U CPU @ 2.80GHz
+# CPU Frequency      : 3003.782 MHz
+# CPU Physical cores : 2
+# CPU Logical cores  : 4
+# Host memory        : 16358 MB
+# Swap memory        : 34359 MB
+# Total Virtual      : 50718 MB
+# Available Virtual  : 36731 MB
+#-----------------------------------------------------------
+source design_1_noc_tg_1_0.tcl -notrace

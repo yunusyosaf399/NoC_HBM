@@ -4,7 +4,7 @@
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="68" Path="/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.xpr">
+<Project Product="Vivado" Version="7" Minor="68" Path="/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="8d29efb7b876477da50bc01ec160e7a5"/>

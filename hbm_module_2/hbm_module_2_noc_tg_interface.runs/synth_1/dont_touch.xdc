@@ -40,13 +40,13 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_no
 # IP: bd/design_1/ip/design_1_versal_cips_0_0/design_1_versal_cips_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_versal_cips_0_0 || ORIG_REF_NAME==design_1_versal_cips_0_0} -quiet] -quiet
 
-# Block Designs: /home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/bd_70da.bd
+# Block Designs: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/bd_70da.bd
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==bd_70da || ORIG_REF_NAME==bd_70da} -quiet] -quiet
 
-# IP: /home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/bd_70da_pspmc_0_0.xci
+# IP: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/bd_70da_pspmc_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==bd_70da_pspmc_0_0 || ORIG_REF_NAME==bd_70da_pspmc_0_0} -quiet] -quiet
 
-# IP: /home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/ip_0/versal_cips_ps_vip_0.xci
+# IP: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/ip_0/versal_cips_ps_vip_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==versal_cips_ps_vip_0 || ORIG_REF_NAME==versal_cips_ps_vip_0} -quiet] -quiet
 
 # IP: bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xci
@@ -58,12 +58,12 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_cl
 # IP: bd/design_1/ip/design_1_axis_ila_0_0/design_1_axis_ila_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==design_1_axis_ila_0_0 || ORIG_REF_NAME==design_1_axis_ila_0_0} -quiet] -quiet
 
-# XDC: /home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/bd_70da_pspmc_0_0.xdc
+# XDC: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/bd_70da_pspmc_0_0.xdc
 set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==bd_70da_pspmc_0_0 || ORIG_REF_NAME==bd_70da_pspmc_0_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
 
-# XDC: /home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/pspmc_v1_4/constraints/usr_constraints.xdc
+# XDC: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/ip/ip_0/pspmc_v1_4/constraints/usr_constraints.xdc
 #dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==bd_70da_pspmc_0_0 || ORIG_REF_NAME==bd_70da_pspmc_0_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
 
-# XDC: /home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/bd_70da_ooc.xdc
+# XDC: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_versal_cips_0_0/bd_0/bd_70da_ooc.xdc
 
-# XDC: /home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/design_1_ooc.xdc
+# XDC: /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/design_1_ooc.xdc

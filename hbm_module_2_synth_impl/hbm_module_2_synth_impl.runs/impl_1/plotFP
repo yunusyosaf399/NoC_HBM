@@ -1,0 +1,15 @@
+set multiplot layout 2,1
+set rmargin 10
+set lmargin 10
+set y2range [1:1000]
+set logscale y2
+set ytics nomirror
+set y2tics
+plot "plotFP_wl.dt" using 1:2 with linespoints, "plotFP_wl.dt" using 1:2:3 with labels, "plotFP_util.dt" using 1:2 with linespoints lt rgb "green" axes x1y2, "plotFP_util.dt" using 1:2:3 with labels axes x1y2
+unset y2range
+unset logscale
+set xrange [GPVAL_X_MIN:GPVAL_X_MAX]
+set y2range [*:*]
+plot "plotFP_wns.dt" using 1:2 with linespoints, "plotFP_tns.dt" using 1:2 with linespoints lt rgb "green" axes x1y2
+unset multiplot
+pause -1

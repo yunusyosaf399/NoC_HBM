@@ -3,26 +3,26 @@
 # SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Fri May  2 20:36:35 2025
-# Process ID         : 14782
-# Current directory  : /home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_1_0_synth_1
+# Start of session at: Fri May  2 21:32:35 2025
+# Process ID         : 5363
+# Current directory  : /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_1_0_synth_1
 # Command line       : vivado -log design_1_noc_tg_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_noc_tg_1_0.tcl
-# Log file           : /home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_1_0_synth_1/design_1_noc_tg_1_0.vds
-# Journal file       : /home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_1_0_synth_1/vivado.jou
+# Log file           : /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_1_0_synth_1/design_1_noc_tg_1_0.vds
+# Journal file       : /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_1_0_synth_1/vivado.jou
 # Running On         : younas-Latitude-7280
 # Platform           : Ubuntu
 # Operating System   : Ubuntu 20.04.6 LTS
 # Processor Detail   : Intel(R) Core(TM) i7-7600U CPU @ 2.80GHz
-# CPU Frequency      : 3705.063 MHz
+# CPU Frequency      : 2900.000 MHz
 # CPU Physical cores : 2
 # CPU Logical cores  : 4
 # Host memory        : 16358 MB
 # Swap memory        : 2147 MB
 # Total Virtual      : 18506 MB
-# Available Virtual  : 13349 MB
+# Available Virtual  : 14661 MB
 #-----------------------------------------------------------
 source design_1_noc_tg_1_0.tcl -notrace
-create_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1506.105 ; gain = 45.805 ; free physical = 3767 ; free virtual = 10948
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1503.723 ; gain = 72.805 ; free physical = 6682 ; free virtual = 13542
 INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: design_1_noc_tg_1_0
 Command: synth_design -top design_1_noc_tg_1_0 -part xcvh1582-vsva3697-2MP-e-S -incremental_mode off -mode out_of_context
 Starting synth_design
@@ -31,12 +31,12 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcvh158
 INFO: [Device 21-403] Loading part xcvh1582-vsva3697-2MP-e-S
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 15212
+INFO: [Synth 8-7075] Helper process launched with PID 5413
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 3430.855 ; gain = 74.875 ; free physical = 163 ; free virtual = 3561
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3429.543 ; gain = 72.875 ; free physical = 4554 ; free virtual = 11472
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'design_1_noc_tg_1_0' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/design_1_noc_tg_1_0.sv:4]
-INFO: [Synth 8-6157] synthesizing module 'design_1_noc_tg_1_0_syn_top' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:65]
+INFO: [Synth 8-6157] synthesizing module 'design_1_noc_tg_1_0' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/design_1_noc_tg_1_0.sv:4]
+INFO: [Synth 8-6157] synthesizing module 'design_1_noc_tg_1_0_syn_top' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:65]
 	Parameter PARAM_SRC_ID bound to: 1 - type: integer 
 	Parameter C_AXI_PROTOCOL bound to: AXI4 - type: string 
 	Parameter C_AXI_CLK_PERIOD bound to: 3333 - type: integer 
@@ -160,7 +160,7 @@ INFO: [Synth 8-6157] synthesizing module 'BUFGCE_DIV' [/tools/Xilinx/Vivado/2024
 	Parameter BUFGCE_DIVIDE bound to: 4 - type: integer 
 	Parameter SIM_DEVICE bound to: VERSAL_AI_CORE_ES1 - type: string 
 INFO: [Synth 8-6155] done synthesizing module 'BUFGCE_DIV' (0#1) [/tools/Xilinx/Vivado/2024.2/scripts/rt/data/unisim_comp.v:2716]
-INFO: [Synth 8-6157] synthesizing module 'design_1_noc_tg_1_0_csvsptg_top' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_csvsptg_top.sv:97]
+INFO: [Synth 8-6157] synthesizing module 'design_1_noc_tg_1_0_csvsptg_top' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_csvsptg_top.sv:97]
 	Parameter BRAM_INST_FILE bound to: design_1_noc_tg_1_0.mem - type: string 
 	Parameter TG_NUMBER bound to: 1 - type: integer 
 	Parameter AXI_TYPE bound to: 0 - type: integer 
@@ -177,7 +177,7 @@ INFO: [Synth 8-6157] synthesizing module 'design_1_noc_tg_1_0_csvsptg_top' [/hom
 	Parameter AXUSER_WIDTH_CSV bound to: 10 - type: integer 
 	Parameter NO_OF_DATA_BITS_PER_PARITY_BIT bound to: 8 - type: integer 
 	Parameter NO_OF_ADDR_BITS_PER_PARITY_BIT bound to: 8 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'design_1_noc_tg_1_0_tg_top' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:97]
+INFO: [Synth 8-6157] synthesizing module 'design_1_noc_tg_1_0_tg_top' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:97]
 	Parameter BRAM_INST_FILE bound to: design_1_noc_tg_1_0.mem - type: string 
 	Parameter TG_NUMBER bound to: 1 - type: integer 
 	Parameter AXI_TYPE bound to: 0 - type: integer 
@@ -217,7 +217,7 @@ INFO: [Synth 8-6157] synthesizing module 'design_1_noc_tg_1_0_tg_top' [/home/you
 	Parameter PRBS_WIDTH bound to: 8 - type: integer 
 	Parameter TG_PATTERN_MODE_LINEAR_DATA_SEED bound to: 0 - type: integer 
 	Parameter AXI_STRB_WIDTH bound to: 32 - type: integer 
-WARNING: [Synth 8-689] width (10) of port connection 'mem_addr' does not match port width (9) of module 'mem_strobe_gen' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:761]
+WARNING: [Synth 8-689] width (10) of port connection 'mem_addr' does not match port width (9) of module 'mem_strobe_gen' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:761]
 INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram' [/tools/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8556]
 INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base' [/tools/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
 INFO: [Synth 8-3876] $readmem data file 'design_1_noc_tg_1_0.mem' is read successfully [/tools/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:1201]
@@ -227,108 +227,108 @@ INFO: [Synth 8-6157] synthesizing module 'xpm_memory_sdpram__parameterized0' [/t
 INFO: [Synth 8-6157] synthesizing module 'xpm_memory_base__parameterized0' [/tools/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_base__parameterized0' (0#1) [/tools/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:54]
 INFO: [Synth 8-6155] done synthesizing module 'xpm_memory_sdpram__parameterized0' (0#1) [/tools/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv:8556]
-WARNING: [Synth 8-7071] port 'vio_bram_num_inst' of module 'axi_inst_core' is unconnected for instance 'u_axi_inst_core' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:771]
-WARNING: [Synth 8-7023] instance 'u_axi_inst_core' of module 'axi_inst_core' has 37 connections declared, but only 36 given [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:771]
-WARNING: [Synth 8-689] width (32) of port connection 'reg_cfg_addr_mask_en' does not match port width (48) of module 'axi_wrch_ctrl' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:905]
-WARNING: [Synth 8-689] width (32) of port connection 'reg_cfg_addr_mask_val' does not match port width (48) of module 'axi_wrch_ctrl' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:906]
-WARNING: [Synth 8-689] width (32) of port connection 'reg_cfg_addr_mask_en' does not match port width (48) of module 'axi_rdch_ctrl' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:1063]
-WARNING: [Synth 8-689] width (32) of port connection 'reg_cfg_addr_mask_val' does not match port width (48) of module 'axi_rdch_ctrl' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:1064]
-INFO: [Synth 8-6157] synthesizing module 'design_1_noc_tg_1_0_axi_register_slice_wronly' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/ip_1/synth/design_1_noc_tg_1_0_axi_register_slice_wronly.v:53]
-INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axi_register_slice' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:3721]
-INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
-INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
-INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
-INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
-INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
-INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
-INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized0' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
-INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
-INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized1' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
-INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized1' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
-INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized2' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
-INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized2' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
-INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized3' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
-INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized3' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
-INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axi_register_slice' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:3721]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_noc_tg_1_0_axi_register_slice_wronly' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/ip_1/synth/design_1_noc_tg_1_0_axi_register_slice_wronly.v:53]
-INFO: [Synth 8-6157] synthesizing module 'design_1_noc_tg_1_0_axi4_register_slice' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/ip_0/synth/design_1_noc_tg_1_0_axi4_register_slice.v:53]
-INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axi_register_slice__parameterized0' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:3721]
-INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
-INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
-INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
-INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
-INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized4' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
-INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized4' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
-INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized5' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
-INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized5' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
-INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axi_register_slice__parameterized0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:3721]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_noc_tg_1_0_axi4_register_slice' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/ip_0/synth/design_1_noc_tg_1_0_axi4_register_slice.v:53]
-INFO: [Synth 8-6157] synthesizing module 'design_1_noc_tg_1_0_reg_space' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:80]
+WARNING: [Synth 8-7071] port 'vio_bram_num_inst' of module 'axi_inst_core' is unconnected for instance 'u_axi_inst_core' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:771]
+WARNING: [Synth 8-7023] instance 'u_axi_inst_core' of module 'axi_inst_core' has 37 connections declared, but only 36 given [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:771]
+WARNING: [Synth 8-689] width (32) of port connection 'reg_cfg_addr_mask_en' does not match port width (48) of module 'axi_wrch_ctrl' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:905]
+WARNING: [Synth 8-689] width (32) of port connection 'reg_cfg_addr_mask_val' does not match port width (48) of module 'axi_wrch_ctrl' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:906]
+WARNING: [Synth 8-689] width (32) of port connection 'reg_cfg_addr_mask_en' does not match port width (48) of module 'axi_rdch_ctrl' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:1063]
+WARNING: [Synth 8-689] width (32) of port connection 'reg_cfg_addr_mask_val' does not match port width (48) of module 'axi_rdch_ctrl' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:1064]
+INFO: [Synth 8-6157] synthesizing module 'design_1_noc_tg_1_0_axi_register_slice_wronly' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/ip_1/synth/design_1_noc_tg_1_0_axi_register_slice_wronly.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axi_register_slice' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:3721]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector' (0#1) [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi' (0#1) [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice' (0#1) [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized0' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized1' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized1' (0#1) [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized2' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized2' (0#1) [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized3' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized3' (0#1) [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axi_register_slice' (0#1) [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:3721]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_noc_tg_1_0_axi_register_slice_wronly' (0#1) [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/ip_1/synth/design_1_noc_tg_1_0_axi_register_slice_wronly.v:53]
+INFO: [Synth 8-6157] synthesizing module 'design_1_noc_tg_1_0_axi4_register_slice' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/ip_0/synth/design_1_noc_tg_1_0_axi4_register_slice.v:53]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axi_register_slice__parameterized0' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:3721]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_axi2vector__parameterized0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:59]
+INFO: [Synth 8-6157] synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6155] done synthesizing module 'axi_infrastructure_v1_1_0_vector2axi__parameterized0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/ec67/hdl/axi_infrastructure_v1_1_vl_rfs.v:473]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized4' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized4' (0#1) [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6157] synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized5' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axic_register_slice__parameterized5' (0#1) [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:1492]
+INFO: [Synth 8-6155] done synthesizing module 'axi_register_slice_v2_1_33_axi_register_slice__parameterized0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ipshared/3ee4/hdl/axi_register_slice_v2_1_vl_rfs.v:3721]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_noc_tg_1_0_axi4_register_slice' (0#1) [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/ip_0/synth/design_1_noc_tg_1_0_axi4_register_slice.v:53]
+INFO: [Synth 8-6157] synthesizing module 'design_1_noc_tg_1_0_reg_space' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:80]
 	Parameter AXI_DATA_BUS_WIDTH bound to: 256 - type: integer 
 	Parameter AXI_STRB_WIDTH bound to: 32 - type: integer 
 	Parameter CREDIT_EN bound to: 0 - type: integer 
 	Parameter EN_VIO_STATUS_MONITOR bound to: 0 - type: integer 
 	Parameter EN_ILA_DEBUG bound to: 0 - type: integer 
 	Parameter AXADDR_WIDTH bound to: 48 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'design_1_noc_tg_1_0_reg_space' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:80]
-WARNING: [Synth 8-689] width (2) of port connection 'rresp' does not match port width (1) of module 'design_1_noc_tg_1_0_reg_space' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:1877]
-WARNING: [Synth 8-689] width (2) of port connection 'bresp' does not match port width (1) of module 'design_1_noc_tg_1_0_reg_space' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:1885]
-WARNING: [Synth 8-7071] port 'di_err_addr' of module 'design_1_noc_tg_1_0_reg_space' is unconnected for instance 'u_reg_space' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:1832]
-WARNING: [Synth 8-7023] instance 'u_reg_space' of module 'design_1_noc_tg_1_0_reg_space' has 85 connections declared, but only 84 given [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:1832]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_noc_tg_1_0_tg_top' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:97]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_noc_tg_1_0_csvsptg_top' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_csvsptg_top.sv:97]
-WARNING: [Synth 8-7071] port 'tready' of module 'design_1_noc_tg_1_0_csvsptg_top' is unconnected for instance 'u_top_axi_mst' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
-WARNING: [Synth 8-7071] port 'tvalid' of module 'design_1_noc_tg_1_0_csvsptg_top' is unconnected for instance 'u_top_axi_mst' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
-WARNING: [Synth 8-7071] port 'tdata' of module 'design_1_noc_tg_1_0_csvsptg_top' is unconnected for instance 'u_top_axi_mst' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
-WARNING: [Synth 8-7071] port 'tlast' of module 'design_1_noc_tg_1_0_csvsptg_top' is unconnected for instance 'u_top_axi_mst' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
-WARNING: [Synth 8-7071] port 'tstrb' of module 'design_1_noc_tg_1_0_csvsptg_top' is unconnected for instance 'u_top_axi_mst' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
-WARNING: [Synth 8-7071] port 'tkeep' of module 'design_1_noc_tg_1_0_csvsptg_top' is unconnected for instance 'u_top_axi_mst' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
-WARNING: [Synth 8-7071] port 'tid' of module 'design_1_noc_tg_1_0_csvsptg_top' is unconnected for instance 'u_top_axi_mst' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
-WARNING: [Synth 8-7071] port 'tdest' of module 'design_1_noc_tg_1_0_csvsptg_top' is unconnected for instance 'u_top_axi_mst' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
-WARNING: [Synth 8-7071] port 'tuser' of module 'design_1_noc_tg_1_0_csvsptg_top' is unconnected for instance 'u_top_axi_mst' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
-WARNING: [Synth 8-7071] port 'wdest_id' of module 'design_1_noc_tg_1_0_csvsptg_top' is unconnected for instance 'u_top_axi_mst' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
-WARNING: [Synth 8-7071] port 'rdest_id' of module 'design_1_noc_tg_1_0_csvsptg_top' is unconnected for instance 'u_top_axi_mst' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
-WARNING: [Synth 8-7071] port 'div2_clk' of module 'design_1_noc_tg_1_0_csvsptg_top' is unconnected for instance 'u_top_axi_mst' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
-WARNING: [Synth 8-7023] instance 'u_top_axi_mst' of module 'design_1_noc_tg_1_0_csvsptg_top' has 71 connections declared, but only 59 given [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_noc_tg_1_0_syn_top' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:65]
-WARNING: [Synth 8-7071] port 'axi_wid' of module 'design_1_noc_tg_1_0_syn_top' is unconnected for instance 'inst' [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/design_1_noc_tg_1_0.sv:236]
-WARNING: [Synth 8-7023] instance 'inst' of module 'design_1_noc_tg_1_0_syn_top' has 52 connections declared, but only 51 given [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/design_1_noc_tg_1_0.sv:236]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_noc_tg_1_0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/design_1_noc_tg_1_0.sv:4]
-WARNING: [Synth 8-6014] Unused sequential element rcvd_byte_vio_aclk_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:814]
-WARNING: [Synth 8-6014] Unused sequential element exp_byte_vio_aclk_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:817]
-WARNING: [Synth 8-6014] Unused sequential element wren_2ff_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:831]
-WARNING: [Synth 8-6014] Unused sequential element reg_rden_2ff_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:834]
-WARNING: [Synth 8-6014] Unused sequential element rden_pulse_lw_ff_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:844]
-WARNING: [Synth 8-6014] Unused sequential element tg_done_sl_ff_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:858]
-WARNING: [Synth 8-6014] Unused sequential element wrch_done_sl_ff_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:860]
-WARNING: [Synth 8-6014] Unused sequential element rdch_done_sl_ff_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:862]
-WARNING: [Synth 8-6014] Unused sequential element tg_error_sl_ff_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:864]
-WARNING: [Synth 8-6014] Unused sequential element wr_err_pclk_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:867]
-WARNING: [Synth 8-6014] Unused sequential element rd_err_pclk_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:869]
-WARNING: [Synth 8-6014] Unused sequential element tg_done_2ff_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:883]
-WARNING: [Synth 8-6014] Unused sequential element sel_st_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:838]
-WARNING: [Synth 8-3848] Net tvalid in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:195]
-WARNING: [Synth 8-3848] Net tdata in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:196]
-WARNING: [Synth 8-3848] Net tlast in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:197]
-WARNING: [Synth 8-3848] Net tstrb in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:198]
-WARNING: [Synth 8-3848] Net tkeep in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:199]
-WARNING: [Synth 8-3848] Net tid in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:200]
-WARNING: [Synth 8-3848] Net tdest in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:201]
-WARNING: [Synth 8-3848] Net tuser in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:203]
-WARNING: [Synth 8-3848] Net reg_cfg_addr_mask_en in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:367]
-WARNING: [Synth 8-3848] Net reg_cfg_addr_mask_val in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:368]
-WARNING: [Synth 8-3848] Net mem_dvd_en in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:363]
-WARNING: [Synth 8-3848] Net wr_num_bytes in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:369]
-WARNING: [Synth 8-3848] Net rd_num_bytes in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:370]
-WARNING: [Synth 8-3848] Net di_received_data in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:441]
-WARNING: [Synth 8-3848] Net di_expected_data in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:440]
-WARNING: [Synth 8-3848] Net rreq_fifo_overflow in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:381]
-WARNING: [Synth 8-3848] Net rreq_fifo_underflow in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:382]
-WARNING: [Synth 8-3848] Net wreq_fifo_overflow in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:391]
-WARNING: [Synth 8-3848] Net wreq_fifo_underflow in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:392]
-WARNING: [Synth 8-3848] Net first_rd_wr_err_detect_info in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:565]
-WARNING: [Synth 8-3848] Net first_err_axi_id in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:568]
-WARNING: [Synth 8-3848] Net first_err_received_data in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:567]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_noc_tg_1_0_reg_space' (0#1) [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:80]
+WARNING: [Synth 8-689] width (2) of port connection 'rresp' does not match port width (1) of module 'design_1_noc_tg_1_0_reg_space' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:1877]
+WARNING: [Synth 8-689] width (2) of port connection 'bresp' does not match port width (1) of module 'design_1_noc_tg_1_0_reg_space' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:1885]
+WARNING: [Synth 8-7071] port 'di_err_addr' of module 'design_1_noc_tg_1_0_reg_space' is unconnected for instance 'u_reg_space' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:1832]
+WARNING: [Synth 8-7023] instance 'u_reg_space' of module 'design_1_noc_tg_1_0_reg_space' has 85 connections declared, but only 84 given [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:1832]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_noc_tg_1_0_tg_top' (0#1) [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:97]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_noc_tg_1_0_csvsptg_top' (0#1) [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_csvsptg_top.sv:97]
+WARNING: [Synth 8-7071] port 'tready' of module 'design_1_noc_tg_1_0_csvsptg_top' is unconnected for instance 'u_top_axi_mst' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
+WARNING: [Synth 8-7071] port 'tvalid' of module 'design_1_noc_tg_1_0_csvsptg_top' is unconnected for instance 'u_top_axi_mst' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
+WARNING: [Synth 8-7071] port 'tdata' of module 'design_1_noc_tg_1_0_csvsptg_top' is unconnected for instance 'u_top_axi_mst' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
+WARNING: [Synth 8-7071] port 'tlast' of module 'design_1_noc_tg_1_0_csvsptg_top' is unconnected for instance 'u_top_axi_mst' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
+WARNING: [Synth 8-7071] port 'tstrb' of module 'design_1_noc_tg_1_0_csvsptg_top' is unconnected for instance 'u_top_axi_mst' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
+WARNING: [Synth 8-7071] port 'tkeep' of module 'design_1_noc_tg_1_0_csvsptg_top' is unconnected for instance 'u_top_axi_mst' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
+WARNING: [Synth 8-7071] port 'tid' of module 'design_1_noc_tg_1_0_csvsptg_top' is unconnected for instance 'u_top_axi_mst' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
+WARNING: [Synth 8-7071] port 'tdest' of module 'design_1_noc_tg_1_0_csvsptg_top' is unconnected for instance 'u_top_axi_mst' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
+WARNING: [Synth 8-7071] port 'tuser' of module 'design_1_noc_tg_1_0_csvsptg_top' is unconnected for instance 'u_top_axi_mst' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
+WARNING: [Synth 8-7071] port 'wdest_id' of module 'design_1_noc_tg_1_0_csvsptg_top' is unconnected for instance 'u_top_axi_mst' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
+WARNING: [Synth 8-7071] port 'rdest_id' of module 'design_1_noc_tg_1_0_csvsptg_top' is unconnected for instance 'u_top_axi_mst' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
+WARNING: [Synth 8-7071] port 'div2_clk' of module 'design_1_noc_tg_1_0_csvsptg_top' is unconnected for instance 'u_top_axi_mst' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
+WARNING: [Synth 8-7023] instance 'u_top_axi_mst' of module 'design_1_noc_tg_1_0_csvsptg_top' has 71 connections declared, but only 59 given [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:452]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_noc_tg_1_0_syn_top' (0#1) [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/csv_sptg/rtl/tg_rtl/design_1_noc_tg_1_0_syn_top.sv:65]
+WARNING: [Synth 8-7071] port 'axi_wid' of module 'design_1_noc_tg_1_0_syn_top' is unconnected for instance 'inst' [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/design_1_noc_tg_1_0.sv:236]
+WARNING: [Synth 8-7023] instance 'inst' of module 'design_1_noc_tg_1_0_syn_top' has 52 connections declared, but only 51 given [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/design_1_noc_tg_1_0.sv:236]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_noc_tg_1_0' (0#1) [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/design_1_noc_tg_1_0.sv:4]
+WARNING: [Synth 8-6014] Unused sequential element rcvd_byte_vio_aclk_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:814]
+WARNING: [Synth 8-6014] Unused sequential element exp_byte_vio_aclk_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:817]
+WARNING: [Synth 8-6014] Unused sequential element wren_2ff_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:831]
+WARNING: [Synth 8-6014] Unused sequential element reg_rden_2ff_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:834]
+WARNING: [Synth 8-6014] Unused sequential element rden_pulse_lw_ff_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:844]
+WARNING: [Synth 8-6014] Unused sequential element tg_done_sl_ff_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:858]
+WARNING: [Synth 8-6014] Unused sequential element wrch_done_sl_ff_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:860]
+WARNING: [Synth 8-6014] Unused sequential element rdch_done_sl_ff_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:862]
+WARNING: [Synth 8-6014] Unused sequential element tg_error_sl_ff_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:864]
+WARNING: [Synth 8-6014] Unused sequential element wr_err_pclk_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:867]
+WARNING: [Synth 8-6014] Unused sequential element rd_err_pclk_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:869]
+WARNING: [Synth 8-6014] Unused sequential element tg_done_2ff_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:883]
+WARNING: [Synth 8-6014] Unused sequential element sel_st_reg was removed.  [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_reg_space.sv:838]
+WARNING: [Synth 8-3848] Net tvalid in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:195]
+WARNING: [Synth 8-3848] Net tdata in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:196]
+WARNING: [Synth 8-3848] Net tlast in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:197]
+WARNING: [Synth 8-3848] Net tstrb in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:198]
+WARNING: [Synth 8-3848] Net tkeep in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:199]
+WARNING: [Synth 8-3848] Net tid in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:200]
+WARNING: [Synth 8-3848] Net tdest in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:201]
+WARNING: [Synth 8-3848] Net tuser in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:203]
+WARNING: [Synth 8-3848] Net reg_cfg_addr_mask_en in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:367]
+WARNING: [Synth 8-3848] Net reg_cfg_addr_mask_val in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:368]
+WARNING: [Synth 8-3848] Net mem_dvd_en in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:363]
+WARNING: [Synth 8-3848] Net wr_num_bytes in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:369]
+WARNING: [Synth 8-3848] Net rd_num_bytes in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:370]
+WARNING: [Synth 8-3848] Net di_received_data in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:441]
+WARNING: [Synth 8-3848] Net di_expected_data in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:440]
+WARNING: [Synth 8-3848] Net rreq_fifo_overflow in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:381]
+WARNING: [Synth 8-3848] Net rreq_fifo_underflow in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:382]
+WARNING: [Synth 8-3848] Net wreq_fifo_overflow in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:391]
+WARNING: [Synth 8-3848] Net wreq_fifo_underflow in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:392]
+WARNING: [Synth 8-3848] Net first_rd_wr_err_detect_info in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:565]
+WARNING: [Synth 8-3848] Net first_err_axi_id in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:568]
+WARNING: [Synth 8-3848] Net first_err_received_data in module/entity design_1_noc_tg_1_0_tg_top does not have driver. [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/hdl/rtl/design_1_noc_tg_1_0_tg_top.sv:567]
 WARNING: [Synth 8-7129] Port rid[0] in module axi_rd_wr_err_detect is either unconnected or has no load
 WARNING: [Synth 8-7129] Port rresp[1] in module axi_rd_wr_err_detect is either unconnected or has no load
 WARNING: [Synth 8-7129] Port rresp[0] in module axi_rd_wr_err_detect is either unconnected or has no load
@@ -431,18 +431,18 @@ WARNING: [Synth 8-7129] Port first_err_received_data[176] in module axi_rd_wr_er
 WARNING: [Synth 8-7129] Port first_err_received_data[175] in module axi_rd_wr_err_detect is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 3633.762 ; gain = 277.781 ; free physical = 163 ; free virtual = 2859
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 3632.480 ; gain = 275.812 ; free physical = 4348 ; free virtual = 11271
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 3633.762 ; gain = 277.781 ; free physical = 154 ; free virtual = 2858
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 3632.480 ; gain = 275.812 ; free physical = 4348 ; free virtual = 11271
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 3633.762 ; gain = 277.781 ; free physical = 154 ; free virtual = 2858
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 3632.480 ; gain = 275.812 ; free physical = 4348 ; free virtual = 11271
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00.69 ; elapsed = 00:00:00.87 . Memory (MB): peak = 3633.762 ; gain = 0.000 ; free physical = 158 ; free virtual = 2745
+Netlist sorting complete. Time (s): cpu = 00:00:00.35 ; elapsed = 00:00:00.35 . Memory (MB): peak = 3632.480 ; gain = 0.000 ; free physical = 4347 ; free virtual = 11270
 INFO: [Constraints 18-5720] The default GCLK Deskew mode is Off.
 INFO: [Device 21-9335] Optimized delay calculation is enabled for this device.
 INFO: [Constraints 18-13227] Created floorplan with Advanced Flow Feature Set
@@ -450,18 +450,18 @@ INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/par/design_1_noc_tg_1_0_ooc.xdc] for cell 'inst'
-Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/par/design_1_noc_tg_1_0_ooc.xdc] for cell 'inst'
-Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_1_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_1_0_synth_1/dont_touch.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_1_0_synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_noc_tg_1_0_propImpl.xdc].
+Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/par/design_1_noc_tg_1_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/par/design_1_noc_tg_1_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_1_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_1_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_1_0_synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_noc_tg_1_0_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_noc_tg_1_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/ip_1/design_1_noc_tg_1_0_axi_register_slice_wronly_clocks.xdc] for cell 'inst/u_top_axi_mst/u_tg_top/gen_axi4_reg_slice.u_axi_register_slice_wrOnly_0/inst'
-Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/ip_1/design_1_noc_tg_1_0_axi_register_slice_wronly_clocks.xdc] for cell 'inst/u_top_axi_mst/u_tg_top/gen_axi4_reg_slice.u_axi_register_slice_wrOnly_0/inst'
-Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/ip_1/design_1_noc_tg_1_0_axi_register_slice_wronly_clocks.xdc] for cell 'inst/u_top_axi_mst/u_tg_top/gen_axi4_reg_slice.u_axi_register_slice_wrOnly_1/inst'
-Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/ip_1/design_1_noc_tg_1_0_axi_register_slice_wronly_clocks.xdc] for cell 'inst/u_top_axi_mst/u_tg_top/gen_axi4_reg_slice.u_axi_register_slice_wrOnly_1/inst'
-Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/ip_0/design_1_noc_tg_1_0_axi4_register_slice_clocks.xdc] for cell 'inst/u_top_axi_mst/u_tg_top/gen_axi4_reg_slice.u_axi4_reg_slice/inst'
-Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/ip_0/design_1_noc_tg_1_0_axi4_register_slice_clocks.xdc] for cell 'inst/u_top_axi_mst/u_tg_top/gen_axi4_reg_slice.u_axi4_reg_slice/inst'
+Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/ip_1/design_1_noc_tg_1_0_axi_register_slice_wronly_clocks.xdc] for cell 'inst/u_top_axi_mst/u_tg_top/gen_axi4_reg_slice.u_axi_register_slice_wrOnly_0/inst'
+Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/ip_1/design_1_noc_tg_1_0_axi_register_slice_wronly_clocks.xdc] for cell 'inst/u_top_axi_mst/u_tg_top/gen_axi4_reg_slice.u_axi_register_slice_wrOnly_0/inst'
+Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/ip_1/design_1_noc_tg_1_0_axi_register_slice_wronly_clocks.xdc] for cell 'inst/u_top_axi_mst/u_tg_top/gen_axi4_reg_slice.u_axi_register_slice_wrOnly_1/inst'
+Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/ip_1/design_1_noc_tg_1_0_axi_register_slice_wronly_clocks.xdc] for cell 'inst/u_top_axi_mst/u_tg_top/gen_axi4_reg_slice.u_axi_register_slice_wrOnly_1/inst'
+Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/ip_0/design_1_noc_tg_1_0_axi4_register_slice_clocks.xdc] for cell 'inst/u_top_axi_mst/u_tg_top/gen_axi4_reg_slice.u_axi4_reg_slice/inst'
+Finished Parsing XDC File [/home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.gen/sources_1/bd/design_1/ip/design_1_noc_tg_1_0/ip_0/design_1_noc_tg_1_0_axi4_register_slice_clocks.xdc] for cell 'inst/u_top_axi_mst/u_tg_top/gen_axi4_reg_slice.u_axi4_reg_slice/inst'
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/tools/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_noc_tg_1_0_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_noc_tg_1_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 INFO: [Project 1-1714] 3 XPM XDC files have been applied to the design.
@@ -469,14 +469,14 @@ Completed Processing XDC Constraints
 
 INFO: [Ipconfig 75-709] Read and Merge Traffic Stats:  Before Read: 0 insts (0 INI), 0 paths (0 INI). Read In: 0 insts (0 INI), 0 paths (0 INI). After Merge: 0 insts (0 INI), 0 paths (0 INI). 0 error slaves
 INFO: [Ipconfig 75-709] Read and Merge Traffic Stats:  Before Read: 0 insts (0 INI), 0 paths (0 INI). Read In: 4 insts (0 INI), 2 paths (0 INI). After Merge: 4 insts (0 INI), 2 paths (0 INI). 0 error slaves
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 4028.152 ; gain = 0.000 ; free physical = 153 ; free virtual = 2438
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 4018.840 ; gain = 0.000 ; free physical = 4089 ; free virtual = 11064
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.24 ; elapsed = 00:00:00.3 . Memory (MB): peak = 4043.043 ; gain = 2.969 ; free physical = 162 ; free virtual = 2399
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.13 ; elapsed = 00:00:00.13 . Memory (MB): peak = 4033.730 ; gain = 2.969 ; free physical = 4079 ; free virtual = 11054
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:44 ; elapsed = 00:00:59 . Memory (MB): peak = 4043.043 ; gain = 687.062 ; free physical = 163 ; free virtual = 1023
+Finished Constraint Validation : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 4033.730 ; gain = 677.062 ; free physical = 2802 ; free virtual = 9761
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -484,15 +484,15 @@ Start Loading Part and Timing Information
 Loading part: xcvh1582-vsva3697-2MP-e-S
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:44 ; elapsed = 00:00:59 . Memory (MB): peak = 4047.129 ; gain = 691.148 ; free physical = 159 ; free virtual = 1021
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 4041.734 ; gain = 685.066 ; free physical = 2802 ; free virtual = 9761
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property KEEP_HIERARCHY = SOFT for inst/u_top_axi_mst/u_tg_top/\gen_axi4_reg_slice.u_axi_register_slice_wrOnly_0 /inst. (constraint file  /home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_1_0_synth_1/dont_touch.xdc, line 17).
-Applied set_property KEEP_HIERARCHY = SOFT for inst/u_top_axi_mst/u_tg_top/\gen_axi4_reg_slice.u_axi_register_slice_wrOnly_1 /inst. (constraint file  /home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_1_0_synth_1/dont_touch.xdc, line 17).
-Applied set_property KEEP_HIERARCHY = SOFT for inst/u_top_axi_mst/u_tg_top/\gen_axi4_reg_slice.u_axi4_reg_slice /inst. (constraint file  /home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_1_0_synth_1/dont_touch.xdc, line 20).
-Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/younas/Documents/Vivado/hbm_module_2_noc_tg_interface/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_1_0_synth_1/dont_touch.xdc, line 24).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/u_top_axi_mst/u_tg_top/\gen_axi4_reg_slice.u_axi_register_slice_wrOnly_0 /inst. (constraint file  /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_1_0_synth_1/dont_touch.xdc, line 17).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/u_top_axi_mst/u_tg_top/\gen_axi4_reg_slice.u_axi_register_slice_wrOnly_1 /inst. (constraint file  /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_1_0_synth_1/dont_touch.xdc, line 17).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/u_top_axi_mst/u_tg_top/\gen_axi4_reg_slice.u_axi4_reg_slice /inst. (constraint file  /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_1_0_synth_1/dont_touch.xdc, line 20).
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /home/younas/Documents/Vivado/hbm_module_2/hbm_module_2_noc_tg_interface.runs/design_1_noc_tg_1_0_synth_1/dont_touch.xdc, line 24).
 Applied set_property KEEP_HIERARCHY = SOFT for inst/u_top_axi_mst/u_tg_top/\gen_axi4_reg_slice.u_axi_register_slice_wrOnly_0 . (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for inst/u_top_axi_mst/u_tg_top/\gen_axi4_reg_slice.u_axi_register_slice_wrOnly_1 . (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for inst/u_top_axi_mst/u_tg_top/\gen_axi4_reg_slice.u_axi4_reg_slice . (constraint file  auto generated constraint).
@@ -500,5 +500,206 @@ Applied set_property KEEP_HIERARCHY = SOFT for inst/u_top_axi_mst/u_tg_top/u_axi
 Applied set_property KEEP_HIERARCHY = SOFT for inst/u_top_axi_mst/u_tg_top/u_axi_inst_core/u_wr_ch_fifo/xpm_memory_sdpram_inst. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for inst/u_top_axi_mst/u_tg_top/u_axi_inst_core/u_rd_ch_fifo/xpm_memory_sdpram_inst. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:44 ; elapsed = 00:00:59 . Memory (MB): peak = 4047.129 ; gain = 691.148 ; free physical = 168 ; free virtual = 1037
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 4041.734 ; gain = 685.066 ; free physical = 2738 ; free virtual = 9697
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'axi_rd_wr_err_detect'
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+        WAIT_FOR_TG_DONE |                              000 |                              000
+      LATCH_ERROR_PARAMS |                              001 |                              001
+           INITIATE_READ |                              010 |                              010
+      READ_DATA_LATCHING |                              011 |                              011
+     CHECK_FOR_RD_WR_ERR |                              100 |                              100
+        DECIDE_WR_RD_ERR |                              101 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'axi_rd_wr_err_detect'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:36 ; elapsed = 00:00:47 . Memory (MB): peak = 4041.734 ; gain = 685.066 ; free physical = 201 ; free virtual = 7180
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   49 Bit       Adders := 10    
+	   2 Input   48 Bit       Adders := 14    
+	   3 Input   48 Bit       Adders := 2     
+	   2 Input   32 Bit       Adders := 6     
+	   2 Input   17 Bit       Adders := 8     
+	   3 Input   17 Bit       Adders := 2     
+	   2 Input   16 Bit       Adders := 22    
+	   2 Input   13 Bit       Adders := 3     
+	   2 Input   12 Bit       Adders := 1     
+	   2 Input   11 Bit       Adders := 2     
+	   3 Input   10 Bit       Adders := 1     
+	   2 Input   10 Bit       Adders := 3     
+	   2 Input    9 Bit       Adders := 6     
+	   2 Input    8 Bit       Adders := 8     
+	   3 Input    8 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 4     
+	   2 Input    3 Bit       Adders := 10    
+	   2 Input    2 Bit       Adders := 2     
+	   2 Input    1 Bit       Adders := 2     
++---XORs : 
+	   5 Input      8 Bit         XORs := 1     
+	   2 Input      8 Bit         XORs := 32    
+	   2 Input      3 Bit         XORs := 2     
+	   2 Input      2 Bit         XORs := 10    
+	   2 Input      1 Bit         XORs := 8     
++---Registers : 
+	              512 Bit    Registers := 5     
+	              416 Bit    Registers := 3     
+	              364 Bit    Registers := 7     
+	              305 Bit    Registers := 4     
+	              276 Bit    Registers := 2     
+	              256 Bit    Registers := 11    
+	              106 Bit    Registers := 8     
+	               78 Bit    Registers := 64    
+	               64 Bit    Registers := 2     
+	               52 Bit    Registers := 2     
+	               49 Bit    Registers := 33    
+	               48 Bit    Registers := 58    
+	               32 Bit    Registers := 67    
+	               28 Bit    Registers := 1     
+	               20 Bit    Registers := 1     
+	               19 Bit    Registers := 6     
+	               18 Bit    Registers := 1     
+	               17 Bit    Registers := 10    
+	               16 Bit    Registers := 30    
+	               14 Bit    Registers := 6     
+	               13 Bit    Registers := 11    
+	               12 Bit    Registers := 4     
+	               11 Bit    Registers := 2     
+	               10 Bit    Registers := 8     
+	                9 Bit    Registers := 8     
+	                8 Bit    Registers := 25    
+	                6 Bit    Registers := 2     
+	                4 Bit    Registers := 7     
+	                3 Bit    Registers := 15    
+	                2 Bit    Registers := 23    
+	                1 Bit    Registers := 340   
++---RAMs : 
+	             208K Bit	(512 X 416 bit)          RAMs := 1     
++---Muxes : 
+	   3 Input  512 Bit        Muxes := 1     
+	   2 Input  512 Bit        Muxes := 34    
+	   2 Input  416 Bit        Muxes := 48    
+	   2 Input  305 Bit        Muxes := 2     
+	   2 Input  276 Bit        Muxes := 2     
+	   2 Input  256 Bit        Muxes := 4     
+	   2 Input  106 Bit        Muxes := 8     
+	   2 Input   78 Bit        Muxes := 40    
+	   2 Input   52 Bit        Muxes := 1     
+	   2 Input   49 Bit        Muxes := 14    
+	   2 Input   48 Bit        Muxes := 42    
+	   6 Input   48 Bit        Muxes := 1     
+	   2 Input   32 Bit        Muxes := 23    
+	   3 Input   32 Bit        Muxes := 3     
+	   4 Input   32 Bit        Muxes := 2     
+	   8 Input   32 Bit        Muxes := 1     
+	   2 Input   28 Bit        Muxes := 1     
+	   2 Input   19 Bit        Muxes := 6     
+	   2 Input   18 Bit        Muxes := 1     
+	   2 Input   17 Bit        Muxes := 6     
+	   2 Input   16 Bit        Muxes := 7     
+	   3 Input   16 Bit        Muxes := 2     
+	   4 Input   16 Bit        Muxes := 1     
+	   2 Input   13 Bit        Muxes := 13    
+	   2 Input   12 Bit        Muxes := 12    
+	   2 Input   11 Bit        Muxes := 2     
+	   2 Input   10 Bit        Muxes := 3     
+	   3 Input   10 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 2     
+	   3 Input    9 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 15    
+	   6 Input    8 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 21    
+	   2 Input    3 Bit        Muxes := 14    
+	   3 Input    3 Bit        Muxes := 2     
+	   6 Input    3 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 12    
+	   3 Input    2 Bit        Muxes := 2     
+	   6 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 150   
+	   3 Input    1 Bit        Muxes := 8     
+	  14 Input    1 Bit        Muxes := 1     
+	   6 Input    1 Bit        Muxes := 19    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 7392 (col length:154)
+BRAMs: 5082 (col length: RAMB18 312 RAMB36 156)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP fifo_din0, operation Mode is: C'+A2*B.
+DSP Report: register fifo_din0 is absorbed into DSP fifo_din0.
+DSP Report: register fifo_din0 is absorbed into DSP fifo_din0.
+DSP Report: operator fifo_din0 is absorbed into DSP fifo_din0.
+DSP Report: operator fifo_din1 is absorbed into DSP fifo_din0.
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:08 ; elapsed = 00:01:31 . Memory (MB): peak = 4155.367 ; gain = 798.699 ; free physical = 171 ; free virtual = 5250
+---------------------------------------------------------------------------------
+ Sort Area is design_1_noc_tg_1_0_tg_top__GCB1 fifo_din0_0 : 0 0 : 1852 1852 : Used 1 time 0
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+INFO: [Synth 8-5776] Ignored attribute 'rw_address_collision' set on RAM gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg because of multiple write enables - Byte Wide Write Mode 
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping Report (see note below)
++-------------------------------------------------------------------------------------------+--------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+|Module Name                                                                                | RTL Object                                       | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | Cascade Heights | 
++-------------------------------------------------------------------------------------------+--------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+|inst/u_top_axi_mst/u_tg_topi_3/u_axi_inst_core/xpm_memory_sdpram_inst/xpm_memory_base_inst | gen_wr_a.gen_byte_narrow.for_mem_cols[1].mem_reg | 512 x 416(WRITE_FIRST) | W |   | 512 x 416(WRITE_FIRST) |   | R | Port A and B     | 0      | 6      | 1,1,1,1,1,1     | 
++-------------------------------------------------------------------------------------------+--------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+-----------------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++----------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|Module Name                                                                                               | RTL Object                       | Inference      | Size (Depth x Width) | Primitives     | 
++----------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+|inst/u_top_axi_mst/u_tg_topi_3/u_axi_inst_core/\u_wr_ch_fifo/xpm_memory_sdpram_inst /xpm_memory_base_inst | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 4 x 364              | RAM32M16 x 26  | 
+|inst/u_top_axi_mst/u_tg_topi_3/u_axi_inst_core/\u_rd_ch_fifo/xpm_memory_sdpram_inst /xpm_memory_base_inst | gen_wr_a.gen_word_narrow.mem_reg | User Attribute | 4 x 364              | RAM32M16 x 26  | 
++----------------------------------------------------------------------------------------------------------+----------------------------------+----------------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++--------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name   | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++--------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|axi_inst_core | C'+A2*B     | 16     | 16     | 48     | -      | 48     | 1    | 0    | 1    | -    | -     | 0    | 0    | 
++--------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------

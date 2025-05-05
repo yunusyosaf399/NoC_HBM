@@ -1,0 +1,209 @@
+xilinx rtfpga
+rt::do_reinfer_area_combined 1
+INFO: [Synth 8-5544] ROM "pow2_awsize_rep" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+WARNING: [Synth 8-7129] Port avg_latency[31] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[30] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[29] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[28] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[27] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[26] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[25] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[24] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[23] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[22] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[21] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[20] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[19] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[18] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[17] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[16] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[15] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[14] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[13] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[12] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[11] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[10] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[9] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[8] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[7] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[6] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[5] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[4] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[3] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[2] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[1] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port avg_latency[0] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdest_id[11] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdest_id[10] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdest_id[9] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdest_id[8] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdest_id[7] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdest_id[6] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdest_id[5] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdest_id[4] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdest_id[3] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdest_id[2] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdest_id[1] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wdest_id[0] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cur_inst_fifo[363] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cur_inst_fifo[361] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cur_inst_fifo[347] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cur_inst_fifo[346] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cur_inst_fifo[345] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cur_inst_fifo[344] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cur_inst_fifo[343] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cur_inst_fifo[342] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cur_inst_fifo[341] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cur_inst_fifo[340] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cur_inst_fifo[339] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cur_inst_fifo[338] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cur_inst_fifo[337] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cur_inst_fifo[336] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cur_inst_fifo[335] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cur_inst_fifo[334] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cur_inst_fifo[333] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[363] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[362] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[361] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[360] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[359] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[358] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[357] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[356] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[355] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[354] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[353] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[352] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[351] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[350] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[349] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[348] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[347] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[346] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[345] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[344] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[343] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[342] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[341] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[340] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[339] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[338] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[337] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[336] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[335] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[334] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[333] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[332] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[331] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[330] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[329] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[328] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[327] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[326] in module axi_wrch_ctrl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port next_inst_fifo[325] in module axi_wrch_ctrl is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[46]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[47]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[45]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[46]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[44]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[45]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[43]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[44]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[42]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[43]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[41]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[42]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[40]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[41]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[39]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[40]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[38]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[39]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[37]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[38]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[36]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[37]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[35]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[36]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[34]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[35]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[33]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[34]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[32]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[33]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[31]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[32]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[30]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[31]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[29]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[30]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[28]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[29]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[27]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[28]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[26]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[27]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[25]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[26]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[24]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[25]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[23]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[24]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[22]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[23]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[21]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[22]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[20]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[21]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[19]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[20]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[18]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[19]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[17]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[18]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[16]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[17]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[14]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[15]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[16]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gen_wr_ch_en_1.u_axi_wrch_ctrl /\next_num_bytes_per_txn_2x_reg[0] )
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[1]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[0]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[2]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[1]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[3]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[2]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[4]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[3]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[5]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[4]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[6]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[5]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[7]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[6]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[8]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[7]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[9]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[8]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[10]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[9]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[11]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[10]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[12]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[11]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[13]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[12]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_2x_reg[14]' (FD) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/next_num_bytes_per_txn_x_reg[13]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt2_reg[48]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt2_reg[47]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[47]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[47]' (FDRE) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt2_reg[46]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[46]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[46]' (FDRE) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt2_reg[45]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[45]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[45]' (FDRE) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt2_reg[44]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[44]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[44]' (FDRE) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt2_reg[43]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[43]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[43]' (FDRE) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt2_reg[42]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[42]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[42]' (FDRE) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt2_reg[41]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[41]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[41]' (FDRE) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt2_reg[40]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[40]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[40]' (FDRE) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt2_reg[39]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[39]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[39]' (FDRE) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt2_reg[38]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[38]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[38]' (FDRE) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt2_reg[37]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[37]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[37]' (FDRE) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt2_reg[36]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[36]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[36]' (FDRE) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt2_reg[35]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[35]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[35]' (FDRE) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt2_reg[34]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[34]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[34]' (FDRE) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt2_reg[33]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[33]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[33]' (FDRE) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt2_reg[32]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[32]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[32]' (FDRE) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt2_reg[31]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[31]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt1_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[31]' (FDRE) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_reg[48]'
+INFO: [Synth 8-3886] merging instance 'gen_wr_ch_en_1.u_axi_wrch_ctrl/size_alignment_factor_nxt2_reg[30]' (FDR) to 'gen_wr_ch_en_1.u_axi_wrch_ctrl/wrap_alignment_factor_nxt_reg[15]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gen_wr_ch_en_1.u_axi_wrch_ctrl /next_inst_invalid_ff1_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gen_wr_ch_en_1.u_axi_wrch_ctrl /\store_4k_addr_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\gen_axi4_reg_slice.u_axi_register_slice_wrOnly_1 /inst/\w.w_pipe/storage_data_reg[304] )
