@@ -1,0 +1,452 @@
+Time resolution is 1 ps
+Updating  bd_8be5_HBM00_AXI_nmu_0 and nocattrs.dat
+Updating  bd_8be5_HBM01_AXI_nmu_0 and nocattrs.dat
+Updating  bd_8be5_HBM02_AXI_nmu_0 and nocattrs.dat
+Updating  bd_8be5_HBM03_AXI_nmu_0 and nocattrs.dat
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.axi_vip_0.inst
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 0 ns : SRC ID = 0 :: Waiting for axi tg reset to be asserted ...
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst.axi_vip_0.inst
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst) 0 ns : SRC ID = 1 :: Waiting for axi tg reset to be asserted ...
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst.axi_vip_0.inst
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst) 0 ns : SRC ID = 2 :: Waiting for axi tg reset to be asserted ...
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst.axi_vip_0.inst
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst) 0 ns : SRC ID = 3 :: Waiting for axi tg reset to be asserted ...
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.R5_API.master
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.R5_API) :: r5_api [0]::: Port is ENABLED.
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.NOC_API.master
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.NOC_API) :: noc_api [0]::: Port is ENABLED.
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.A72_API.master
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.A72_API) :: a72_api [0]::: Port is ENABLED.
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_OCM.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_OCM) :: s_axi_ocm [0] ::: Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_REG1.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_REG1) :: s_axi_reg1 [0] ::: Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_REG2.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_REG2) :: s_axi_reg2 [0] ::: Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_REG3.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_REG3) :: s_axi_reg3 [0] ::: Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_REG4.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_REG4) :: s_axi_reg4 [0] ::: Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_REG5.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_REG5) :: s_axi_reg5 [0] ::: Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_REG6.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_REG6) :: s_axi_reg6 [0] ::: Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_REG7.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_REG7) :: s_axi_reg7 [0] ::: Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_REG8.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_REG8) :: s_axi_reg8 [0] ::: Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_REG9.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_REG9) :: s_axi_reg9 [0] ::: Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_REG10.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_REG10) :: s_axi_reg10 [0] ::: Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_REG11.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_REG11) :: s_axi_reg11 [0] ::: Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_REG12.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_inst.inst.S_AXI_REG12) :: s_axi_reg12 [0] ::: Port is ENABLED.
+
+
+	***DEBUG TIP: If, there's a HANG in simulation. Then, Check and set the routing configuration properly before initiating any traffic
+
+
+
+##########################################################################################################################
+               		CIPS PS VIP INSIGHTS	
+##########################################################################################################################
+ ##	 User needs to provide the routing information to CIPS PS VIP before initiating the traffic
+ ##	 Address decoding is not modeled inside CIPS PS VIP, hence user needs to provide the routing configuration through API
+ ##	 Entire CIPS PS VIP works in a single clock domain
+ ##	 All the CIPS PS VIP AXI interface width's are static i.e Address and Data widths shouldn't be changed through CIPS GUI. If, user tries to change the width's the behavior is undefined
+ ##	 If user wants to perform 32/64-bit transfers, narrow transfers are supported
+ ##	 CIPS PS VIP does not handle any configuration information passed through GUI, except enable and disable of AXI interfaces
+ ##	 CIPS PS VIP is not modeling any AXI path delays
+ ##	 Only 8/16/32 bit width registers are supported
+ ##	 There is no AXI ID support
+ ##	 ACE interface supports only AXI4 traffic, all sideband signals are ignored
+ ##	 ACP interface supports limited features of AXI4
+ ##	 	- AxSIZE  : 4 (128-bit) 
+ ##	 	- AxBURST : 1 (Only INCR supported) 
+ ##	 QoS (AxQOS) is not supported
+ ##	 Cache Coherency is not supported
+ ##	 Exclusive Access (AxLOCK) is not supported
+ ##	 Bufferability (AxCACHE) is not supported
+ ##	 AxREGION is not supported
+ ##	 Latency modeling for OCM/REG is not supported
+ ##	 ACELITE/PLAT/NPI/PIPE are not modeled
+ ##	 Interconnect arbitration is not modeled as per RTL
+ ##	 AXI outstanding feature is not supported
+ ##	 Low Power Modeling is not supported
+ ##	 AXI4 User signals cannot be accessed. If accessed, the behaviour is undefined
+ ##	 CIPS PS VIP can be used to access all the AXI paths of Versal CIPS in simulation
+ ##	 PL clock/PL reset/PS-PL/PL-PS interrupts can be handled through API's hooks
+ ##	 CCI Ports
+ ##		 a.	Bus split is not supported
+ ##		 b.	No coherency supported
+ ##		 c.	Currently we are supporting, 1K, 2K and 4K boundary only
+ ##		 d.	Only, one CCI port can be accessed at a time
+##########################################################################################################################
+
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.R5_API.master
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.R5_API) :: r5_api [0]::: Port is ENABLED.
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.NOC_API.master
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.NOC_API) :: noc_api [0]::: Port is ENABLED.
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.A72_API.master
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.A72_API) :: a72_api [0]::: Port is ENABLED.
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_OCM.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_OCM) :: s_axi_ocm [0] ::: Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_REG1.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_REG1) :: s_axi_reg1 [0] ::: Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_REG2.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_REG2) :: s_axi_reg2 [0] ::: Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_REG3.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_REG3) :: s_axi_reg3 [0] ::: Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_REG4.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_REG4) :: s_axi_reg4 [0] ::: Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_REG5.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_REG5) :: s_axi_reg5 [0] ::: Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_REG6.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_REG6) :: s_axi_reg6 [0] ::: Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_REG7.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_REG7) :: s_axi_reg7 [0] ::: Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_REG8.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_REG8) :: s_axi_reg8 [0] ::: Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_REG9.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_REG9) :: s_axi_reg9 [0] ::: Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_REG10.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_REG10) :: s_axi_reg10 [0] ::: Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_REG11.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_REG11) :: s_axi_reg11 [0] ::: Port is ENABLED.
+XilinxAXIVIP: Found at Path: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_REG12.slave
+0 ps File: /home/younas/Documents/Vivado/hbm_module_2_synth_impl/hbm_module_2_synth_impl.gen/sources_1/bd/design_1/ipshared/b193/hdl/versal_cips_ps_vip_v1_0_rfs.sv Line: 97463 : Assertion control system task $assertoff encountered. Assertion reporting is off. 
+INFO: VERSAL_CIPS_PS_VIP (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.versal_cips_0.inst.pspmc_0.inst.PS9_VIP_SLV1_inst.inst.S_AXI_REG12) :: s_axi_reg12 [0] ::: Port is ENABLED.
+
+
+	***DEBUG TIP: If, there's a HANG in simulation. Then, Check and set the routing configuration properly before initiating any traffic
+
+
+
+##########################################################################################################################
+               		CIPS PS VIP INSIGHTS	
+##########################################################################################################################
+ ##	 User needs to provide the routing information to CIPS PS VIP before initiating the traffic
+ ##	 Address decoding is not modeled inside CIPS PS VIP, hence user needs to provide the routing configuration through API
+ ##	 Entire CIPS PS VIP works in a single clock domain
+ ##	 All the CIPS PS VIP AXI interface width's are static i.e Address and Data widths shouldn't be changed through CIPS GUI. If, user tries to change the width's the behavior is undefined
+ ##	 If user wants to perform 32/64-bit transfers, narrow transfers are supported
+ ##	 CIPS PS VIP does not handle any configuration information passed through GUI, except enable and disable of AXI interfaces
+ ##	 CIPS PS VIP is not modeling any AXI path delays
+ ##	 Only 8/16/32 bit width registers are supported
+ ##	 There is no AXI ID support
+ ##	 ACE interface supports only AXI4 traffic, all sideband signals are ignored
+ ##	 ACP interface supports limited features of AXI4
+ ##	 	- AxSIZE  : 4 (128-bit) 
+ ##	 	- AxBURST : 1 (Only INCR supported) 
+ ##	 QoS (AxQOS) is not supported
+ ##	 Cache Coherency is not supported
+ ##	 Exclusive Access (AxLOCK) is not supported
+ ##	 Bufferability (AxCACHE) is not supported
+ ##	 AxREGION is not supported
+ ##	 Latency modeling for OCM/REG is not supported
+ ##	 ACELITE/PLAT/NPI/PIPE are not modeled
+ ##	 Interconnect arbitration is not modeled as per RTL
+ ##	 AXI outstanding feature is not supported
+ ##	 Low Power Modeling is not supported
+ ##	 AXI4 User signals cannot be accessed. If accessed, the behaviour is undefined
+ ##	 CIPS PS VIP can be used to access all the AXI paths of Versal CIPS in simulation
+ ##	 PL clock/PL reset/PS-PL/PL-PS interrupts can be handled through API's hooks
+ ##	 CCI Ports
+ ##		 a.	Bus split is not supported
+ ##		 b.	No coherency supported
+ ##		 c.	Currently we are supporting, 1K, 2K and 4K boundary only
+ ##		 d.	Only, one CCI port can be accessed at a time
+##########################################################################################################################
+
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 0 ns : SRC ID = 0 ::  axi tg reset is asserted ...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 0 ns : SRC ID = 0 :: Waiting for axi tg reset to be released ...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst) 0 ns : SRC ID = 1 ::  axi tg reset is asserted ...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst) 0 ns : SRC ID = 1 :: Waiting for axi tg reset to be released ...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst) 0 ns : SRC ID = 2 ::  axi tg reset is asserted ...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst) 0 ns : SRC ID = 2 :: Waiting for axi tg reset to be released ...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst) 0 ns : SRC ID = 3 ::  axi tg reset is asserted ...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst) 0 ns : SRC ID = 3 :: Waiting for axi tg reset to be released ...
+Info: [XPM_MEMORY 20-2] MEMORY_INIT_FILE (none), MEMORY_INIT_PARAM together specify no memory initialization. Initial memory contents will be all 0's. design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.axis_ila_0.inst.axis_mem.inst.u_trace_mem.BRAM.XPM.BLKMEM[0].sdpram.xpm_memory_base_inst.config_drc  0
+Time: 1 ps  Iteration: 0  Process: /design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axis_ila_0/inst/axis_mem/inst/u_trace_mem/BRAM.XPM.BLKMEM[0].sdpram/xpm_memory_base_inst/Initial302_9675  Scope: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.axis_ila_0.inst.axis_mem.inst.u_trace_mem.BRAM.XPM.BLKMEM[0].sdpram.xpm_memory_base_inst.config_drc  File: /tools/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 516
+Info: [XPM_MEMORY 20-2] MEMORY_INIT_FILE (none), MEMORY_INIT_PARAM together specify no memory initialization. Initial memory contents will be all 0's. design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.axis_ila_0.inst.axis_mem.inst.u_trace_mem.BRAM.XPM.sdpram.xpm_memory_base_inst.config_drc  0
+Time: 1 ps  Iteration: 0  Process: /design_1_wrapper_sim_wrapper/design_1_wrapper_i/design_1_i/axis_ila_0/inst/axis_mem/inst/u_trace_mem/BRAM.XPM.sdpram/xpm_memory_base_inst/Initial302_9699  Scope: design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.axis_ila_0.inst.axis_mem.inst.u_trace_mem.BRAM.XPM.sdpram.xpm_memory_base_inst.config_drc  File: /tools/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 516
+HBMMC_MC_BFM: MODULAR_NOC = 0  
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 22 ns Credit for Request flit should not be initiated from NPS_6, port_received='d1, noc_credit='b11111111
+Warning: 
+Time: 21501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 22 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b11111111
+Warning: 
+Time: 21501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 22 ns Credit for Request flit should not be initiated from NPS_6, port_received='d1, noc_credit='b11111111
+Warning: 
+Time: 21501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 22 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b11111111
+Warning: 
+Time: 21501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_1.xlnoc_nps4_1_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 22 ns Credit for Request flit should not be initiated from NPS_6, port_received='d2, noc_credit='b11111111
+Warning: 
+Time: 21501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_1.xlnoc_nps4_1_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 22 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b11111111
+Warning: 
+Time: 21501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_1.xlnoc_nps4_1_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 22 ns Credit for Request flit should not be initiated from NPS_6, port_received='d2, noc_credit='b11111111
+Warning: 
+Time: 21501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_1.xlnoc_nps4_1_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 22 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b11111111
+Warning: 
+Time: 21501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 23 ns Credit for Request flit should not be initiated from NPS_6, port_received='d1, noc_credit='b11111111
+Warning: 
+Time: 22501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 23 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b11111111
+Warning: 
+Time: 22501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 23 ns Credit for Request flit should not be initiated from NPS_6, port_received='d1, noc_credit='b11111111
+Warning: 
+Time: 22501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 23 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b11111111
+Warning: 
+Time: 22501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_1.xlnoc_nps4_1_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 23 ns Credit for Request flit should not be initiated from NPS_6, port_received='d2, noc_credit='b11111111
+Warning: 
+Time: 22501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_1.xlnoc_nps4_1_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 23 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b11111111
+Warning: 
+Time: 22501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_1.xlnoc_nps4_1_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 23 ns Credit for Request flit should not be initiated from NPS_6, port_received='d2, noc_credit='b11111111
+Warning: 
+Time: 22501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_1.xlnoc_nps4_1_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 23 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b11111111
+Warning: 
+Time: 22501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 24 ns Credit for Request flit should not be initiated from NPS_6, port_received='d1, noc_credit='b11111111
+Warning: 
+Time: 23501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 24 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b11111111
+Warning: 
+Time: 23501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 24 ns Credit for Request flit should not be initiated from NPS_6, port_received='d1, noc_credit='b11111111
+Warning: 
+Time: 23501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 24 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b11111111
+Warning: 
+Time: 23501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_1.xlnoc_nps4_1_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 24 ns Credit for Request flit should not be initiated from NPS_6, port_received='d2, noc_credit='b11111111
+Warning: 
+Time: 23501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_1.xlnoc_nps4_1_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 24 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b11111111
+Warning: 
+Time: 23501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_1.xlnoc_nps4_1_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 24 ns Credit for Request flit should not be initiated from NPS_6, port_received='d2, noc_credit='b11111111
+Warning: 
+Time: 23501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_1.xlnoc_nps4_1_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 24 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b11111111
+Warning: 
+Time: 23501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 25 ns Credit for Request flit should not be initiated from NPS_6, port_received='d1, noc_credit='b01110111
+Warning: 
+Time: 24501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 25 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b01110111
+Warning: 
+Time: 24501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 25 ns Credit for Request flit should not be initiated from NPS_6, port_received='d1, noc_credit='b01110111
+Warning: 
+Time: 24501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 25 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b01110111
+Warning: 
+Time: 24501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_1.xlnoc_nps4_1_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 25 ns Credit for Request flit should not be initiated from NPS_6, port_received='d2, noc_credit='b01110111
+Warning: 
+Time: 24501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_1.xlnoc_nps4_1_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 25 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b01110111
+Warning: 
+Time: 24501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_1.xlnoc_nps4_1_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 25 ns Credit for Request flit should not be initiated from NPS_6, port_received='d2, noc_credit='b01110111
+Warning: 
+Time: 24501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_1.xlnoc_nps4_1_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 25 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b01110111
+Warning: 
+Time: 24501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 26 ns Credit for Request flit should not be initiated from NPS_6, port_received='d1, noc_credit='b01110111
+Warning: 
+Time: 25501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 26 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b01110111
+Warning: 
+Time: 25501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 26 ns Credit for Request flit should not be initiated from NPS_6, port_received='d1, noc_credit='b01110111
+Warning: 
+Time: 25501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_0.xlnoc_nps4_0_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 26 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b01110111
+Warning: 
+Time: 25501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_1.xlnoc_nps4_1_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 26 ns Credit for Request flit should not be initiated from NPS_6, port_received='d2, noc_credit='b01110111
+Warning: 
+Time: 25501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_1.xlnoc_nps4_1_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 26 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b01110111
+Warning: 
+Time: 25501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_1.xlnoc_nps4_1_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 26 ns Credit for Request flit should not be initiated from NPS_6, port_received='d2, noc_credit='b01110111
+Warning: 
+Time: 25501 ps  Iteration: 0
+design_1_wrapper_sim_wrapper.xlnoc_i.nps4_1.xlnoc_nps4_1_0_nps4_INST.NOC_NPS4_0.BM_NOC_NPS4_INST.u0_nps_bfm :: (1601) :: at time 26 ns Credit for Request flit should not be initiated from NPS_6, port_received='d3, noc_credit='b01110111
+Warning: 
+Time: 25501 ps  Iteration: 0
+INFO: 53 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.axi_vip_0.inst.IF.WREADY_eight_cycle_chk : XILINX_WREADY_MAX_RESET: WREADY must go low after 8 cycles following the first clock edge that ARESETn goes low--UG1037 Xilinx IP generally deasserts all VALID and READY outputs within eight cycles of reset. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 53 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.axi_vip_0.inst.IF.AWREADY_eight_cycle_chk : XILINX_AWREADY_MAX_RESET: AWREADY must go low after 8 cycles following the first clock edge that ARESETn goes low--UG1037 Xilinx IP generally deasserts all VALID and READY outputs within eight cycles of reset. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 53 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.axi_vip_0.inst.IF.ARREADY_eight_cycle_chk : XILINX_ARREADY_MAX_RESET: ARREADY must go low after 8 cycles following the first clock edge that ARESETn goes low--UG1037 Xilinx IP generally deasserts all VALID and READY outputs within eight cycles of reset. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 53 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst.axi_vip_0.inst.IF.WREADY_eight_cycle_chk : XILINX_WREADY_MAX_RESET: WREADY must go low after 8 cycles following the first clock edge that ARESETn goes low--UG1037 Xilinx IP generally deasserts all VALID and READY outputs within eight cycles of reset. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 53 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst.axi_vip_0.inst.IF.AWREADY_eight_cycle_chk : XILINX_AWREADY_MAX_RESET: AWREADY must go low after 8 cycles following the first clock edge that ARESETn goes low--UG1037 Xilinx IP generally deasserts all VALID and READY outputs within eight cycles of reset. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 53 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst.axi_vip_0.inst.IF.ARREADY_eight_cycle_chk : XILINX_ARREADY_MAX_RESET: ARREADY must go low after 8 cycles following the first clock edge that ARESETn goes low--UG1037 Xilinx IP generally deasserts all VALID and READY outputs within eight cycles of reset. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 53 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst.axi_vip_0.inst.IF.WREADY_eight_cycle_chk : XILINX_WREADY_MAX_RESET: WREADY must go low after 8 cycles following the first clock edge that ARESETn goes low--UG1037 Xilinx IP generally deasserts all VALID and READY outputs within eight cycles of reset. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 53 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst.axi_vip_0.inst.IF.AWREADY_eight_cycle_chk : XILINX_AWREADY_MAX_RESET: AWREADY must go low after 8 cycles following the first clock edge that ARESETn goes low--UG1037 Xilinx IP generally deasserts all VALID and READY outputs within eight cycles of reset. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 53 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst.axi_vip_0.inst.IF.ARREADY_eight_cycle_chk : XILINX_ARREADY_MAX_RESET: ARREADY must go low after 8 cycles following the first clock edge that ARESETn goes low--UG1037 Xilinx IP generally deasserts all VALID and READY outputs within eight cycles of reset. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 53 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst.axi_vip_0.inst.IF.WREADY_eight_cycle_chk : XILINX_WREADY_MAX_RESET: WREADY must go low after 8 cycles following the first clock edge that ARESETn goes low--UG1037 Xilinx IP generally deasserts all VALID and READY outputs within eight cycles of reset. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 53 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst.axi_vip_0.inst.IF.AWREADY_eight_cycle_chk : XILINX_AWREADY_MAX_RESET: AWREADY must go low after 8 cycles following the first clock edge that ARESETn goes low--UG1037 Xilinx IP generally deasserts all VALID and READY outputs within eight cycles of reset. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 53 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst.axi_vip_0.inst.IF.ARREADY_eight_cycle_chk : XILINX_ARREADY_MAX_RESET: ARREADY must go low after 8 cycles following the first clock edge that ARESETn goes low--UG1037 Xilinx IP generally deasserts all VALID and READY outputs within eight cycles of reset. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 3331 ns : SRC ID = 0 ::  axi tg reset is released ...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 3331 ns : SRC ID = 0 :: Waiting for axi_tg_start to be asserted ...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst) 3331 ns : SRC ID = 1 ::  axi tg reset is released ...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst) 3331 ns : SRC ID = 1 :: Waiting for axi_tg_start to be asserted ...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst) 3331 ns : SRC ID = 2 ::  axi tg reset is released ...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst) 3331 ns : SRC ID = 2 :: Waiting for axi_tg_start to be asserted ...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst) 3331 ns : SRC ID = 3 ::  axi tg reset is released ...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst) 3331 ns : SRC ID = 3 :: Waiting for axi_tg_start to be asserted ...
+INFO: 3334 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.axi_vip_0.inst.IF.AWREADY_one_cycle_chk : XILINX_AWREADY_RESET: AWREADY must be low for the first clock edge that ARESETn goes high--PG101 XILINX_AWREADY_RESET. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 3334 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.axi_vip_0.inst.IF.WREADY_one_cycle_chk : XILINX_WREADY_RESET: WREADY must be low for the first clock edge that ARESETn goes high--PG101 XILINX_WREADY_RESET. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 3334 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.axi_vip_0.inst.IF.ARREADY_one_cycle_chk : XILINX_ARREADY_RESET: ARREADY must be low for the first clock edge that ARESETn goes high--PG101 XILINX_ARREADY_RESET. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 3334 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst.axi_vip_0.inst.IF.AWREADY_one_cycle_chk : XILINX_AWREADY_RESET: AWREADY must be low for the first clock edge that ARESETn goes high--PG101 XILINX_AWREADY_RESET. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 3334 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst.axi_vip_0.inst.IF.WREADY_one_cycle_chk : XILINX_WREADY_RESET: WREADY must be low for the first clock edge that ARESETn goes high--PG101 XILINX_WREADY_RESET. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 3334 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst.axi_vip_0.inst.IF.ARREADY_one_cycle_chk : XILINX_ARREADY_RESET: ARREADY must be low for the first clock edge that ARESETn goes high--PG101 XILINX_ARREADY_RESET. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 3334 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst.axi_vip_0.inst.IF.AWREADY_one_cycle_chk : XILINX_AWREADY_RESET: AWREADY must be low for the first clock edge that ARESETn goes high--PG101 XILINX_AWREADY_RESET. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 3334 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst.axi_vip_0.inst.IF.WREADY_one_cycle_chk : XILINX_WREADY_RESET: WREADY must be low for the first clock edge that ARESETn goes high--PG101 XILINX_WREADY_RESET. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 3334 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst.axi_vip_0.inst.IF.ARREADY_one_cycle_chk : XILINX_ARREADY_RESET: ARREADY must be low for the first clock edge that ARESETn goes high--PG101 XILINX_ARREADY_RESET. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 3334 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst.axi_vip_0.inst.IF.AWREADY_one_cycle_chk : XILINX_AWREADY_RESET: AWREADY must be low for the first clock edge that ARESETn goes high--PG101 XILINX_AWREADY_RESET. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 3334 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst.axi_vip_0.inst.IF.WREADY_one_cycle_chk : XILINX_WREADY_RESET: WREADY must be low for the first clock edge that ARESETn goes high--PG101 XILINX_WREADY_RESET. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: 3334 ns design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst.axi_vip_0.inst.IF.ARREADY_one_cycle_chk : XILINX_ARREADY_RESET: ARREADY must be low for the first clock edge that ARESETn goes high--PG101 XILINX_ARREADY_RESET. To downgrade, use <hierarchy_path to VIP>.IF.clr_xilinx_slave_ready_check().
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 3334 ns : SRC ID = 0 :: Got axi_tg_start asserted ...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 3334 ns : SRC ID = 0 :: user_defined_pattern :::: Running Test .....
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst) 3334 ns : SRC ID = 1 :: Got axi_tg_start asserted ...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst) 3334 ns : SRC ID = 1 :: user_defined_pattern :::: Running Test .....
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst) 3334 ns : SRC ID = 2 :: Got axi_tg_start asserted ...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst) 3334 ns : SRC ID = 2 :: user_defined_pattern :::: Running Test .....
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst) 3334 ns : SRC ID = 3 :: Got axi_tg_start asserted ...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst) 3334 ns : SRC ID = 3 :: user_defined_pattern :::: Running Test .....
+INFO: [AXI_TEST_SEQ_LIB] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.user_defined_pattern_test::read_from_input_file) 3344 ns : The Given CSV file = design_1_noc_tg_0_pattern.csv
+INFO: [AXI_TEST_SEQ_LIB] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.user_defined_pattern_test::read_from_input_file) 3344 ns : Running CSV PARSER Version v4.0
+INFO: [AXI_TEST_SEQ_LIB] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.user_defined_pattern_test::read_from_input_file) 3344 ns : CSV PARSING IS STARTED
+INFO: [AXI_TEST_SEQ_LIB] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.user_defined_pattern_test::read_from_input_file) 3344 ns : CSV PARSING IS DONE
+INFO: [AXI_TEST_SEQ_LIB] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst.user_defined_pattern_test::read_from_input_file) 3344 ns : The Given CSV file = design_1_noc_tg_1_0_pattern.csv
+INFO: [AXI_TEST_SEQ_LIB] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst.user_defined_pattern_test::read_from_input_file) 3344 ns : Running CSV PARSER Version v4.0
+INFO: [AXI_TEST_SEQ_LIB] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst.user_defined_pattern_test::read_from_input_file) 3344 ns : CSV PARSING IS STARTED
+INFO: [AXI_TEST_SEQ_LIB] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst.user_defined_pattern_test::read_from_input_file) 3344 ns : CSV PARSING IS DONE
+INFO: [AXI_TEST_SEQ_LIB] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst.user_defined_pattern_test::read_from_input_file) 3344 ns : The Given CSV file = design_1_noc_tg_2_0_pattern.csv
+INFO: [AXI_TEST_SEQ_LIB] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst.user_defined_pattern_test::read_from_input_file) 3344 ns : Running CSV PARSER Version v4.0
+INFO: [AXI_TEST_SEQ_LIB] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst.user_defined_pattern_test::read_from_input_file) 3344 ns : CSV PARSING IS STARTED
+INFO: [AXI_TEST_SEQ_LIB] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst.user_defined_pattern_test::read_from_input_file) 3344 ns : CSV PARSING IS DONE
+INFO: [AXI_TEST_SEQ_LIB] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst.user_defined_pattern_test::read_from_input_file) 3344 ns : The Given CSV file = design_1_noc_tg_3_0_pattern.csv
+INFO: [AXI_TEST_SEQ_LIB] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst.user_defined_pattern_test::read_from_input_file) 3344 ns : Running CSV PARSER Version v4.0
+INFO: [AXI_TEST_SEQ_LIB] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst.user_defined_pattern_test::read_from_input_file) 3344 ns : CSV PARSING IS STARTED
+INFO: [AXI_TEST_SEQ_LIB] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst.user_defined_pattern_test::read_from_input_file) 3344 ns : CSV PARSING IS DONE
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 3347 ns : SRC_ID = 0 ::: started sending transactions at time 3347 ns
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst) 3347 ns : SRC_ID = 1 ::: started sending transactions at time 3347 ns
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst) 3347 ns : SRC_ID = 2 ::: started sending transactions at time 3347 ns
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst) 3347 ns : SRC_ID = 3 ::: started sending transactions at time 3347 ns
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst) 23898 ns : SRC_ID = 2 ::: Write Request Sent = 50
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst) 23915 ns : SRC_ID = 1 ::: Write Request Sent = 50
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst) 23918 ns : SRC_ID = 3 ::: Write Request Sent = 50
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 23925 ns : SRC_ID = 0 ::: Write Request Sent = 50
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst) 27315 ns : SRC_ID = 2 ::: Write Response Received = 50
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst) 27345 ns : SRC_ID = 1 ::: Write Response Received = 50
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst) 27352 ns : SRC_ID = 3 ::: Write Response Received = 50
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 27355 ns : SRC_ID = 0 ::: Write Response Received = 50
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst) 47656 ns : SRC_ID = 2 ::: Write Request Sent = 100
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst) 47666 ns : SRC_ID = 3 ::: Write Request Sent = 100
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 47683 ns : SRC_ID = 0 ::: Write Request Sent = 100
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst) 47700 ns : SRC_ID = 1 ::: Write Request Sent = 100
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst) 51090 ns : SRC_ID = 3 ::: Write Response Received = 100
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst) 51094 ns : SRC_ID = 2 ::: Write Response Received = 100
+INFO: [AXI_TEST_SEQ_LIB] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst.user_defined_pattern_test::read_from_input_file) 51094 ns : Done executing all user defined commands
+INFO: [AXI_TEST_SEQ_LIB] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst.user_defined_pattern_test::read_from_input_file) 51097 ns : Done executing all user defined commands
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 51114 ns : SRC_ID = 0 ::: Write Response Received = 100
+INFO: [AXI_TEST_SEQ_LIB] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst.user_defined_pattern_test::read_from_input_file) 51117 ns : Done executing all user defined commands
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst) 51124 ns : SRC_ID = 1 ::: Write Response Received = 100
+INFO: [AXI_TEST_SEQ_LIB] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst.user_defined_pattern_test::read_from_input_file) 51127 ns : Done executing all user defined commands
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst) 69684 ns : SRC_ID = 3 ::: Read Request Sent = 50
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst) 69701 ns : SRC_ID = 2 ::: Read Request Sent = 50
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 69771 ns : SRC_ID = 0 ::: Read Request Sent = 50
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst) 69784 ns : SRC_ID = 1 ::: Read Request Sent = 50
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst) 73288 ns : SRC_ID = 3 ::: Read Response Received = 50
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst) 73301 ns : SRC_ID = 2 ::: Read Response Received = 50
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 73338 ns : SRC_ID = 0 ::: Read Response Received = 50
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst) 73355 ns : SRC_ID = 1 ::: Read Response Received = 50
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst) 91958 ns : SRC_ID = 3 ::: Read Request Sent = 100
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst) 91968 ns : SRC_ID = 2 ::: Read Request Sent = 100
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 91995 ns : SRC_ID = 0 ::: Read Request Sent = 100
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst) 92008 ns : SRC_ID = 1 ::: Read Request Sent = 100
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst) 95529 ns : SRC_ID = 3 ::: Read Response Received = 100
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst) 95546 ns : SRC_ID = 2 ::: Read Response Received = 100
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst) 95549 ns : SRC ID = 3 ::: ALL AXI TRANSACTIONS ARE COMPLETED
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst) 95549 ns : SRC ID = 3 ::: completed transactions at time 95549 ns
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst) 95549 ns : SRC ID = 3 ::: Total time transactions were sent = 92202 ns
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst) 95549 ns : SRC ID = 3 ::: Waiting for Drain time (200cyc)...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst) 95566 ns : SRC ID = 2 ::: ALL AXI TRANSACTIONS ARE COMPLETED
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst) 95566 ns : SRC ID = 2 ::: completed transactions at time 95566 ns
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst) 95566 ns : SRC ID = 2 ::: Total time transactions were sent = 92218 ns
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst) 95566 ns : SRC ID = 2 ::: Waiting for Drain time (200cyc)...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 95582 ns : SRC_ID = 0 ::: Read Response Received = 100
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst) 95592 ns : SRC_ID = 1 ::: Read Response Received = 100
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 95602 ns : SRC ID = 0 ::: ALL AXI TRANSACTIONS ARE COMPLETED
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 95602 ns : SRC ID = 0 ::: completed transactions at time 95602 ns
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 95602 ns : SRC ID = 0 ::: Total time transactions were sent = 92255 ns
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 95602 ns : SRC ID = 0 ::: Waiting for Drain time (200cyc)...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst) 95612 ns : SRC ID = 1 ::: ALL AXI TRANSACTIONS ARE COMPLETED
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst) 95612 ns : SRC ID = 1 ::: completed transactions at time 95612 ns
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst) 95612 ns : SRC ID = 1 ::: Total time transactions were sent = 92265 ns
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst) 95612 ns : SRC ID = 1 ::: Waiting for Drain time (200cyc)...
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_3.inst.u_top_axi_mst) 96216 ns : SRC ID = 3 ::: All transactions are assumed to be drained at sink.
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_2.inst.u_top_axi_mst) 96233 ns : SRC ID = 2 ::: All transactions are assumed to be drained at sink.
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst) 96269 ns : SRC ID = 0 ::: All transactions are assumed to be drained at sink.
+INFO: [TOP_AXI_MST_BFM] (design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg_1.inst.u_top_axi_mst) 96279 ns : SRC ID = 1 ::: All transactions are assumed to be drained at sink.
+Executing Axi4 End Of Simulation checks
+=========================================================
+>>>>>> SRC ID 0 :: TEST REPORT >>>>>>
+=========================================================
+[INFO] SRC ID = 0 ::: TG_HIERARCHY          = design_1_wrapper_sim_wrapper.design_1_wrapper_i.design_1_i.noc_tg.inst.u_top_axi_mst
+[INFO] SRC ID = 0 ::: AXI_PROTOCOL          = AXI4
+[INFO] SRC ID = 0 ::: AXI_CLK_PERIOD        = 3334ps, AXI_DATAWIDTH  = 256bit
+[INFO] SRC ID = 0 ::: TEST_NAME             = user_defined_pattern
+[INFO] SRC ID = 0 ::: CSV_FILE              = design_1_noc_tg_0_pattern.csv
+[INFO] SRC ID = 0 ::: TOTAL_WRITE_REQ_SENT  = 100, TOTAL_WRITE_RESP_RECEIVED  = 100
